@@ -195,40 +195,6 @@
     </div>
 
     <script>
-        // Конфигурация на формите
-        const FORM_CONFIG = {
-            'student': {
-                title: 'Запиши се за уроци',
-                description: 'Попълнете формата и ще се свържа с вас в рамките на 24 часа',
-                formUrl: 'YOUR_STUDENT_FORM_URL_HERE' // Заменете с реалния URL на Google Form
-            },
-            'parent': {
-                title: 'Запитване от родител',
-                description: 'Попълнете формата и ще обсъдим как мога да помогна на вашето дете',
-                formUrl: 'YOUR_PARENT_FORM_URL_HERE' // Заменете с реалния URL на Google Form
-            },
-            'starter': {
-                title: 'Starter пакет - Запиши се',
-                description: 'Отличен избор за начинаещи! Попълнете формата за записване.',
-                formUrl: 'YOUR_STARTER_PACKAGE_FORM_URL_HERE'
-            },
-            'professional': {
-                title: 'Professional пакет - Запиши се',
-                description: 'Най-популярният избор! Попълнете формата за записване.',
-                formUrl: 'YOUR_PROFESSIONAL_PACKAGE_FORM_URL_HERE'
-            },
-            'expert': {
-                title: 'Expert пакет - Запиши се',
-                description: 'Максимална подкрепа за вашия успех! Попълнете формата за записване.',
-                formUrl: 'YOUR_EXPERT_PACKAGE_FORM_URL_HERE'
-            },
-            'general': {
-                title: 'Свържете се с мен',
-                description: 'Имате въпрос? Попълнете формата и ще ви отговоря скоро.',
-                formUrl: 'YOUR_GENERAL_CONTACT_FORM_URL_HERE'
-            }
-        };
-
         // Функция за извличане на URL параметри
         function getUrlParameter(name) {
             const urlParams = new URLSearchParams(window.location.search);
@@ -237,28 +203,25 @@
 
         // Функция за зареждане на формата
         function loadForm() {
-            const formType = getUrlParameter('type') || 'general';
-            const config = FORM_CONFIG[formType];
+            // Извличане на параметри от URL
+            const formLink = getUrlParameter('link');
+            const formTitle = getUrlParameter('title');
+            const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с вас скоро.';
 
-            if (!config) {
-                showError('Невалиден тип форма. Моля, върнете се към началната страница.');
-                return;
-            }
-
-            // Проверка дали формата е конфигурирана
-            if (config.formUrl.includes('YOUR_') || config.formUrl.includes('_HERE')) {
-                showError('Формата все още не е конфигурирана. Моля, следвайте инструкциите в GOOGLE_FORMS_SETUP.md за да създадете и конфигурирате Google Forms.');
+            // Валидация на задължителните параметри
+            if (!formLink || !formTitle) {
+                showError('Липсват задължителни параметри. Моля, уверете се че URL адресът съдържа "link" и "title" параметри.');
                 return;
             }
 
             // Актуализиране на заглавието и описанието
-            document.getElementById('form-title').textContent = config.title;
-            document.getElementById('form-description').textContent = config.description;
-            document.title = config.title + ' - TutoriAleks';
+            document.getElementById('form-title').textContent = formTitle;
+            document.getElementById('form-description').textContent = formDescription;
+            document.title = formTitle + ' - TutoriAleks';
 
             // Зареждане на iframe
             const iframe = document.getElementById('form-iframe');
-            iframe.src = config.formUrl;
+            iframe.src = formLink;
 
             // Показване на iframe след зареждане
             iframe.onload = function() {
