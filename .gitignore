@@ -124,6 +124,10 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode/
+
+# cursor settings
+.cursor/
 
 # yarn v3
 .pnp.*
@@ -137,3 +141,6 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# linux folders
+.directory
