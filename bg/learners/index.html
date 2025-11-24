@@ -24,70 +24,6 @@
     <link rel="stylesheet" href="../../shared/css/variables.css">
     <link rel="stylesheet" href="../../shared/css/global.css">
     <link rel="stylesheet" href="styles.css">
-    
-    <!-- Google Forms Configuration -->
-    <script>
-        // ============================================
-        // GOOGLE FORMS CONFIGURATION
-        // Edit this section to update all form links
-        // ============================================
-        const FORMS_CONFIG = {
-            consultation: {
-                url: 'YOUR_CONSULTATION_FORM_URL',
-                title: 'Запази безплатна консултация',
-                description: 'Попълнете формата и ще се свържа с вас в рамките на 24 часа'
-            },
-            courseAccess: {
-                url: 'YOUR_COURSE_ACCESS_FORM_URL',
-                title: 'Искам достъп до курса',
-                description: 'Попълнете формата за достъп до безплатния Python курс'
-            },
-            student: {
-                url: 'YOUR_STUDENT_FORM_URL',
-                title: 'Запиши се за уроци',
-                description: 'Попълнете формата и ще се свържа с вас в рамките на 24 часа'
-            },
-            parent: {
-                url: 'YOUR_PARENT_FORM_URL',
-                title: 'Запитване от родител',
-                description: 'Попълнете формата и ще обсъдим как мога да помогна на вашето дете'
-            },
-            general: {
-                url: 'YOUR_GENERAL_CONTACT_FORM_URL',
-                title: 'Свържете се с мен',
-                description: 'Имате въпрос? Попълнете формата и ще ви отговоря скоро'
-            }
-        };
-
-        // Function to build Google Forms URL with parameters
-        function buildFormUrl(formType) {
-            const config = FORMS_CONFIG[formType];
-            if (!config) {
-                console.error('Unknown form type:', formType);
-                return '#';
-            }
-            
-            const baseUrl = '../../shared/components/googleforms.html';
-            const params = new URLSearchParams({
-                link: config.url,
-                title: config.title,
-                description: config.description
-            });
-            
-            return `${baseUrl}?${params.toString()}`;
-        }
-
-        // Initialize form links when DOM is ready
-        document.addEventListener('DOMContentLoaded', function() {
-            // Find all links with data-form-type attribute
-            const formLinks = document.querySelectorAll('[data-form-type]');
-            
-            formLinks.forEach(link => {
-                const formType = link.getAttribute('data-form-type');
-                link.href = buildFormUrl(formType);
-            });
-        });
-    </script>
 </head>
 <body>
     <!-- Hero Section -->
@@ -105,7 +41,7 @@
                     </div>
                     
                     <div class="hero-cta fade-in">
-                        <a href="#" data-form-type="consultation" class="btn btn-primary btn-large">Запази безплатна консултация</a>
+                        <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary btn-large">Запази безплатна консултация</a>
                         <a href="#youtube-course" class="btn btn-secondary btn-large">Гледай безплатен курс</a>
                     </div>
                 </div>
@@ -299,47 +235,8 @@
                 </p>
                 
                 <div class="cta-buttons">
-                    <a href="#" data-form-type="courseAccess" class="btn btn-primary btn-large">
+                    <a href="#" data-form-type="bg-learners-courseAccess" class="btn btn-primary btn-large">
                         Искам достъп до курса
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="section-light" id="consultation">
-        <div class="container">
-            <h2 class="text-center mb-lg">Готов да започнеш?</h2>
-            <p class="text-center text-secondary mb-xl">
-                Избери как искаш да продължиш
-            </p>
-            
-            <div class="cta-grid">
-                <div class="cta-card">
-                    <div class="cta-icon">👨‍🎓</div>
-                    <h3>Ученик</h3>
-                    <p>Искам да се науча да програмирам</p>
-                    <a href="#" data-form-type="student" class="btn btn-primary">
-                        Запиши се
-                    </a>
-                </div>
-                
-                <div class="cta-card">
-                    <div class="cta-icon">👨‍👩‍👧</div>
-                    <h3>Родител</h3>
-                    <p>Искам да запиша детето си</p>
-                    <a href="#" data-form-type="parent" class="btn btn-primary">
-                        Свържи се
-                    </a>
-                </div>
-                
-                <div class="cta-card">
-                    <div class="cta-icon">💬</div>
-                    <h3>Имам въпрос</h3>
-                    <p>Искам да разбера повече</p>
-                    <a href="#" data-form-type="general" class="btn btn-secondary">
-                        Задай въпрос
                     </a>
                 </div>
             </div>
@@ -373,6 +270,7 @@
     <iframe src="../../shared/components/footer.html" class="iframe-container" style="min-height: 400px;" frameborder="0"></iframe>
 
     <!-- JavaScript -->
+    <script src="../../shared/js/forms.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
