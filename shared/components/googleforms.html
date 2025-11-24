@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свържете се с мен - TutoriAleks</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-primary);
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .form-header {
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        .form-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .form-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateX(-5px);
+        }
+
+        .iframe-wrapper {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 100%;
+            max-width: 800px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .form-iframe {
+            width: 100%;
+            height: 80vh;
+            min-height: 600px;
+            border: none;
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: white;
+        }
+
+        .loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        .error-message {
+            background: rgba(255, 59, 48, 0.9);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        .error-message h2 {
+            margin-bottom: 1rem;
+        }
+
+        .error-message a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .form-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .form-header p {
+                font-size: 1rem;
+            }
+
+            .back-button {
+                top: 1rem;
+                left: 1rem;
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .form-iframe {
+                height: 70vh;
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../../bg/learners/index.html" class="back-button">← Назад</a>
+
+    <div class="form-container">
+        <div class="form-header">
+            <h1 id="form-title">Зареждане...</h1>
+            <p id="form-description">Моля, изчакайте...</p>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="loading-spinner"></div>
+            <p>Зареждане на формата...</p>
+        </div>
+
+        <div id="error" class="error-message" style="display: none;">
+            <h2>⚠️ Грешка</h2>
+            <p id="error-text"></p>
+            <p><a href="../../bg/learners/index.html">Върнете се към началната страница</a></p>
+        </div>
+
+        <div class="iframe-wrapper" style="display: none;">
+            <iframe id="form-iframe" class="form-iframe" title="Contact Form"></iframe>
+        </div>
+    </div>
+
+    <script>
+        // Конфигурация на формите
+        const FORM_CONFIG = {
+            'student': {
+                title: 'Запиши се за уроци',
+                description: 'Попълнете формата и ще се свържа с вас в рамките на 24 часа',
+                formUrl: 'YOUR_STUDENT_FORM_URL_HERE' // Заменете с реалния URL на Google Form
+            },
+            'parent': {
+                title: 'Запитване от родител',
+                description: 'Попълнете формата и ще обсъдим как мога да помогна на вашето дете',
+                formUrl: 'YOUR_PARENT_FORM_URL_HERE' // Заменете с реалния URL на Google Form
+            },
+            'starter': {
+                title: 'Starter пакет - Запиши се',
+                description: 'Отличен избор за начинаещи! Попълнете формата за записване.',
+                formUrl: 'YOUR_STARTER_PACKAGE_FORM_URL_HERE'
+            },
+            'professional': {
+                title: 'Professional пакет - Запиши се',
+                description: 'Най-популярният избор! Попълнете формата за записване.',
+                formUrl: 'YOUR_PROFESSIONAL_PACKAGE_FORM_URL_HERE'
+            },
+            'expert': {
+                title: 'Expert пакет - Запиши се',
+                description: 'Максимална подкрепа за вашия успех! Попълнете формата за записване.',
+                formUrl: 'YOUR_EXPERT_PACKAGE_FORM_URL_HERE'
+            },
+            'general': {
+                title: 'Свържете се с мен',
+                description: 'Имате въпрос? Попълнете формата и ще ви отговоря скоро.',
+                formUrl: 'YOUR_GENERAL_CONTACT_FORM_URL_HERE'
+            }
+        };
+
+        // Функция за извличане на URL параметри
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Функция за зареждане на формата
+        function loadForm() {
+            const formType = getUrlParameter('type') || 'general';
+            const config = FORM_CONFIG[formType];
+
+            if (!config) {
+                showError('Невалиден тип форма. Моля, върнете се към началната страница.');
+                return;
+            }
+
+            // Проверка дали формата е конфигурирана
+            if (config.formUrl.includes('YOUR_') || config.formUrl.includes('_HERE')) {
+                showError('Формата все още не е конфигурирана. Моля, следвайте инструкциите в GOOGLE_FORMS_SETUP.md за да създадете и конфигурирате Google Forms.');
+                return;
+            }
+
+            // Актуализиране на заглавието и описанието
+            document.getElementById('form-title').textContent = config.title;
+            document.getElementById('form-description').textContent = config.description;
+            document.title = config.title + ' - TutoriAleks';
+
+            // Зареждане на iframe
+            const iframe = document.getElementById('form-iframe');
+            iframe.src = config.formUrl;
+
+            // Показване на iframe след зареждане
+            iframe.onload = function() {
+                document.getElementById('loading').style.display = 'none';
+                document.querySelector('.iframe-wrapper').style.display = 'block';
+            };
+
+            // Обработка на грешки при зареждане
+            iframe.onerror = function() {
+                showError('Грешка при зареждане на формата. Моля, опитайте отново по-късно.');
+            };
+        }
+
+        // Функция за показване на грешка
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('error-text').textContent = message;
+            document.getElementById('error').style.display = 'block';
+        }
+
+        // Зареждане на формата при стартиране
+        window.addEventListener('DOMContentLoaded', loadForm);
+    </script>
+</body>
+</html>
