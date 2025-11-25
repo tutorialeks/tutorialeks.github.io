@@ -1,9 +1,9 @@
 📅 ФАЗИРАН ПЛАН
 Фаза 1: MVP (Сега) ✅
     [x] Структура на проекта
-    [ ] Landing page bg/learners
-    [ ] Споделени компоненти (iframes)
-    [ ] Формуляри (google forms setup)
+    [x] Landing page bg/learners
+    [x] Споделени компоненти (iframes)
+    [>] Формуляри (google forms setup)
     [ ] Responsive дизайн
     [ ] SEO основи
     [ ] Deploy на GitHub Pages
