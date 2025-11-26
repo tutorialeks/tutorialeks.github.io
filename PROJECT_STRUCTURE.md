@@ -65,10 +65,17 @@ tutorialeks.github.io/
 │
 └── shared/                         # Shared resources across all pages
     ├── components/                 # Reusable HTML components
-    │   ├── footer.html            # Site footer
-    │   ├── credentials.html       # Credentials/about section
-    │   ├── pricing-table.html     # Pricing table
-    │   └── googleforms.html       # Google Forms iframe wrapper
+    │   ├── bg/                     # Bulgarian language components
+    │   │   ├── footer.html        # Site footer (Bulgarian)
+    │   │   ├── credentials.html   # Credentials/about section (Bulgarian)
+    │   │   ├── pricing-table.html # Pricing table (Bulgarian)
+    │   │   └── googleforms.html   # Google Forms iframe wrapper (Bulgarian)
+    │   │
+    │   └── en/                     # English language components (planned)
+    │       ├── footer.html        # Site footer (English)
+    │       ├── credentials.html   # Credentials/about section (English)
+    │       ├── pricing-table.html # Pricing table (English)
+    │       └── googleforms.html   # Google Forms iframe wrapper (English)
     │
     ├── css/                        # Shared stylesheets
     │   ├── variables.css          # CSS custom properties (colors, fonts, etc.)
@@ -180,46 +187,57 @@ The script automatically:
 
 ## Shared Components
 
-### Footer (`shared/components/footer.html`)
+Components are organized by language in subfolders (`bg/` for Bulgarian, `en/` for English).
+
+### Footer (`shared/components/{lang}/footer.html`)
 
 Site-wide footer with contact information and links.
 
-**Usage:**
+**Usage (Bulgarian):**
 ```html
-<iframe src="../../shared/components/footer.html" 
-        class="iframe-container" 
-        style="min-height: 400px;" 
+<iframe src="../../shared/components/bg/footer.html"
+        class="iframe-container"
+        style="min-height: 400px;"
         frameborder="0">
 </iframe>
 ```
 
-### Credentials (`shared/components/credentials.html`)
+**Usage (English):**
+```html
+<iframe src="../../shared/components/en/footer.html"
+        class="iframe-container"
+        style="min-height: 400px;"
+        frameborder="0">
+</iframe>
+```
+
+### Credentials (`shared/components/{lang}/credentials.html`)
 
 About section with credentials, certifications, and experience.
 
-**Usage:**
+**Usage (Bulgarian):**
 ```html
-<iframe src="../../shared/components/credentials.html" 
-        class="iframe-container" 
-        style="min-height: 1200px;" 
+<iframe src="../../shared/components/bg/credentials.html"
+        class="iframe-container"
+        style="min-height: 1200px;"
         frameborder="0">
 </iframe>
 ```
 
-### Pricing Table (`shared/components/pricing-table.html`)
+### Pricing Table (`shared/components/{lang}/pricing-table.html`)
 
 Pricing information and package details.
 
-**Usage:**
+**Usage (Bulgarian):**
 ```html
-<iframe src="../../shared/components/pricing-table.html" 
-        class="iframe-container" 
-        style="min-height: 1400px;" 
+<iframe src="../../shared/components/bg/pricing-table.html"
+        class="iframe-container"
+        style="min-height: 1400px;"
         frameborder="0">
 </iframe>
 ```
 
-### Google Forms Wrapper (`shared/components/googleforms.html`)
+### Google Forms Wrapper (`shared/components/{lang}/googleforms.html`)
 
 Displays Google Forms in an iframe with custom title and description.
 
