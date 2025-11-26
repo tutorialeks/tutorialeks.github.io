@@ -51,12 +51,13 @@
             position: absolute;
             top: -12px;
             right: 20px;
-            background: var(--color-primary);
+            background: var(--gradient-primary);
             color: white;
             padding: 4px 12px;
             border-radius: var(--radius-md);
             font-size: var(--text-sm);
             font-weight: 600;
+            box-shadow: var(--shadow-md);
         }
 
         .pricing-header {
@@ -80,7 +81,7 @@
 
         .pricing-price {
             font-family: var(--font-heading);
-            font-size: var(--text-4xl);
+            font-size: 2.5rem;
             font-weight: 700;
             color: var(--color-primary);
             margin-bottom: var(--spacing-xs);
@@ -213,13 +214,15 @@
         }
 
         .discount-note {
-            background: var(--color-secondary);
+            background: var(--gradient-amber);
             color: var(--color-text-primary);
             padding: var(--spacing-md);
             border-radius: var(--radius-lg);
             text-align: center;
             font-weight: 600;
             margin-top: var(--spacing-xl);
+            border-left: 4px solid var(--color-secondary);
+            box-shadow: var(--shadow-md);
         }
 
         .pricing-cta {
