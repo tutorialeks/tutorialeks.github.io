@@ -474,6 +474,15 @@
     border-radius: var(--radius-xl);
 }
 
+/* IFRAME CONTAINER - Seamless iframe display without scrollbars */
+.iframe-container {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    display: block;
+    min-height: 400px; /* Prevent layout shift during loading */
+}
+
 /* TESTIMONIALS */
 .testimonials-grid {
     display: grid;

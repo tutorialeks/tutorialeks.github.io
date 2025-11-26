@@ -53,52 +53,66 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener('DOMContentLoaded', () => {
     const elementsToObserve = document.querySelectorAll('.fade-in-observer');
     elementsToObserve.forEach(el => observer.observe(el));
+
+    // Initialize iframe resizing for seamless display
+    initIframeResizing();
 });
 
 // ============================================================================
-// IFRAME HEIGHT ADJUSTMENT
+// IFRAME RESIZING - Seamless iframe display without scrollbars
 // ============================================================================
 
-function adjustIframeHeight() {
-    const iframes = document.querySelectorAll('iframe.iframe-container');
+/**
+ * Dynamically resize iframe to fit content height
+ * This prevents scrollbars and creates seamless integration
+ */
+function resizeIframe(iframe) {
+    try {
+        if (iframe.contentWindow && iframe.contentWindow.document) {
+            const doc = iframe.contentWindow.document;
+            const height = Math.max(
+                doc.documentElement.scrollHeight,
+                doc.body.scrollHeight,
+                doc.documentElement.offsetHeight,
+                doc.body.offsetHeight
+            );
 
-    iframes.forEach(iframe => {
-        iframe.addEventListener('load', function() {
-            try {
-                // Try to access iframe content height
-                const iframeDocument = this.contentDocument || this.contentWindow.document;
-                const iframeHeight = iframeDocument.body.scrollHeight;
-
-                // Set minimum height based on iframe type
-                let minHeight = 400;
-                if (this.classList.contains('pricing-iframe')) {
-                    minHeight = 600;
-                } else if (this.classList.contains('credentials-iframe')) {
-                    minHeight = 500;
-                }
-
-                // Use the larger of actual height or minimum height
-                this.style.height = Math.max(iframeHeight, minHeight) + 'px';
-
-                console.log('[Script] Iframe height adjusted:', {
-                    src: this.src,
-                    height: this.style.height
-                });
-            } catch (error) {
-                // If cross-origin, fall back to default height
-                console.warn('[Script] Cannot access iframe height (cross-origin):', error.message);
-            }
-        });
-    });
+            // Add small buffer to prevent scrollbars
+            iframe.style.height = (height + 20) + 'px';
+        }
+    } catch (e) {
+        // Cross-origin iframe - can't access content
+        console.warn('[Variant B2] Cannot resize iframe (cross-origin):', iframe.src);
+    }
 }
 
-// Run on page load
-document.addEventListener('DOMContentLoaded', adjustIframeHeight);
+/**
+ * Initialize iframe resizing for all iframes
+ */
+function initIframeResizing() {
+    const iframes = document.querySelectorAll('iframe');
 
-// Also run after a short delay to catch any late-loading iframes
-window.addEventListener('load', () => {
-    setTimeout(adjustIframeHeight, 500);
-});
+    iframes.forEach(iframe => {
+        // Resize on load
+        iframe.addEventListener('load', () => {
+            resizeIframe(iframe);
+
+            // Resize again after a short delay (for fonts/images)
+            setTimeout(() => resizeIframe(iframe), 100);
+            setTimeout(() => resizeIframe(iframe), 500);
+        });
+
+        // If already loaded, resize now
+        if (iframe.contentWindow && iframe.contentWindow.document.readyState === 'complete') {
+            resizeIframe(iframe);
+        }
+    });
+
+    // Also resize on window resize
+    window.addEventListener('resize', () => {
+        iframes.forEach(resizeIframe);
+    });
+}
 
 // ============================================================================
 // SCROLL INDICATOR HIDE ON SCROLL
