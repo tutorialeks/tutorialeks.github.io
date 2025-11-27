@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/variables.css">
+    <link rel="stylesheet" href="../../css/variables-dark.css">
+    <style>
+        body {
+            margin: 0;
+            padding: var(--spacing-lg);
+            font-family: var(--font-body);
+            background-color: transparent;
+            color: var(--color-text-dark-primary);
+        }
+
+        .pricing-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .package-section {
+            margin-top: var(--spacing-xl);
+        }
+
+        .package-title {
+            font-family: var(--font-heading);
+            font-size: var(--text-2xl);
+            font-weight: 700;
+            color: var(--color-text-dark-primary);
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .package-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--spacing-xl);
+        }
+
+        .package-card {
+            background: var(--gradient-dark-purple);
+            color: var(--color-text-dark-primary);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-xl);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-glass);
+            transition: all var(--transition-base);
+        }
+
+        .package-card:hover {
+            box-shadow: var(--shadow-glass-hover), var(--glow-purple);
+            transform: translateY(-4px);
+            border-color: var(--glass-border-hover);
+        }
+
+        .package-header {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .package-name {
+            font-family: var(--font-heading);
+            font-size: var(--text-2xl);
+            font-weight: 700;
+            margin-bottom: var(--spacing-sm);
+            background: var(--gradient-text-purple-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @supports not (background-clip: text) {
+            .package-name {
+                color: var(--color-accent-purple);
+            }
+        }
+
+        .package-duration {
+            font-size: var(--text-base);
+            opacity: 0.9;
+            margin-bottom: var(--spacing-xs);
+            color: var(--color-text-dark-secondary);
+        }
+
+        .package-price-wrapper {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .package-price {
+            font-size: var(--text-4xl);
+            font-weight: 700;
+            margin-bottom: var(--spacing-xs);
+            background: var(--gradient-text-yellow-orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @supports not (background-clip: text) {
+            .package-price {
+                color: var(--color-accent-yellow-dark);
+            }
+        }
+
+        .package-original-price {
+            font-size: var(--text-lg);
+            text-decoration: line-through;
+            opacity: 0.7;
+            margin-bottom: var(--spacing-xs);
+            color: var(--color-text-dark-tertiary);
+        }
+
+        .package-savings {
+            background: var(--color-success);
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: var(--radius-md);
+            font-size: var(--text-sm);
+            font-weight: 600;
+            color: white;
+        }
+
+        .package-features {
+            list-style: none;
+            padding: 0;
+            margin: var(--spacing-lg) 0;
+        }
+
+        .package-features li {
+            padding: var(--spacing-xs) 0;
+            font-size: var(--text-base);
+            display: flex;
+            align-items: flex-start;
+            color: var(--color-text-dark-secondary);
+        }
+
+        .package-features li:before {
+            content: "✓";
+            color: var(--color-accent-cyan);
+            font-weight: bold;
+            margin-right: var(--spacing-xs);
+            font-size: var(--text-xl);
+        }
+
+        .pricing-cta {
+            text-align: center;
+            margin-top: var(--spacing-lg);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--gradient-text-yellow-orange);
+            color: var(--color-bg-dark-primary);
+            text-decoration: none;
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            transition: all var(--transition-base);
+            border: none;
+            cursor: pointer;
+            font-size: var(--text-base);
+            box-shadow: var(--glow-yellow);
+        }
+
+        .btn:hover {
+            box-shadow: var(--glow-yellow-strong);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .package-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .package-price {
+                font-size: var(--text-3xl);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <!-- Package Courses -->
+        <div class="package-section">
+            <div class="package-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3 class="package-name">6-месечен курс</h3>
+                        <p class="package-duration">„От 0 до където стигнеш"</p>
+                        <p class="package-duration">3 часа на седмица × 26 седмици = 80 часа</p>
+                    </div>
+
+                    <div class="package-price-wrapper">
+                        <div class="package-original-price">Обикновена цена: 5890 лв</div>
+                        <div class="package-price">3200 лв</div>
+                        <div class="package-savings">Спестяваш 2690 лв (46%)</div>
+                    </div>
+
+                    <ul class="package-features">
+                        <li>80 часа индивидуално обучение</li>
+                        <li>Безплатен запис на всички срещи</li>
+                        <li>Достъп до записите за подготовка</li>
+                        <li>Персонализиран учебен план</li>
+                        <li>Цена: 40 лв/час</li>
+                    </ul>
+
+                    <div class="pricing-cta">
+                        <a href="../googleforms.html?type=professional" class="btn">Запиши се за 6-месечен курс</a>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3 class="package-name">3-месечен курс</h3>
+                        <p class="package-duration">Интензивно обучение</p>
+                        <p class="package-duration">3 часа на седмица × 12 седмици = 36 часа</p>
+                    </div>
+
+                    <div class="package-price-wrapper">
+                        <div class="package-original-price">Обикновена цена: 2860 лв</div>
+                        <div class="package-price">1920 лв</div>
+                        <div class="package-savings">Спестяваш 940 лв (33%)</div>
+                    </div>
+
+                    <ul class="package-features">
+                        <li>36 часа индивидуално обучение</li>
+                        <li>Безплатен запис на всички срещи</li>
+                        <li>Достъп до записите за подготовка</li>
+                        <li>Персонализиран учебен план</li>
+                        <li>Цена: 60 лв/час</li>
+                    </ul>
+
+                    <div class="pricing-cta">
+                        <a href="../googleforms.html?type=starter" class="btn">Запиши се за 3-месечен курс</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
