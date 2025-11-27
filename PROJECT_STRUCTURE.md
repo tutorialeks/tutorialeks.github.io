@@ -16,7 +16,7 @@ tutorialeks.github.io/
 │
 ├── bg/                             # Bulgarian language pages
 │   ├── learners/                   # Bulgarian learners landing pages
-│   │   ├── variant-a1/            # Bold Discount layout (A/B test variant)
+│   │   ├── white-theme/            # Bold Discount layout (A/B test variant)
 │   │   │   ├── index.html         # Main HTML file
 │   │   │   ├── styles.css         # Variant-specific styles
 │   │   │   └── script.js          # Variant-specific JavaScript
@@ -303,7 +303,7 @@ This script contains common functionality shared across all landing page variant
 
 Each landing page variant has its own `script.js` for variant-specific functionality:
 
-**`bg/learners/variant-a1/script.js`**
+**`bg/learners/white-theme/script.js`**
 - Discount badge hover effects (scale + rotate animation)
 
 **`bg/learners/variant-a2/script.js`**
