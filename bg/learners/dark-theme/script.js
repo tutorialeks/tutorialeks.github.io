@@ -147,7 +147,8 @@ function initStaggeredAnimations() {
         document.querySelector('.steps-grid'),
         document.querySelector('.value-grid'),
         document.querySelector('.testimonials-grid'),
-        document.querySelector('.pricing-cards')
+        document.querySelector('.pricing-cards'),
+        document.querySelector('.comparison-table')
     ];
 
     grids.forEach(grid => {

@@ -591,6 +591,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-iframe {
     min-height: 400px;
+    display: block;  /* Prevent inline rendering gaps */
+    margin: 0;       /* Reset any inherited margins */
+    vertical-align: bottom;  /* Additional safeguard for inline rendering */
 }
 
 /* ==================== IFRAME CONTAINERS ==================== */
@@ -604,6 +607,99 @@ h1, h2, h3, h4, h5, h6 {
 /* ==================== TEXT UTILITIES ==================== */
 .text-center {
     text-align: center;
+}
+
+/* ==================== COMPARISON TABLE ==================== */
+.comparison-table-container {
+    max-width: 600px;
+    margin: var(--spacing-xl) auto 0;
+}
+
+.comparison-table {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-dark-lg);
+}
+
+.comparison-title {
+    font-size: var(--text-xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+    background: var(--gradient-text-purple-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.comparison-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-sm);
+    border-bottom: 1px solid var(--glass-border);
+    align-items: center;
+    transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comparison-row:hover {
+    background: rgba(139, 92, 246, 0.05);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glass);
+    border-color: var(--glass-border-hover);
+}
+
+.comparison-row:last-child {
+    border-bottom: none;
+}
+
+.comparison-label {
+    font-size: var(--text-base);
+    color: var(--color-text-dark-secondary);
+}
+
+.label-icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 1.1em;
+    filter: drop-shadow(var(--glow-purple));
+    transition: filter 0.3s ease;
+}
+
+.comparison-row:hover .label-icon {
+    filter: drop-shadow(var(--glow-blue));
+}
+
+.comparison-value {
+    text-align: center;
+    font-size: var(--text-2xl);
+    font-weight: 700;
+}
+
+.comparison-value.has {
+    background: var(--gradient-text-purple-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.comparison-value.none {
+    color: var(--color-text-dark-muted);
+    opacity: 0.5;
+}
+
+.comparison-value.partial {
+    background: var(--gradient-text-yellow-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 /* ==================== RESPONSIVE DESIGN ==================== */
@@ -648,6 +744,20 @@ h1, h2, h3, h4, h5, h6 {
 
     .section-subtitle {
         font-size: 1rem;
+    }
+
+    /* Comparison Table */
+    .comparison-row {
+        padding: var(--spacing-sm);
+        gap: var(--spacing-sm);
+    }
+
+    .comparison-label {
+        font-size: var(--text-sm);
+    }
+
+    .comparison-value {
+        font-size: var(--text-lg);
     }
 
     /* Grids */
