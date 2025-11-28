@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../../css/variables.css">
     <style>
         body {
             margin: 0;
@@ -34,6 +34,8 @@
             box-shadow: var(--shadow-md);
             transition: all var(--transition-base);
             border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
         }
 
         .pricing-card:hover {
@@ -51,12 +53,13 @@
             position: absolute;
             top: -12px;
             right: 20px;
-            background: var(--color-primary);
+            background: var(--gradient-primary);
             color: white;
             padding: 4px 12px;
             border-radius: var(--radius-md);
             font-size: var(--text-sm);
             font-weight: 600;
+            box-shadow: var(--shadow-md);
         }
 
         .pricing-header {
@@ -80,7 +83,7 @@
 
         .pricing-price {
             font-family: var(--font-heading);
-            font-size: var(--text-4xl);
+            font-size: 2.5rem;
             font-weight: 700;
             color: var(--color-primary);
             margin-bottom: var(--spacing-xs);
@@ -139,6 +142,8 @@
             padding: var(--spacing-xl);
             box-shadow: var(--shadow-lg);
             transition: all var(--transition-base);
+            display: flex;
+            flex-direction: column;
         }
 
         .package-card:hover {
@@ -213,18 +218,20 @@
         }
 
         .discount-note {
-            background: var(--color-secondary);
+            background: var(--gradient-amber);
             color: var(--color-text-primary);
             padding: var(--spacing-md);
             border-radius: var(--radius-lg);
             text-align: center;
             font-weight: 600;
             margin-top: var(--spacing-xl);
+            border-left: 4px solid var(--color-secondary);
+            box-shadow: var(--shadow-md);
         }
 
         .pricing-cta {
             text-align: center;
-            margin-top: var(--spacing-lg);
+            margin-top: auto;
         }
 
         .btn {
@@ -369,17 +376,17 @@
         </div>
 
         <div class="discount-note">
-            💰 При изпълнено домашно, следващият ти час е с 33% отстъпка!
+            💰 Запиши се дългосрочно и вземи голямо намаление!
         </div>
 
         <!-- Package Courses -->
         <div class="package-section">
-            <h2 class="package-title">Курсове с големи отстъпки</h2>
+            <h2 class="package-title">Дългосрочно обучение</h2>
             
             <div class="package-grid">
                 <div class="package-card">
                     <div class="package-header">
-                        <h3 class="package-name">6-месечен курс</h3>
+                        <h3 class="package-name">Шестмесечен курс</h3>
                         <p class="package-duration">„От 0 до където стигнеш"</p>
                         <p class="package-duration">3 часа на седмица × 26 седмици = 80 часа</p>
                     </div>
@@ -405,7 +412,7 @@
 
                 <div class="package-card">
                     <div class="package-header">
-                        <h3 class="package-name">3-месечен курс</h3>
+                        <h3 class="package-name">Тримесечен курс</h3>
                         <p class="package-duration">Интензивно обучение</p>
                         <p class="package-duration">3 часа на седмица × 12 седмици = 36 часа</p>
                     </div>

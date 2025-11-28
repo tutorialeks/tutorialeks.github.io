@@ -145,3 +145,5 @@ vite.config.ts.timestamp-*
 
 # linux folders
 .directory
+exampleSites/*
+.exampleSites/*

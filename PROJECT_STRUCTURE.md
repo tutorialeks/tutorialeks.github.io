@@ -15,10 +15,26 @@ tutorialeks.github.io/
 ├── .gitignore                      # Git ignore rules
 │
 ├── bg/                             # Bulgarian language pages
-│   ├── learners/                   # Bulgarian learners landing page
-│   │   ├── index.html             # Main HTML file
-│   │   ├── styles.css             # Page-specific styles
-│   │   └── script.js              # Page-specific JavaScript
+│   ├── learners/                   # Bulgarian learners landing pages
+│   │   ├── white-theme/            # Bold Discount layout (A/B test variant)
+│   │   │   ├── index.html         # Main HTML file
+│   │   │   ├── styles.css         # Variant-specific styles
+│   │   │   └── script.js          # Variant-specific JavaScript
+│   │   │
+│   │   ├── variant-a2/            # Clean Discount layout (A/B test variant)
+│   │   │   ├── index.html
+│   │   │   ├── styles.css
+│   │   │   └── script.js
+│   │   │
+│   │   ├── variant-b1/            # Warm Philosophy layout (A/B test variant)
+│   │   │   ├── index.html
+│   │   │   ├── styles.css
+│   │   │   └── script.js
+│   │   │
+│   │   └── variant-b2/            # Professional Philosophy layout (A/B test variant)
+│   │       ├── index.html
+│   │       ├── styles.css
+│   │       └── script.js
 │   │
 │   └── professionals/              # Bulgarian professionals landing page (planned)
 │       ├── index.html
@@ -49,17 +65,25 @@ tutorialeks.github.io/
 │
 └── shared/                         # Shared resources across all pages
     ├── components/                 # Reusable HTML components
-    │   ├── footer.html            # Site footer
-    │   ├── credentials.html       # Credentials/about section
-    │   ├── pricing-table.html     # Pricing table
-    │   └── googleforms.html       # Google Forms iframe wrapper
+    │   ├── bg/                     # Bulgarian language components
+    │   │   ├── footer.html        # Site footer (Bulgarian)
+    │   │   ├── credentials.html   # Credentials/about section (Bulgarian)
+    │   │   ├── pricing-table.html # Pricing table (Bulgarian)
+    │   │   └── googleforms.html   # Google Forms iframe wrapper (Bulgarian)
+    │   │
+    │   └── en/                     # English language components (planned)
+    │       ├── footer.html        # Site footer (English)
+    │       ├── credentials.html   # Credentials/about section (English)
+    │       ├── pricing-table.html # Pricing table (English)
+    │       └── googleforms.html   # Google Forms iframe wrapper (English)
     │
     ├── css/                        # Shared stylesheets
     │   ├── variables.css          # CSS custom properties (colors, fonts, etc.)
     │   └── global.css             # Global styles and utilities
     │
     └── js/                         # Shared JavaScript
-        └── forms.js               # Centralized forms configuration & smart path resolver
+        ├── forms.js               # Centralized forms configuration & smart path resolver
+        └── landing-page.js        # Shared landing page functionality (scroll, animations, iframes)
 ```
 
 ## Page Types and Paths
@@ -163,46 +187,57 @@ The script automatically:
 
 ## Shared Components
 
-### Footer (`shared/components/footer.html`)
+Components are organized by language in subfolders (`bg/` for Bulgarian, `en/` for English).
+
+### Footer (`shared/components/{lang}/footer.html`)
 
 Site-wide footer with contact information and links.
 
-**Usage:**
+**Usage (Bulgarian):**
 ```html
-<iframe src="../../shared/components/footer.html" 
-        class="iframe-container" 
-        style="min-height: 400px;" 
+<iframe src="../../shared/components/bg/footer.html"
+        class="iframe-container"
+        style="min-height: 400px;"
         frameborder="0">
 </iframe>
 ```
 
-### Credentials (`shared/components/credentials.html`)
+**Usage (English):**
+```html
+<iframe src="../../shared/components/en/footer.html"
+        class="iframe-container"
+        style="min-height: 400px;"
+        frameborder="0">
+</iframe>
+```
+
+### Credentials (`shared/components/{lang}/credentials.html`)
 
 About section with credentials, certifications, and experience.
 
-**Usage:**
+**Usage (Bulgarian):**
 ```html
-<iframe src="../../shared/components/credentials.html" 
-        class="iframe-container" 
-        style="min-height: 1200px;" 
+<iframe src="../../shared/components/bg/credentials.html"
+        class="iframe-container"
+        style="min-height: 1200px;"
         frameborder="0">
 </iframe>
 ```
 
-### Pricing Table (`shared/components/pricing-table.html`)
+### Pricing Table (`shared/components/{lang}/pricing-table.html`)
 
 Pricing information and package details.
 
-**Usage:**
+**Usage (Bulgarian):**
 ```html
-<iframe src="../../shared/components/pricing-table.html" 
-        class="iframe-container" 
-        style="min-height: 1400px;" 
+<iframe src="../../shared/components/bg/pricing-table.html"
+        class="iframe-container"
+        style="min-height: 1400px;"
         frameborder="0">
 </iframe>
 ```
 
-### Google Forms Wrapper (`shared/components/googleforms.html`)
+### Google Forms Wrapper (`shared/components/{lang}/googleforms.html`)
 
 Displays Google Forms in an iframe with custom title and description.
 
@@ -248,15 +283,39 @@ Each landing page has its own `styles.css` for page-specific styling:
 - Automatic link initialization
 - Form URL building
 
-### Page-Specific Scripts
+**`shared/js/landing-page.js`**
+- **Smooth scrolling** for anchor links (prevents page jump)
+- **Fade-in animations** using Intersection Observer API
+- **Seamless iframe resizing** (dynamically adjusts height to prevent scrollbars)
+- **Scroll indicator auto-hide** (hides after scrolling 100px)
+- **Performance optimizations** (lazy loading for images outside hero section)
 
-Each landing page has its own `script.js` for page-specific functionality:
-- Form validation
-- Smooth scrolling
-- Animations
-- Interactive elements
+This script contains common functionality shared across all landing page variants and should be loaded before variant-specific scripts.
 
-**Example:** `bg/learners/script.js`
+**Usage in HTML:**
+```html
+<script src="../../../shared/js/forms.js"></script>
+<script src="../../../shared/js/landing-page.js"></script>
+<script src="script.js"></script>
+```
+
+### Variant-Specific Scripts
+
+Each landing page variant has its own `script.js` for variant-specific functionality:
+
+**`bg/learners/white-theme/script.js`**
+- Discount badge hover effects (scale + rotate animation)
+
+**`bg/learners/variant-a2/script.js`**
+- No variant-specific features (uses shared functionality only)
+
+**`bg/learners/variant-b1/script.js`**
+- Philosophy box toggle functionality
+- Auto-open philosophy box after 2 seconds
+
+**`bg/learners/variant-b2/script.js`**
+- Approach items progressive highlight
+- Comparison table progressive reveal animation
 
 ## Adding New Pages
 
@@ -276,6 +335,14 @@ Each landing page has its own `script.js` for page-specific functionality:
    <link rel="stylesheet" href="../../shared/css/global.css">
    <link rel="stylesheet" href="styles.css">
    <script src="../../shared/js/forms.js"></script>
+   <script src="../../shared/js/landing-page.js"></script>
+   <script src="script.js"></script>
+   ```
+
+   **Note:** For landing pages with variants (A/B testing), adjust paths accordingly:
+   ```html
+   <script src="../../../shared/js/forms.js"></script>
+   <script src="../../../shared/js/landing-page.js"></script>
    <script src="script.js"></script>
    ```
 

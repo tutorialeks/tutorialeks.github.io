@@ -3,10 +3,437 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=/bg/learners/">
-    <title>TutoriAleks - Частни уроци по програмиране</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            position: relative;
+        }
+
+        .fade-out {
+            animation: fadeOut 0.5s ease forwards;
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+            }
+        }
+
+        /* Header */
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            text-align: center;
+            padding: 2rem 1rem 1rem;
+            background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 100%);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        /* Main Split Container */
+        .theme-selector {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .theme-option {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .theme-option:hover {
+            flex: 1.1;
+        }
+
+        .theme-option:not(:hover) {
+            opacity: 0.85;
+        }
+
+        /* Yellow Theme Side */
+        .theme-yellow {
+            background: linear-gradient(135deg, #ffffff 0%, #fef3c7 50%, #fed766 100%);
+            position: relative;
+        }
+
+        .theme-yellow::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(254, 215, 102, 0.3) 0%, transparent 70%);
+            animation: pulse-yellow 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse-yellow {
+            0%, 100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+        }
+
+        .theme-yellow .theme-content {
+            position: relative;
+            z-index: 10;
+            color: #1e293b;
+        }
+
+        .theme-yellow:hover {
+            box-shadow: inset 0 0 100px rgba(254, 215, 102, 0.3);
+        }
+
+        /* Dark Theme Side */
+        .theme-dark {
+            background: linear-gradient(180deg, #1a0f3e 0%, #0f0f2e 50%, #0a0a15 100%);
+            position: relative;
+        }
+
+        .theme-dark::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+            animation: pulse-dark 5s ease-in-out infinite;
+        }
+
+        @keyframes pulse-dark {
+            0%, 100% {
+                opacity: 0.5;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .theme-dark .theme-content {
+            position: relative;
+            z-index: 10;
+            color: #f7f8f8;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 2rem;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .theme-dark:hover .theme-content {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.12);
+            box-shadow: 0 0 40px rgba(139, 92, 246, 0.4);
+        }
+
+        /* Theme Content */
+        .theme-content {
+            text-align: center;
+            padding: 3rem;
+            transition: all 0.3s ease;
+        }
+
+        .theme-option:hover .theme-content {
+            transform: scale(1.05);
+        }
+
+        .theme-icon {
+            font-size: 5rem;
+            margin-bottom: 1.5rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .theme-option h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+        }
+
+        .theme-yellow h2 {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .theme-dark h2 {
+            background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .theme-option p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        /* Buttons */
+        .theme-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            font-size: 1.125rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Inter', sans-serif;
+            text-transform: none;
+        }
+
+        .theme-yellow .theme-btn {
+            background: linear-gradient(135deg, #fed766 0%, #f59e0b 100%);
+            color: #1e293b;
+            box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+        }
+
+        .theme-yellow:hover .theme-btn {
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .theme-dark .theme-btn {
+            background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+            color: white;
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+        }
+
+        .theme-dark:hover .theme-btn {
+            box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5), 0 0 40px rgba(139, 92, 246, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Divider */
+        .theme-divider {
+            width: 2px;
+            background: linear-gradient(180deg,
+                transparent 0%,
+                rgba(100, 116, 139, 0.3) 20%,
+                rgba(100, 116, 139, 0.5) 50%,
+                rgba(100, 116, 139, 0.3) 80%,
+                transparent 100%
+            );
+            position: relative;
+            z-index: 50;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .theme-selector {
+                flex-direction: column;
+            }
+
+            .theme-option {
+                flex: 1;
+            }
+
+            .theme-option:hover {
+                flex: 1.2;
+            }
+
+            .theme-divider {
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(90deg,
+                    transparent 0%,
+                    rgba(100, 116, 139, 0.3) 20%,
+                    rgba(100, 116, 139, 0.5) 50%,
+                    rgba(100, 116, 139, 0.3) 80%,
+                    transparent 100%
+                );
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 0.875rem;
+            }
+
+            .theme-icon {
+                font-size: 3.5rem;
+            }
+
+            .theme-option h2 {
+                font-size: 1.75rem;
+            }
+
+            .theme-option p {
+                font-size: 1rem;
+            }
+
+            .theme-content {
+                padding: 2rem;
+            }
+
+            .theme-dark .theme-content {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 1rem 1rem 0.5rem;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .theme-icon {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .theme-option h2 {
+                font-size: 1.5rem;
+            }
+
+            .theme-content {
+                padding: 1.5rem;
+            }
+
+            .theme-dark .theme-content {
+                padding: 1.5rem;
+            }
+
+            .theme-btn {
+                padding: 0.875rem 2rem;
+                font-size: 1rem;
+            }
+        }
+
+        /* Accessibility */
+        .theme-option:focus {
+            outline: 3px solid #3b82f6;
+            outline-offset: -3px;
+        }
+
+        .theme-btn:focus {
+            outline: 3px solid #3b82f6;
+            outline-offset: 2px;
+        }
+    </style>
 </head>
 <body>
-    <p>Redirecting to <a href="/bg/learners/">Bulgarian Learners Page</a>...</p>
+    <header>
+        <h1>TutoriAleks</h1>
+        <p>Изберете вашата тема</p>
+    </header>
+
+    <main class="theme-selector" role="main">
+        <div class="theme-option theme-yellow"
+             onclick="selectTheme('yellow')"
+             tabindex="0"
+             role="button"
+             aria-label="Изберете светла тема"
+             onkeypress="handleKeyPress(event, 'yellow')">
+            <div class="theme-content">
+                <div class="theme-icon" aria-hidden="true">☀️</div>
+                <h2>Светлата <br>страна</h2>
+                <p>Приятелска и топла</p>
+                <button class="theme-btn">Изберете →</button>
+            </div>
+        </div>
+
+        <div class="theme-divider" aria-hidden="true"></div>
+
+        <div class="theme-option theme-dark"
+             onclick="selectTheme('dark')"
+             tabindex="0"
+             role="button"
+             aria-label="Изберете тъмна тема"
+             onkeypress="handleKeyPress(event, 'dark')">
+            <div class="theme-content">
+                <div class="theme-icon" aria-hidden="true">🌙</div>
+                <h2>Тъмната <br>страна</h2>
+                <p>Модерна и елегантна</p>
+                <button class="theme-btn">Изберете →</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function selectTheme(theme) {
+            // Add fade-out animation
+            document.body.classList.add('fade-out');
+
+            // Redirect after animation
+            setTimeout(() => {
+                if (theme === 'yellow') {
+                    window.location.href = 'bg/learners/white-theme/index.html';
+                } else if (theme === 'dark') {
+                    window.location.href = 'bg/learners/dark-theme/index.html';
+                }
+            }, 500);
+        }
+
+        function handleKeyPress(event, theme) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                selectTheme(theme);
+            }
+        }
+
+        // Prevent accidental navigation
+        window.addEventListener('beforeunload', (e) => {
+            if (document.body.classList.contains('fade-out')) {
+                return; // Allow navigation during intentional redirect
+            }
+        });
+    </script>
 </body>
 </html>
