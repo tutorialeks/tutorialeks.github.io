@@ -518,18 +518,20 @@
 /* FREE COURSE SECTION */
 .course-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-xl);
+    grid-auto-rows: 1fr;
 }
 
 .course-card {
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-md);
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
     transition: all var(--transition-base);
+    min-height: 100%;
 }
 
 .course-card:hover {
@@ -538,22 +540,22 @@
 
 .course-number {
     flex-shrink: 0;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     background: var(--gradient-amber);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--font-heading);
-    font-size: var(--text-base);
+    font-size: var(--text-sm);
     font-weight: 700;
     color: var(--color-text-primary);
 }
 
 .course-icon {
     flex-shrink: 0;
-    font-size: 1.75rem;
+    font-size: var(--text-xl);
     color: var(--color-primary);
 }
 
@@ -562,8 +564,10 @@
     font-size: var(--text-base);
     font-weight: 600;
     color: var(--color-text-primary);
-    line-height: 1.4;
+    line-height: 1.35;
     text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .cta-area {
