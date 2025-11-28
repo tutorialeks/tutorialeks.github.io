@@ -515,6 +515,63 @@
     color: var(--color-text-muted);
 }
 
+/* FREE COURSE SECTION */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.course-card {
+    padding: var(--spacing-lg);
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    transition: all var(--transition-base);
+}
+
+.course-card:hover {
+    transform: translateY(-4px);
+}
+
+.course-number {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 28px;
+    height: 28px;
+    background: var(--gradient-amber);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.course-icon {
+    font-size: 2.5rem;
+    margin-top: var(--spacing-sm);
+}
+
+.course-title {
+    font-size: var(--text-base);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    line-height: 1.4;
+    margin: 0;
+}
+
+.cta-area {
+    margin-top: var(--spacing-2xl);
+}
+
 /* FINAL CTA SECTION */
 .section-cta {
     background: var(--gradient-primary);
@@ -745,6 +802,11 @@
     .value-grid,
     .testimonials-grid {
         grid-template-columns: 1fr;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
     }
 
     .pricing-cards {
