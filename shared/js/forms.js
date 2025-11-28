@@ -27,7 +27,12 @@ const FORMS_CONFIG = {
         title: 'Искам достъп до курса',
         description: 'Попълнете формата за достъп до безплатния Python курс'
     },
-    
+    'bg-learners-coursePackage': {
+        url: 'YOUR_BG_LEARNERS_COURSE_PACKAGE_FORM_URL',
+        title: 'Запиши се за курс',
+        description: 'Попълнете формата за дългосрочно обучение'
+    },
+
     // Bulgarian Professionals
     'bg-professionals-consultation': {
         url: 'YOUR_BG_PROFESSIONALS_CONSULTATION_FORM_URL',
