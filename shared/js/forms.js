@@ -35,7 +35,7 @@ const FORMS_CONFIG = {
     
     // Bulgarian Professionals
     'bg-professionals-consultation': {
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSd_w2N80Mbj4IPL0b4XCVC4ieWwqwFp4TUImG6HqNSCGooyOQ/viewform?usp=publish-editor', // https://forms.gle/4wP6FSVx5TSHsmYX8
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSd_w2N80Mbj4IPL0b4XCVC4ieWwqwFp4TUImG6HqNSCGooyOQ/viewform?embedded=true', // https://forms.gle/4wP6FSVx5TSHsmYX8
         title: 'Запази консултация за професионалисти',
         description: 'Специализирана консултация за напреднали разработчици'
     },
