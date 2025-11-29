@@ -105,7 +105,7 @@ function getGoogleFormsPath() {
                         document.body.classList.contains('theme-dark');
 
     const filename = isDarkTheme ? 'googleforms-dark.html' : 'googleforms.html';
-    const fullPath = upLevels + 'shared/components/bg/' + filename;
+    const fullPath = upLevels + 'shared/components/' + filename;
 
     console.log('[Forms.js] Path detection:', {
         currentPath: path,

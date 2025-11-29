@@ -6,8 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/variables.css">
-    <link rel="stylesheet" href="../../css/variables-dark.css">
+    <link rel="stylesheet" href="../../../shared/css/variables.css">
     <style>
         body {
             margin: 0;
@@ -17,10 +16,9 @@
         }
 
         .footer {
-            background: var(--color-bg-dark-primary);
-            color: var(--color-text-dark-primary);
+            background: var(--gradient-footer);
+            color: white;
             padding: var(--spacing-xl) var(--spacing-lg);
-            border-top: 1px solid var(--glass-border);
         }
 
         .footer-container {
@@ -40,22 +38,12 @@
             font-size: var(--text-lg);
             font-weight: 700;
             margin-bottom: var(--spacing-md);
-            background: var(--gradient-text-purple-blue);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        @supports not (background-clip: text) {
-            .footer-section h3 {
-                color: var(--color-accent-purple);
-            }
+            color: var(--color-accent);
         }
 
         .footer-section p,
-        .footer-section a,
-        .footer-section li {
-            color: var(--color-text-dark-secondary);
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.8);
             font-size: var(--text-sm);
             line-height: var(--leading-relaxed);
             text-decoration: none;
@@ -63,7 +51,7 @@
         }
 
         .footer-section a:hover {
-            color: var(--color-accent-cyan);
+            color: var(--color-accent);
         }
 
         .footer-links {
@@ -88,13 +76,13 @@
         }
 
         .footer-bottom {
-            border-top: 1px solid var(--glass-border);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
             padding-top: var(--spacing-lg);
             text-align: center;
         }
 
         .footer-bottom p {
-            color: var(--color-text-dark-tertiary);
+            color: rgba(255, 255, 255, 0.6);
             font-size: var(--text-sm);
             margin: 0;
         }
@@ -107,17 +95,8 @@
             font-family: var(--font-heading);
             font-size: var(--text-2xl);
             font-weight: 700;
-            background: var(--gradient-text-yellow-orange);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: var(--color-accent);
             margin-bottom: var(--spacing-sm);
-        }
-
-        @supports not (background-clip: text) {
-            .logo-text {
-                color: var(--color-accent-yellow-dark);
-            }
         }
 
         @media (max-width: 768px) {
@@ -138,7 +117,7 @@
                         <p>Индивидуални частни уроци по програмиране</p>
                     </div>
                     <p>
-                        Научи се да програмираш с личен ментор.
+                        Научи се да програмираш с личен ментор. 
                         15 години опит в преподаването.
                     </p>
                 </div>

@@ -2,12 +2,43 @@
 
 This file provides guidance to Claude Code when working with code in this repository to maintain clean, modular, and scalable architecture.
 
+## Project Context
+
+**Project Type**: Multi-language educational website (TutoriAleks)
+**Architecture**: Language-first directory structure with global resource sharing
+**Current Languages**: Bulgarian (bg) - English (en) and German (de) planned
+**Key Pattern**: Iframe-based component architecture with theme variants
+
+### Quick Directory Reference
+
+```
+/
+├── shared/              # GLOBAL resources (all languages)
+│   ├── css/            # Global CSS (variables, animations)
+│   └── js/             # Global JavaScript (forms, utilities)
+│
+└── {lang}/             # LANGUAGE-SPECIFIC (bg/, en/, de/)
+    ├── {audience}/     # Target audience (learners/, professionals/)
+    │   └── {theme}/    # Theme (white-theme/, dark-theme/)
+    │       └── index.html
+    └── shared/
+        └── components/ # Language-specific HTML components
+```
+
+**Path Patterns**:
+- Component files to global resources: `../../../shared/css/`
+- Landing pages to components: `../../shared/components/`
+- JavaScript uses dynamic path resolution based on page depth
+
+**See**: `.claude/docs/FILE_ORGANIZATION.md` for complete structure and path conventions.
+
 ## Documentation Structure
 
 **This file (CLAUDE.md)**: Always loaded - contains core principles and quick reference. Keep it concise and focused.
 
 **Detailed Guides** (Referenced, not loaded - consult these when you need detailed information):
 - `.claude/docs/ARCHITECTURE_GUIDE.md` - Detailed architectural patterns and principles
+- `.claude/docs/FILE_ORGANIZATION.md` - Directory structure, paths, and migration history
 - `.claude/docs/TESTING_STRATEGY.md` - Comprehensive testing approaches
 - `.claude/docs/DEBUGGING_APPROACH.md` - Systematic debugging methodologies
 - `.claude/docs/AGENT_WORKFLOWS.md` - When and how to use agents effectively
@@ -58,6 +89,12 @@ You can run `/docs-update check` to analyze if documentation needs updating. Use
 - **Presentation Layer**: User interface and user interaction handling
 - **Business Logic Layer**: Core domain logic and business rules
 
+**Project-Specific Separation**
+- **Global Resources** (`/shared/`): Technology-agnostic CSS and JavaScript
+- **Language Resources** (`/{lang}/`): Localized content and components
+- **Component Isolation**: Iframe-based components with theme variants
+- **Centralized Configuration**: Forms managed in `shared/js/forms.js`
+
 ### Single Responsibility Principle
 
 **Functions and Methods**
@@ -71,6 +108,12 @@ You can run `/docs-update check` to analyze if documentation needs updating. Use
 - Modules should export related functionality
 - Avoid "god classes" that know too much or do too much
 - Prefer composition over inheritance
+
+**Project-Specific SRP**
+- **Components**: Each component file handles one UI element (footer, pricing, forms)
+- **Themes**: Separate files for light and dark variants (avoid theme conditionals in single file)
+- **Languages**: Each language directory is self-contained
+- **Path Resolution**: Centralized in JavaScript, not scattered across HTML
 
 ## Development Principles
 
@@ -120,6 +163,12 @@ When facing complex implementations:
 - Log errors with sufficient context
 - Never silently swallow exceptions
 
+**Project-Specific Quality Standards**
+- **Path Consistency**: Always use the documented path patterns (see FILE_ORGANIZATION.md)
+- **Theme Completeness**: Every component must have both light and dark versions
+- **Language Independence**: Global resources must never reference specific languages
+- **Configuration Over Hard-coding**: Use `FORMS_CONFIG` instead of hard-coded form URLs
+
 ### Design Patterns
 
 **Service Pattern**
@@ -133,6 +182,12 @@ When facing complex implementations:
 - Decouple components through events
 - Use for cross-cutting concerns
 - Enable extensibility without modification
+
+**Project-Specific Patterns**
+- **Component Pattern**: Iframe-based isolation with theme variants
+- **Path Resolver Pattern**: Dynamic calculation based on page depth
+- **Configuration Registry**: Centralized form configuration
+- **Language Directory Pattern**: Self-contained language structures
 
 ## Architecture Guidelines
 
@@ -152,6 +207,12 @@ When facing complex implementations:
 - Document interface contracts clearly
 - Version interfaces when breaking changes occur
 
+**Project-Specific Modularity**
+- **Language Modules**: Each language directory is independently deployable
+- **Component Modules**: Each component loads independently via iframe
+- **Theme Modules**: Light/dark themes swap without code changes
+- **Global Modules**: CSS/JS shared across all language modules
+
 ### Performance Considerations
 
 **Optimization Guidelines**
@@ -161,6 +222,12 @@ When facing complex implementations:
 - Cache expensive computations appropriately
 - Use lazy loading and pagination for large datasets
 
+**Project-Specific Performance**
+- **Parallel Component Loading**: Iframes load independently
+- **Shared Resource Caching**: Global CSS/JS cached once for all pages
+- **Path Memoization**: Cache path calculations within page lifetime
+- **Theme Detection**: Detect once per page load, not per component
+
 ## Development Workflow
 
 ### Planning Complex Features
@@ -169,6 +236,59 @@ When facing complex implementations:
 2. Or use the `strategic-planner` agent directly for planning
 3. Plans are saved in `.claude/plans/` as living documents
 4. Update plans as you progress through implementation
+
+### Adding New Languages (Project-Specific)
+
+1. **Create directory structure**:
+   ```bash
+   mkdir -p {lang}/learners/white-theme
+   mkdir -p {lang}/learners/dark-theme
+   mkdir -p {lang}/shared/components
+   ```
+
+2. **Copy and translate content** (paths stay the same!):
+   ```bash
+   cp -r bg/learners {lang}/
+   cp -r bg/shared/components {lang}/shared/
+   # Translate text content
+   ```
+
+3. **Add to forms configuration**:
+   ```javascript
+   // In shared/js/forms.js
+   '{lang}-learners-consultation': {
+       url: 'FORM_URL',
+       title: 'Translated Title',
+       description: 'Translated Description'
+   }
+   ```
+
+4. **Test**: Verify path resolution works automatically
+
+### Adding New Components (Project-Specific)
+
+1. **Determine scope**:
+   - Contains translated text? → `{lang}/shared/components/`
+   - Pure CSS/JS? → `/shared/css/` or `/shared/js/`
+
+2. **Create both theme variants**:
+   ```bash
+   {lang}/shared/components/component.html
+   {lang}/shared/components/component-dark.html
+   ```
+
+3. **Use correct paths**:
+   ```html
+   <!-- In component files -->
+   <link rel="stylesheet" href="../../../shared/css/variables.css">
+   <script src="../../../shared/js/forms.js"></script>
+   ```
+
+4. **Reference from pages**:
+   ```html
+   <!-- In landing pages -->
+   <iframe src="../../shared/components/component.html"></iframe>
+   ```
 
 ### Code Review Checklist
 
@@ -202,6 +322,13 @@ When facing complex implementations:
 - [ ] Is authentication/authorization correct?
 - [ ] Are there any injection vulnerabilities?
 
+**Project-Specific Checks**
+- [ ] Are path patterns correct for file location?
+- [ ] Do both theme variants exist?
+- [ ] Are global resources language-independent?
+- [ ] Is form configuration centralized?
+- [ ] Will path resolution work at different depths?
+
 ### Refactoring Triggers
 
 **Consider Refactoring When**
@@ -213,6 +340,13 @@ When facing complex implementations:
 - Test setup is complex and fragile
 - Performance bottlenecks are identified
 - Security vulnerabilities are discovered
+
+**Project-Specific Refactoring Triggers**
+- Adding a language requires changes to global resources
+- Path calculations are hard-coded in multiple files
+- Theme switching requires code changes (should be configuration)
+- Component updates needed in multiple language directories
+- Form URLs hard-coded instead of using `FORMS_CONFIG`
 
 ### Documentation Standards
 
@@ -246,6 +380,13 @@ When facing complex implementations:
 - [ ] Performance impact is considered
 - [ ] Security implications are addressed
 
+**Project-Specific Development Checklist**
+- [ ] Path patterns follow conventions
+- [ ] Both theme variants created
+- [ ] Language directory structure maintained
+- [ ] Global resources remain language-agnostic
+- [ ] Form configuration updated if needed
+
 ### Pre-Deployment Checklist
 - [ ] All tests pass
 - [ ] Code has been reviewed
@@ -253,6 +394,13 @@ When facing complex implementations:
 - [ ] Performance is acceptable
 - [ ] Security scan is clean
 - [ ] Rollback plan exists
+
+**Project-Specific Pre-Deployment**
+- [ ] All language pages tested
+- [ ] Both themes validated
+- [ ] Component iframes load correctly
+- [ ] Form links resolve properly
+- [ ] Path resolution tested at all depths
 
 ## Warning Signs - Technical Debt Indicators
 
@@ -278,6 +426,13 @@ When facing complex implementations:
 - Difficult deployments
 - Frequent hotfixes
 - Developer frustration
+
+**Project-Specific Debt Indicators**
+- Hard-coded paths scattered across files
+- Theme logic duplicated across variants
+- Component content duplicated across languages (should use translation layer)
+- Form URLs hard-coded instead of configured
+- Global resources containing language-specific code
 
 ## Available Expert Agents
 
