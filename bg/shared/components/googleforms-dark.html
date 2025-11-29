@@ -404,7 +404,7 @@
 
         <!-- Iframe Wrapper -->
         <div class="iframe-wrapper" style="display: none;">
-            <iframe id="form-iframe" class="form-iframe" title="Contact Form" loading="lazy"></iframe>
+            <iframe id="form-iframe" class="form-iframe" title="Contact Form"></iframe>
         </div>
     </div>
 
@@ -511,11 +511,20 @@
         function initializeIframe() {
             const iframe = document.getElementById('form-iframe');
 
+            if (!iframe) {
+                return;
+            }
+
             // Set initial responsive height
             setResponsiveIframeHeight(iframe);
 
-            // Try to resize on load
+            // Handle load event with BOTH resize AND display logic
             iframe.addEventListener('load', () => {
+                // Hide loading, show iframe wrapper
+                document.getElementById('loading').style.display = 'none';
+                document.querySelector('.iframe-wrapper').style.display = 'block';
+
+                // Resize iframe
                 resizeIframe(iframe);
 
                 // Try again after delays (for fonts/images)
@@ -573,12 +582,6 @@
             // Зареждане на iframe
             const iframe = document.getElementById('form-iframe');
             iframe.src = formLink;
-
-            // Показване на iframe след зареждане
-            iframe.onload = function() {
-                document.getElementById('loading').style.display = 'none';
-                document.querySelector('.iframe-wrapper').style.display = 'block';
-            };
 
             // Обработка на грешки при зареждане
             iframe.onerror = function() {
