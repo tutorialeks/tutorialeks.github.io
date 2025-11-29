@@ -408,6 +408,7 @@
         </div>
     </div>
 
+    <!-- OLD SCRIPT - REPLACED BY CENTRALIZED googleforms-handler.js
     <script>
         // Функция за извличане на URL параметри
         function getUrlParameter(name) {
@@ -591,6 +592,15 @@
 
         // Зареждане на формата при стартиране
         window.addEventListener('DOMContentLoaded', loadForm);
+    </script> -->
+
+    <!-- Google Forms Handler Script -->
+    <script src="../../../shared/js/googleforms-handler.js"></script>
+    <script>
+        // Load form when DOM is ready (using advanced loader for dark theme)
+        window.addEventListener('DOMContentLoaded', () => {
+            window.GoogleFormsHandler.loadFormAdvanced();
+        });
     </script>
 </body>
 </html>

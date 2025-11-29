@@ -249,101 +249,13 @@
         </div>
     </div>
 
+    <!-- Google Forms Handler Script -->
+    <script src="../../../shared/js/googleforms-handler.js"></script>
     <script>
-        // Функция за извличане на URL параметри
-        function getUrlParameter(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
-        }
-
-        // Smart referrer detection for back navigation
-        function getSmartBackLink() {
-            const referrer = document.referrer;
-
-            // If we have a referrer from the same origin, use it
-            if (referrer && referrer.startsWith(window.location.origin)) {
-                return referrer;
-            }
-
-            // Fallback to white-theme index
-            const whiteThemeIndex = '/bg/learners/white-theme/index.html';
-
-            // Final fallback to root
-            return whiteThemeIndex;
-        }
-
-        // Update navigation links with smart referrer
-        function updateNavigationLinks() {
-            const backLink = getSmartBackLink();
-
-            // Update brand link
-            const brandLink = document.getElementById('brand-link');
-            if (brandLink) {
-                brandLink.href = backLink;
-            }
-
-            // Update error home link
-            const errorHomeLink = document.getElementById('error-home-link');
-            if (errorHomeLink) {
-                errorHomeLink.href = backLink;
-            }
-
-            console.log('[Forms] Navigation links updated to:', backLink);
-        }
-
-        // Функция за зареждане на формата
-        function loadForm() {
-            // Update navigation links with smart referrer
-            updateNavigationLinks();
-
-            // Извличане на параметри от URL
-            const formLink = getUrlParameter('link');
-            const formTitle = getUrlParameter('title');
-            const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с вас скоро.';
-
-            console.log(`formLink is ==== `);
-            console.log(`	${JSON.stringify(formLink)}`);
-            console.log(`formTitle is ==== `);
-            console.log(`	${JSON.stringify(formTitle)}`);
-            console.log(`formDescription is ==== `);
-            console.log(`	${JSON.stringify(formDescription)}`);
-
-            // Валидация на задължителните параметри
-            if (!formLink || !formTitle) {
-                showError('Липсват задължителни параметри. Моля, уверете се че URL адресът съдържа "link" и "title" параметри.');
-                return;
-            }
-
-            // Актуализиране на заглавието и описанието
-            document.getElementById('form-title').textContent = formTitle;
-            document.getElementById('form-description').textContent = formDescription;
-            document.title = formTitle + ' - TutoriAleks';
-
-            // Зареждане на iframe
-            const iframe = document.getElementById('form-iframe');
-            iframe.src = formLink;
-
-            // Показване на iframe след зареждане
-            iframe.onload = function() {
-                document.getElementById('loading').style.display = 'none';
-                document.querySelector('.iframe-wrapper').style.display = 'block';
-            };
-
-            // Обработка на грешки при зареждане
-            iframe.onerror = function() {
-                showError('Грешка при зареждане на формата. Моля, опитайте отново по-късно.');
-            };
-        }
-
-        // Функция за показване на грешка
-        function showError(message) {
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('error-text').textContent = message;
-            document.getElementById('error').style.display = 'block';
-        }
-
-        // Зареждане на формата при стартиране
-        window.addEventListener('DOMContentLoaded', loadForm);
+        // Load form when DOM is ready (using basic loader for light theme)
+        window.addEventListener('DOMContentLoaded', () => {
+            window.GoogleFormsHandler.loadFormBasic();
+        });
     </script>
 </body>
 </html>
