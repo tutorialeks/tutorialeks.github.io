@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свържете се с мен - TutoriAleks</title>
+
+    <!-- Preconnect for Google Forms -->
+    <link rel="preconnect" href="https://docs.google.com">
+    <link rel="dns-prefetch" href="https://forms.gle">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/variables.css">
+    <link rel="stylesheet" href="../../css/variables-dark.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/animations-dark.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-primary);
+            background: var(--gradient-dark-hero);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: var(--color-text-dark-primary);
+        }
+
+        .form-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* TutoriAleks Branding */
+        .brand-link {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            color: var(--color-text-dark-primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 1000;
+            box-shadow: var(--shadow-glass);
+        }
+
+        .brand-link:hover {
+            background: var(--glass-bg-hover);
+            border-color: var(--glass-border-hover);
+            transform: translateX(-5px);
+            box-shadow: var(--shadow-glass-hover), var(--glow-purple);
+        }
+
+        .brand-icon {
+            font-size: 1.2rem;
+            color: var(--color-accent-purple);
+        }
+
+        .brand-text {
+            font-size: 1.1rem;
+            background: var(--gradient-text-purple-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Fallback for browsers without background-clip */
+        @supports not (background-clip: text) {
+            .brand-text {
+                color: var(--color-accent-purple);
+            }
+        }
+
+        /* Form Header */
+        .form-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            animation: fadeInDown 0.6s ease-out;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--shadow-glass);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .form-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            background: var(--gradient-text-purple-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @supports not (background-clip: text) {
+            .form-header h1 {
+                color: var(--color-text-dark-primary);
+            }
+        }
+
+        .form-header p {
+            font-size: 1.2rem;
+            color: var(--color-text-dark-secondary);
+        }
+
+        /* Loading State */
+        .loading-state {
+            text-align: center;
+            padding: 3rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            box-shadow: var(--shadow-glass);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .loading-spinner {
+            border: 4px solid var(--glass-border);
+            border-top: 4px solid var(--color-accent-purple);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        .loading-state p {
+            color: var(--color-text-dark-secondary);
+        }
+
+        /* Error State */
+        .error-state {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 2px solid rgba(220, 38, 38, 0.5);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            margin: 2rem auto;
+            box-shadow: var(--shadow-glass), 0 0 30px rgba(220, 38, 38, 0.3);
+        }
+
+        .error-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 10px rgba(220, 38, 38, 0.5));
+        }
+
+        .error-title {
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 1.8rem;
+        }
+
+        @supports not (background-clip: text) {
+            .error-title {
+                color: #dc2626;
+            }
+        }
+
+        .error-message {
+            color: var(--color-text-dark-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-actions a,
+        .error-actions button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .error-actions a {
+            background: var(--color-accent-purple);
+            color: white;
+            border: none;
+        }
+
+        .error-actions a:hover {
+            background: var(--color-accent-blue);
+            box-shadow: var(--glow-blue);
+        }
+
+        .error-actions button {
+            background: transparent;
+            color: var(--color-text-dark-secondary);
+            border: 1px solid var(--glass-border);
+        }
+
+        .error-actions button:hover {
+            background: var(--glass-bg-hover);
+            border-color: var(--glass-border-hover);
+        }
+
+        /* Iframe Wrapper */
+        .iframe-wrapper {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            box-shadow: var(--shadow-glass);
+            overflow: hidden;
+            width: 100%;
+            max-width: 800px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Fallback for browsers without backdrop-filter */
+        @supports not (backdrop-filter: blur(20px)) {
+            .brand-link,
+            .form-header,
+            .loading-state,
+            .error-state,
+            .iframe-wrapper {
+                background: rgba(26, 26, 46, 0.95);
+            }
+        }
+
+        .form-iframe {
+            width: 100%;
+            height: 75vh;
+            min-height: 800px;
+            border: none;
+            display: block;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .form-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .form-header p {
+                font-size: 1rem;
+            }
+
+            .form-header {
+                padding: 1.5rem;
+            }
+
+            /* Mobile: Full-width horizontal bar */
+            .brand-link {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                padding: 1rem;
+                border-radius: 0;
+                justify-content: center;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                border-left: none;
+                border-right: none;
+            }
+
+            .brand-link:hover {
+                transform: none;
+            }
+
+            .form-container {
+                padding-top: 5rem;
+            }
+
+            .form-iframe {
+                height: 70vh;
+                min-height: 600px;
+            }
+
+            .error-actions {
+                flex-direction: column;
+            }
+
+            .error-actions a,
+            .error-actions button {
+                width: 100%;
+                min-height: 44px;
+            }
+        }
+
+        /* Reduced Motion Support */
+        @media (prefers-reduced-motion: reduce) {
+            .brand-link,
+            .form-header,
+            .loading-state,
+            .error-state,
+            .iframe-wrapper {
+                animation: none;
+                transition: none;
+            }
+
+            .loading-spinner {
+                animation: none;
+            }
+
+            .brand-link:hover,
+            .error-actions a:hover,
+            .error-actions button:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- TutoriAleks Branding -->
+    <a href="/index.html" id="brand-link" class="brand-link">
+        <span class="brand-icon">◆</span>
+        <span class="brand-text">TutoriAleks</span>
+    </a>
+
+    <div class="form-container">
+        <!-- Form Header -->
+        <header class="form-header">
+            <h1 id="form-title">Зареждане...</h1>
+            <p id="form-description">Моля, изчакайте...</p>
+        </header>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading-state">
+            <div class="loading-spinner"></div>
+            <p>Зареждане на формата...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="error-state" style="display: none;">
+            <div class="error-icon">⚠️</div>
+            <h2 class="error-title">Грешка</h2>
+            <p id="error-text" class="error-message"></p>
+            <div class="error-actions">
+                <a href="/index.html" id="error-home-link">Към началната страница</a>
+                <button onclick="location.reload()">Опитай отново</button>
+            </div>
+        </div>
+
+        <!-- Iframe Wrapper -->
+        <div class="iframe-wrapper" style="display: none;">
+            <iframe id="form-iframe" class="form-iframe" title="Contact Form" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <script>
+        // Функция за извличане на URL параметри
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Smart referrer detection for back navigation
+        function getSmartBackLink() {
+            const referrer = document.referrer;
+
+            // If we have a referrer from the same origin, use it
+            if (referrer && referrer.startsWith(window.location.origin)) {
+                return referrer;
+            }
+
+            // Fallback to dark-theme index
+            const darkThemeIndex = '/bg/learners/dark-theme/index.html';
+
+            // Final fallback to root
+            return darkThemeIndex;
+        }
+
+        // Update navigation links with smart referrer
+        function updateNavigationLinks() {
+            const backLink = getSmartBackLink();
+
+            // Update brand link
+            const brandLink = document.getElementById('brand-link');
+            if (brandLink) {
+                brandLink.href = backLink;
+            }
+
+            // Update error home link
+            const errorHomeLink = document.getElementById('error-home-link');
+            if (errorHomeLink) {
+                errorHomeLink.href = backLink;
+            }
+
+            console.log('[Forms Dark] Navigation links updated to:', backLink);
+        }
+
+        // Debounce utility for resize events
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Try to resize iframe based on content (with cross-origin fallback)
+        function resizeIframe(iframe) {
+            try {
+                if (iframe.contentWindow && iframe.contentWindow.document) {
+                    const doc = iframe.contentWindow.document;
+                    const height = Math.max(
+                        doc.documentElement.scrollHeight,
+                        doc.body.scrollHeight,
+                        doc.documentElement.offsetHeight,
+                        doc.body.offsetHeight
+                    );
+                    iframe.style.height = (height + 20) + 'px';
+                }
+            } catch (e) {
+                // Cross-origin iframe - can't access content
+                // Keep using viewport-based height
+                console.log('[Forms Dark] Cross-origin iframe - using viewport-based height');
+            }
+        }
+
+        // Set responsive iframe height based on viewport
+        function setResponsiveIframeHeight(iframe) {
+            const isMobile = window.innerWidth <= 768;
+            const viewportHeight = isMobile ? '70vh' : '75vh';
+            const minHeight = isMobile ? '600px' : '800px';
+
+            iframe.style.height = viewportHeight;
+            iframe.style.minHeight = minHeight;
+        }
+
+        // Handle postMessage from Google Forms (if they send height data)
+        function handleGoogleFormsMessage(event) {
+            // Only accept messages from Google domains
+            if (!event.origin.match(/https:\/\/(docs|forms)\.google\.com/)) {
+                return;
+            }
+
+            const iframe = document.getElementById('form-iframe');
+            if (event.data && event.data.height && iframe) {
+                iframe.style.height = event.data.height + 'px';
+                console.log('[Forms Dark] Received height from Google Forms:', event.data.height);
+            }
+        }
+
+        // Initialize iframe with resize handlers
+        function initializeIframe() {
+            const iframe = document.getElementById('form-iframe');
+
+            // Set initial responsive height
+            setResponsiveIframeHeight(iframe);
+
+            // Try to resize on load
+            iframe.addEventListener('load', () => {
+                resizeIframe(iframe);
+
+                // Try again after delays (for fonts/images)
+                setTimeout(() => resizeIframe(iframe), 100);
+                setTimeout(() => resizeIframe(iframe), 500);
+            });
+
+            // Resize on window resize (debounced)
+            window.addEventListener('resize', debounce(() => {
+                setResponsiveIframeHeight(iframe);
+                resizeIframe(iframe);
+            }, 250));
+
+            // Listen for postMessage from Google Forms
+            window.addEventListener('message', handleGoogleFormsMessage);
+        }
+
+        // Функция за показване на грешка
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('error-text').textContent = message;
+            document.getElementById('error').style.display = 'block';
+        }
+
+        // Функция за зареждане на формата
+        function loadForm() {
+            // Update navigation links with smart referrer
+            updateNavigationLinks();
+
+            // Извличане на параметри от URL
+            const formLink = getUrlParameter('link');
+            const formTitle = getUrlParameter('title');
+            const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с вас скоро.';
+
+            console.log('[Forms Dark] Form parameters:', {
+                link: formLink,
+                title: formTitle,
+                description: formDescription
+            });
+
+            // Валидация на задължителните параметри
+            if (!formLink || !formTitle) {
+                showError('Липсват задължителни параметри. Моля, уверете се че URL адресът съдържа "link" и "title" параметри.');
+                return;
+            }
+
+            // Актуализиране на заглавието и описанието
+            document.getElementById('form-title').textContent = formTitle;
+            document.getElementById('form-description').textContent = formDescription;
+            document.title = formTitle + ' - TutoriAleks';
+
+            // Initialize iframe resize handling
+            initializeIframe();
+
+            // Зареждане на iframe
+            const iframe = document.getElementById('form-iframe');
+            iframe.src = formLink;
+
+            // Показване на iframe след зареждане
+            iframe.onload = function() {
+                document.getElementById('loading').style.display = 'none';
+                document.querySelector('.iframe-wrapper').style.display = 'block';
+            };
+
+            // Обработка на грешки при зареждане
+            iframe.onerror = function() {
+                showError('Грешка при зареждане на формата. Моля, опитайте отново по-късно.');
+            };
+        }
+
+        // Зареждане на формата при стартиране
+        window.addEventListener('DOMContentLoaded', loadForm);
+    </script>
+</body>
+</html>
