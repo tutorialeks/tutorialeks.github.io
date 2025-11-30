@@ -1,13 +1,14 @@
 📅 ФАЗИРАН ПЛАН
 Фаза 1: MVP (Сега) ✅
     [v] Структура на проекта
-    [ ] Landing page bg/learners
-    [ ] AB landing pages
+    [v] Landing page bg/learners
+    [v] AB landing pages
     [v] Споделени компоненти (iframes)
     [v] Споделени компоненти да се разделят на езици (iframes)
     [v] iFrames да не скролират, а да са целите
-    [ ] Формуляри (google forms setup)
+    [v] Формуляри (google forms setup)
     [v] Responsive дизайн
+    [ ] текстове за AB landing pages
     [ ] SEO основи
     [ ] tracking of performance of AB pages
     [ ] Deploy на GitHub Pages
