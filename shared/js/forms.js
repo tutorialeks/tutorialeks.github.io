@@ -18,19 +18,24 @@
 const FORMS_CONFIG = {
     // Bulgarian Learners
     'bg-learners-consultation': {
-        url: 'YOUR_BG_LEARNERS_CONSULTATION_FORM_URL',
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSfPq85hi1ayW0POa_4EedhxgKoiAx6MaHzNNfKXwJCiefiiHQ/viewform?embedded=true', // https://forms.gle/rQ8qS4ckm8WmuPZHA
         title: 'Запази безплатна консултация',
-        description: 'Попълнете формата и ще се свържа с вас в рамките на 24 часа'
+        description: 'Попълнете формата и ще се свържа с Вас в рамките на 24 часа'
     },
     'bg-learners-courseAccess': {
-        url: 'YOUR_BG_LEARNERS_COURSE_ACCESS_FORM_URL',
-        title: 'Искам достъп до курса',
+        url: 'https://forms.gle/ugyR4QinTxi2Bgce7?embedded=true',//https://docs.google.com/forms/d/e/1FAIpQLSdyh3bPYzEzeEj9aZayq2uIPNPitlpkcpkR9SwEKK69qpd8Qg/viewform?embedded=true
+        title: 'Искам достъп до видео демонстрацията',
         description: 'Попълнете формата за достъп до безплатния Python курс'
+    },
+    'bg-learners-coursePackage': {
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSe2xUj5J1Bz2ej7wA6oXl4oiVeF_smezMQWewGGIPgs48wJIg/viewform?embedded=true',// https://forms.gle/BC9U9VWBgrAKfx416
+        title: 'Запиши се за пакетно обучение',
+        description: 'Попълнете формата за дългосрочно обучение'
     },
     
     // Bulgarian Professionals
     'bg-professionals-consultation': {
-        url: 'YOUR_BG_PROFESSIONALS_CONSULTATION_FORM_URL',
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSd_w2N80Mbj4IPL0b4XCVC4ieWwqwFp4TUImG6HqNSCGooyOQ/viewform?embedded=true', // https://forms.gle/4wP6FSVx5TSHsmYX8
         title: 'Запази консултация за професионалисти',
         description: 'Специализирана консултация за напреднали разработчици'
     },
@@ -80,28 +85,36 @@ const FORMS_CONFIG = {
 function getGoogleFormsPath() {
     // Get the current page path
     const path = window.location.pathname;
-    
+
     // Remove trailing slashes and split into segments
     const segments = path.replace(/\/$/, '').split('/').filter(segment => {
         // Filter out empty segments and common file names
         return segment && segment !== 'index.html' && segment !== '';
     });
-    
+
     // Calculate depth (number of directory levels from root)
     // Subtract 1 because the last segment is usually the filename
     const depth = Math.max(0, segments.length - 1);
-    
+
     // Build the relative path
     const upLevels = '../'.repeat(depth);
-    const fullPath = upLevels + 'shared/components/googleforms.html';
-    
+
+    // AUTO-DETECT THEME
+    const isDarkTheme = path.includes('dark-theme') ||
+                        document.body.classList.contains('dark-theme') ||
+                        document.body.classList.contains('theme-dark');
+
+    const filename = isDarkTheme ? 'googleforms-dark.html' : 'googleforms.html';
+    const fullPath = upLevels + 'shared/components/' + filename;
+
     console.log('[Forms.js] Path detection:', {
         currentPath: path,
         segments: segments,
         depth: depth,
+        isDarkTheme: isDarkTheme,
         resolvedPath: fullPath
     });
-    
+
     return fullPath;
 }
 

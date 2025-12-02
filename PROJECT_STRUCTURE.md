@@ -63,42 +63,46 @@ tutorialeks.github.io/
 │   └── tutorials/                  # General tutorials category
 │       └── post-name.html
 │
-└── shared/                         # Shared resources across all pages
-    ├── components/                 # Reusable HTML components
-    │   ├── bg/                     # Bulgarian language components
-    │   │   ├── footer.html        # Site footer (Bulgarian)
-    │   │   ├── credentials.html   # Credentials/about section (Bulgarian)
-    │   │   ├── pricing-table.html # Pricing table (Bulgarian)
-    │   │   └── googleforms.html   # Google Forms iframe wrapper (Bulgarian)
-    │   │
-    │   └── en/                     # English language components (planned)
-    │       ├── footer.html        # Site footer (English)
-    │       ├── credentials.html   # Credentials/about section (English)
-    │       ├── pricing-table.html # Pricing table (English)
-    │       └── googleforms.html   # Google Forms iframe wrapper (English)
+├── shared/                         # ROOT-LEVEL GLOBAL RESOURCES (all languages)
+│   ├── css/                        # Global CSS (shared across all languages)
+│   │   ├── variables.css          # Light theme CSS custom properties
+│   │   ├── variables-dark.css     # Dark theme CSS variable overrides
+│   │   ├── global.css             # Global base styles and utilities
+│   │   └── animations-dark.css    # Dark theme animation definitions
+│   │
+│   └── js/                         # Global JavaScript (shared across all languages)
+│       ├── forms.js               # Centralized forms configuration & smart path resolver
+│       └── landing-page.js        # Shared landing page functionality (scroll, animations, iframes)
+│
+└── bg/                             # Bulgarian language directory
+    ├── learners/                   # Landing pages (as shown above)
     │
-    ├── css/                        # Shared stylesheets
-    │   ├── variables.css          # CSS custom properties (colors, fonts, etc.)
-    │   └── global.css             # Global styles and utilities
-    │
-    └── js/                         # Shared JavaScript
-        ├── forms.js               # Centralized forms configuration & smart path resolver
-        └── landing-page.js        # Shared landing page functionality (scroll, animations, iframes)
+    └── shared/                     # Bulgarian-specific shared resources
+        └── components/             # Bulgarian HTML components (with translated text)
+            ├── footer.html         # Site footer (light theme)
+            ├── footer-dark.html    # Site footer (dark theme)
+            ├── credentials.html    # Credentials section (light theme)
+            ├── credentials-dark.html # Credentials section (dark theme)
+            ├── pricing-table.html  # Pricing table (light theme)
+            ├── pricing-table-dark.html # Pricing table (dark theme)
+            ├── googleforms.html    # Google Forms wrapper (light theme)
+            └── googleforms-dark.html # Google Forms wrapper (dark theme)
 ```
 
 ## Page Types and Paths
 
-### Landing Pages (2 levels deep)
+### Landing Pages (3 levels deep)
 
-**Structure:** `{language}/{audience}/index.html`
+**Structure:** `{language}/{audience}/{theme}/index.html`
 
 **Examples:**
-- `bg/learners/index.html` - Bulgarian learners
-- `bg/professionals/index.html` - Bulgarian professionals
-- `en/learners/index.html` - English learners
-- `en/professionals/index.html` - English professionals
+- `bg/learners/white-theme/index.html` - Bulgarian learners (light theme)
+- `bg/learners/dark-theme/index.html` - Bulgarian learners (dark theme)
+- `bg/professionals/white-theme/index.html` - Bulgarian professionals
+- `en/learners/white-theme/index.html` - English learners (planned)
 
-**Path to shared resources:** `../../shared/`
+**Path to global resources:** `../../../shared/` (CSS/JS)
+**Path to language components:** `../../shared/components/`
 
 ### Blog Posts (2 levels deep)
 
@@ -134,11 +138,11 @@ The website uses a **smart path resolver** in `shared/js/forms.js` that automati
 
 ### Supported Depths
 
-| Depth | Example Path | Resolved Path to Shared |
-|-------|-------------|------------------------|
-| 0 | `index.html` | `shared/` |
-| 2 | `bg/learners/index.html` | `../../shared/` |
-| 2 | `blog/python/post.html` | `../../shared/` |
+| Depth | Example Path | Resolved Path to Global | Resolved Path to Components |
+|-------|-------------|------------------------|----------------------------|
+| 0 | `index.html` | `shared/` | N/A |
+| 2 | `blog/python/post.html` | `../../shared/` | N/A |
+| 3 | `bg/learners/white-theme/index.html` | `../../../shared/` | `../../shared/components/` |
 
 ## Google Forms System
 
@@ -170,8 +174,8 @@ Form types follow this pattern: `{language}-{audience}-{formType}`
 ### Using Forms in HTML
 
 ```html
-<!-- Include the forms script -->
-<script src="../../shared/js/forms.js"></script>
+<!-- Include the forms script (from landing pages at depth 3) -->
+<script src="../../../shared/js/forms.js"></script>
 
 <!-- Use data-form-type attribute -->
 <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary">
@@ -185,59 +189,76 @@ The script automatically:
 3. Builds the complete URL with form parameters
 4. Updates the link's `href` attribute
 
-## Shared Components
+## Language-Specific Components
 
-Components are organized by language in subfolders (`bg/` for Bulgarian, `en/` for English).
+Components are located in each language's `shared/components/` directory. Each component has light and dark theme variants.
 
-### Footer (`shared/components/{lang}/footer.html`)
+### Component Structure
+
+```
+{lang}/shared/components/
+├── footer.html             # Light theme footer
+├── footer-dark.html        # Dark theme footer
+├── credentials.html        # Light theme credentials
+├── credentials-dark.html   # Dark theme credentials
+├── pricing-table.html      # Light theme pricing
+├── pricing-table-dark.html # Dark theme pricing
+├── googleforms.html        # Light theme forms wrapper
+└── googleforms-dark.html   # Dark theme forms wrapper
+```
+
+### Footer Component
 
 Site-wide footer with contact information and links.
 
-**Usage (Bulgarian):**
+**Usage from Landing Pages (Bulgarian):**
 ```html
-<iframe src="../../shared/components/bg/footer.html"
-        class="iframe-container"
-        style="min-height: 400px;"
-        frameborder="0">
-</iframe>
+<!-- Light theme -->
+<iframe src="../../shared/components/footer.html"
+        class="iframe-container footer-iframe"
+        frameborder="0"></iframe>
+
+<!-- Dark theme -->
+<iframe src="../../shared/components/footer-dark.html"
+        class="iframe-container footer-iframe"
+        frameborder="0"></iframe>
 ```
 
-**Usage (English):**
-```html
-<iframe src="../../shared/components/en/footer.html"
-        class="iframe-container"
-        style="min-height: 400px;"
-        frameborder="0">
-</iframe>
-```
-
-### Credentials (`shared/components/{lang}/credentials.html`)
+### Credentials Component
 
 About section with credentials, certifications, and experience.
 
-**Usage (Bulgarian):**
+**Usage from Landing Pages (Bulgarian):**
 ```html
-<iframe src="../../shared/components/bg/credentials.html"
-        class="iframe-container"
-        style="min-height: 1200px;"
-        frameborder="0">
-</iframe>
+<!-- Light theme -->
+<iframe src="../../shared/components/credentials.html"
+        class="iframe-container credentials-iframe"
+        frameborder="0"></iframe>
+
+<!-- Dark theme -->
+<iframe src="../../shared/components/credentials-dark.html"
+        class="iframe-container credentials-iframe"
+        frameborder="0"></iframe>
 ```
 
-### Pricing Table (`shared/components/{lang}/pricing-table.html`)
+### Pricing Table Component
 
 Pricing information and package details.
 
-**Usage (Bulgarian):**
+**Usage from Landing Pages (Bulgarian):**
 ```html
-<iframe src="../../shared/components/bg/pricing-table.html"
-        class="iframe-container"
-        style="min-height: 1400px;"
-        frameborder="0">
-</iframe>
+<!-- Light theme -->
+<iframe src="../../shared/components/pricing-table.html"
+        class="iframe-container pricing-iframe"
+        frameborder="0"></iframe>
+
+<!-- Dark theme -->
+<iframe src="../../shared/components/pricing-table-dark.html"
+        class="iframe-container pricing-iframe"
+        frameborder="0"></iframe>
 ```
 
-### Google Forms Wrapper (`shared/components/{lang}/googleforms.html`)
+### Google Forms Wrapper Component
 
 Displays Google Forms in an iframe with custom title and description.
 
@@ -246,7 +267,7 @@ Displays Google Forms in an iframe with custom title and description.
 - `title` - Form title to display
 - `description` - Form description to display
 
-**Note:** This component is accessed automatically by the forms.js script. You don't need to link to it directly.
+**Note:** This component is accessed automatically by the forms.js script. You don't need to link to it directly. The script automatically selects the correct theme variant.
 
 ## Styling System
 
@@ -498,6 +519,6 @@ The website is deployed to GitHub Pages from the `main` branch.
 
 ---
 
-**Last Updated:** November 25, 2025  
-**Version:** 1.0  
+**Last Updated:** November 29, 2025
+**Version:** 1.1 (Directory Restructure)
 **Maintainer:** TutoriAleks
