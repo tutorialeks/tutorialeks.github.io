@@ -215,7 +215,7 @@ function loadFormBasic() {
     // Extract parameters from URL
     const formLink = getUrlParameter('link');
     const formTitle = getUrlParameter('title');
-    const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с вас скоро.';
+    const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с Вас скоро.';
 
     // Validate required parameters
     if (!formLink || !formTitle) {
@@ -254,7 +254,7 @@ function loadFormAdvanced() {
     // Extract parameters from URL
     const formLink = getUrlParameter('link');
     const formTitle = getUrlParameter('title');
-    const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с вас скоро.';
+    const formDescription = getUrlParameter('description') || 'Попълнете формата и ще се свържа с Вас скоро.';
 
     // Validate required parameters
     if (!formLink || !formTitle) {

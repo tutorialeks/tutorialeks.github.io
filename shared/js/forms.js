@@ -20,7 +20,7 @@ const FORMS_CONFIG = {
     'bg-learners-consultation': {
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSfPq85hi1ayW0POa_4EedhxgKoiAx6MaHzNNfKXwJCiefiiHQ/viewform?embedded=true', // https://forms.gle/rQ8qS4ckm8WmuPZHA
         title: 'Запази безплатна консултация',
-        description: 'Попълнете формата и ще се свържа с вас в рамките на 24 часа'
+        description: 'Попълнете формата и ще се свържа с Вас в рамките на 24 часа'
     },
     'bg-learners-courseAccess': {
         url: 'https://forms.gle/ugyR4QinTxi2Bgce7?embedded=true',//https://docs.google.com/forms/d/e/1FAIpQLSdyh3bPYzEzeEj9aZayq2uIPNPitlpkcpkR9SwEKK69qpd8Qg/viewform?embedded=true
