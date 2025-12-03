@@ -1188,6 +1188,23 @@
     font-weight: 600;
 }
 
+
+/* wrapper around the image */
+.credential-img {
+    width: 100%; /* or a fixed size like 120px */
+    border-radius: var(--radius-xl);
+    overflow: hidden; /* clips the img to rounded corners */
+}
+
+/* actual image  */
+.credential-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* or contain/cover, depending on your preference  */
+    display: block;
+}
+
+
 .achievements-section {
     background: linear-gradient(135deg, var(--color-primary) 0%, #1d4ed8 100%);
     color: white;

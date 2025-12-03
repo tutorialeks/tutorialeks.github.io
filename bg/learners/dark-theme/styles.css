@@ -1283,8 +1283,24 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--glass-bg-hover);
     border-color: var(--glass-border-hover);
     box-shadow: var(--shadow-glass-hover), var(--glow-purple);
-    transform: translateY(-4px);
+    transform: translateY(-4px);/*  */
 }
+
+/* wrapper around the image */
+.credential-img {
+    width: 100%; /* or a fixed size like 120px */
+    border-radius: var(--radius-xl);
+    overflow: hidden; /* clips the img to rounded corners */
+}
+
+/* actual image  */
+.credential-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* or contain/cover, depending on your preference  */
+    display: block;
+}
+
 
 /* Fallback for browsers without backdrop-filter */
 @supports not (backdrop-filter: blur(20px)) {
