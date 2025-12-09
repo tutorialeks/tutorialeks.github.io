@@ -10,7 +10,8 @@
     [v] Responsive дизайн
     [ ] текстове за AB landing pages
     [ ] SEO основи
-    [ ] tracking of performance of AB pages
+    [v] tracking of performance of AB pages
+    [~] TOS and privacy
     [ ] Deploy на GitHub Pages
     [v] Custom domain setup
 
@@ -20,6 +21,7 @@
     [ ] SEO блог статии
     [ ] SEO Slug статии
     [ ] Допълнителни услуги страници
+    [ ] добави TOS за тях
     [ ] Блог секция (първи 3-5 статии)
     [ ] Календар интеграция
 
@@ -27,6 +29,7 @@
     [ ] Landing page en/learners
     [ ] Превод на всички компоненти
     [ ] Английски блог статии
+    [ ] добави TOS за тях
 
 Фаза 4: Пълна версия (След 3 месеца)
     [ ] Landing page en/professionals
