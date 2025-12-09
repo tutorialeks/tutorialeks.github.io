@@ -10,6 +10,36 @@
     <link rel="stylesheet" href="../../../shared/css/variables.css">
     <link rel="stylesheet" href="../../../shared/css/global.css">
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0X13EBQ45W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0X13EBQ45W');
+
+      // Variant tracking
+      gtag('event', 'page_view', {
+        'page_variant': 'white-informal-calm',
+        'theme': 'white',
+        'voice': 'informal',
+        'messaging': 'solution-focused'
+      });
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "uil2xct4bq");
+
+        // Tag variant for filtering (this creates the custom tags automatically)
+        clarity('set', 'page_variant', 'white-informal');
+        clarity('set', 'test_name', 'voice_messaging_test_2025');
+    </script>
 </head>
 <body>
     <!-- SECTION 1: HERO (100vh Full Viewport) -->
@@ -44,7 +74,7 @@
                     </div>
                 </div>
                 <div class="hero-cta fade-in-up delay-3">
-                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-large btn-yellow">
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-large btn-yellow" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hero_cta_white', 'variant': 'white-informal-calm'});">
                         Запази безплатна консултация
                     </a>
                     <p class="cta-note">Без ангажимент • Отговор до 24 часа</p>
@@ -64,8 +94,8 @@
     <!-- SECTION 2: VALUE PROPOSITION -->
     <section id="value" class="section-light">
         <div class="container">
-            <h2 class="section-title text-center fade-in-observer">Ако твоите цели са:</h2>
-            <p class="section-subtitle text-center fade-in-observer">Защо да избереш TutoriAleks?</p>
+            <h2 class="section-title text-center fade-in-observer">Какво получаваш от мен</h2>
+            <p class="section-subtitle text-center fade-in-observer">Защо да избереш TutoriAleks</p>
 
             <div class="value-grid">
                 <div class="value-card card fade-in-observer">
@@ -120,7 +150,7 @@
                     <div class="value-icon">⏱️</div>
                     <h3 class="value-title">Търпелив преподавател</h3>
                     <p class="value-description">
-                        Обяснявам толкова пъти, колкото трябва, докато не си навържеш всичко."
+                        Обяснявам толкова пъти, колкото трябва, докато не си навържеш всичко.
                     </p>
                 </div>
 
@@ -128,7 +158,7 @@
                     <div class="value-icon">📱</div>
                     <h3 class="value-title">Без нужда от компютър</h3>
                     <p class="value-description">
-                        Работим и на телефон (аз самият си пиша код на телефона във влака).
+                        Работим и на телефон. Аз самият си пиша код на телефона във влака.
                     </p>
                 </div>
 
@@ -226,7 +256,7 @@
             </div>
 
             <div class="cta-area text-center fade-in-observer">
-                <a href="#" data-form-type="bg-learners-courseAccess" class="btn btn-large btn-yellow">
+                <a href="#" data-form-type="bg-learners-courseAccess" class="btn btn-large btn-yellow" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'video-course', 'variant': 'white-informal-calm'});">
                     Искам достъп до курса
                 </a>
             </div>
@@ -317,7 +347,7 @@
                     <li>Основи на програмирането</li>
                 </ul>
                 <div class="pricing-cta">
-                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary">Запиши се</a>
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'white-informal-calm'});">Запиши се</a>
                 </div>
             </div>
 
@@ -335,7 +365,7 @@
                     <li>Алгоритмично мислене</li>
                 </ul>
                 <div class="pricing-cta">
-                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary">Запиши се</a>
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'white-informal-calm'});">Запиши се</a>
                 </div>
             </div>
 
@@ -354,7 +384,7 @@
                     <li>Добри практики</li>
                 </ul>
                 <div class="pricing-cta">
-                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary">Запиши се</a>
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'white-informal-calm'});">Запиши се</a>
                 </div>
             </div>
 
@@ -372,7 +402,7 @@
                     <li>Професионални техники</li>
                 </ul>
                 <div class="pricing-cta">
-                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary">Запиши се</a>
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'white-informal-calm'});">Запиши се</a>
                 </div>
             </div>
 
@@ -390,7 +420,7 @@
                     <li>Оптимизация на работния процес</li>
                 </ul>
                 <div class="pricing-cta">
-                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary">Запиши се</a>
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'white-informal-calm'});">Запиши се</a>
                 </div>
             </div>
         </div>
@@ -426,7 +456,7 @@
                     </ul>
 
                     <div class="pricing-cta">
-                        <a href="#" data-form-type="bg-learners-coursePackage" class="btn btn-package">Запиши се за 6-месечен курс</a>
+                        <a href="#" data-form-type="bg-learners-coursePackage" class="btn btn-package" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': '6-month-course', 'variant': 'white-informal-calm'});">Запиши се за 6-месечен курс</a>
                     </div>
                 </div>
 
@@ -452,7 +482,7 @@
                     </ul>
 
                     <div class="pricing-cta">
-                        <a href="#" data-form-type="bg-learners-coursePackage" class="btn btn-package">Запиши се за 3-месечен курс</a>
+                        <a href="#" data-form-type="bg-learners-coursePackage" class="btn btn-package" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': '3-month-course', 'variant': 'white-informal-calm'});">Запиши се за 3-месечен курс</a>
                     </div>
                 </div>
             </div>
@@ -617,7 +647,7 @@
                         <span>Можеш да се откажеш след кой да е урок, без ангажимент</span>
                     </div>
                 </div>
-                <a href="#" data-form-type="bg-learners-consultation" class="btn btn-large btn-yellow">
+                <a href="#" data-form-type="bg-learners-consultation" class="btn btn-large btn-yellow" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'final_cta_white', 'variant': 'white-informal-calm'});">
                     Запази безплатна консултация
                 </a>
                 <p class="cta-guarantee">
