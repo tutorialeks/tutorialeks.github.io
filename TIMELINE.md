@@ -8,12 +8,12 @@
     [v] iFrames да не скролират, а да са целите
     [v] Формуляри (google forms setup)
     [v] Responsive дизайн
-    [ ] текстове за AB landing pages
-    [ ] SEO основи
+    [v] текстове за AB landing pages
     [v] tracking of performance of AB pages
-    [~] TOS and privacy
+    [v] TOS and privacy
     [ ] Deploy на GitHub Pages
     [v] Custom domain setup
+    [ ] SEO основи
 
 Фаза 2: Напреднали (След 1 месец)
     [ ] Landing page bg/professionals
