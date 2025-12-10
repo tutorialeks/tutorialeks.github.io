@@ -1,0 +1,51 @@
+/**
+ * Dark Theme CSS Variables
+ * For variant-black and other dark-themed variants
+ * Extends base variables.css with dark mode colors
+ */
+
+:root {
+    /* ==================== DARK BACKGROUND COLORS ==================== */
+    --color-bg-dark-primary: #0a0a15;           /* Primary dark background - medium dark */
+    --color-bg-dark-secondary: #12121f;         /* Slightly lighter for variation */
+    --color-bg-dark-tertiary: #1a1a2e;          /* Cards background - lightest dark */
+
+    /* ==================== GLASSMORPHISM ==================== */
+    --glass-bg: rgba(255, 255, 255, 0.03);      /* Transparent white overlay */
+    --glass-bg-hover: rgba(255, 255, 255, 0.06); /* Hover state */
+    --glass-border: rgba(255, 255, 255, 0.08);  /* Subtle border */
+    --glass-border-hover: rgba(255, 255, 255, 0.12); /* Border on hover */
+
+    /* ==================== GLASSMORPHISM SHADOWS ==================== */
+    --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --shadow-glass-hover: 0 12px 48px 0 rgba(0, 0, 0, 0.5);
+    --shadow-neon: 0 0 5px rgba(139, 92, 246, 0.5), 0 0 20px rgba(139, 92, 246, 0.3);
+
+    /* ==================== DARK GRADIENTS ==================== */
+    --gradient-dark-hero: linear-gradient(180deg, #1a0f3e 0%, #0f0f2e 50%, #0a0a15 100%);
+    --gradient-dark-purple: linear-gradient(135deg, #1e1e3f 0%, #2d2d5f 100%);
+    --gradient-dark-blue: linear-gradient(135deg, #0a1628 0%, #1a2f4a 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(10, 10, 21, 0.7) 0%, rgba(10, 10, 21, 0.9) 100%);
+
+    /* ==================== GLOW EFFECTS ==================== */
+    --glow-purple: 0 0 20px rgba(139, 92, 246, 0.3);
+    --glow-blue: 0 0 20px rgba(59, 130, 246, 0.3);
+    --glow-yellow: 0 0 30px rgba(254, 215, 102, 0.4);
+    --glow-yellow-strong: 0 0 40px rgba(254, 215, 102, 0.6);
+
+    /* ==================== DARK TEXT COLORS ==================== */
+    --color-text-dark-primary: #f7f8f8;         /* Primary text - very light */
+    --color-text-dark-secondary: #b4bcd0;       /* Secondary text - medium light */
+    --color-text-dark-tertiary: rgba(180, 188, 208, 0.6); /* Tertiary text - muted */
+
+    /* ==================== ACCENT COLORS FOR DARK THEME ==================== */
+    --color-accent-purple: #8b5cf6;
+    --color-accent-blue: #3b82f6;
+    --color-accent-cyan: #06b6d4;
+    --color-accent-yellow-dark: #fbbf24;        /* Slightly darker yellow for dark backgrounds */
+
+    /* ==================== GRADIENT TEXT COLORS ==================== */
+    --gradient-text-purple-blue: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+    --gradient-text-cyan-blue: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+    --gradient-text-yellow-orange: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+}

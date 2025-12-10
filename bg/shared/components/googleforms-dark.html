@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свържете се с мен - TutoriAleks</title>
+
+    <!-- Preconnect for Google Forms -->
+    <link rel="preconnect" href="https://docs.google.com">
+    <link rel="dns-prefetch" href="https://forms.gle">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../shared/css/variables.css">
+    <link rel="stylesheet" href="../../../shared/css/variables-dark.css">
+    <link rel="stylesheet" href="../../../shared/css/global.css">
+    <link rel="stylesheet" href="../../../shared/css/animations-dark.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-primary);
+            background: var(--gradient-dark-hero);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: var(--color-text-dark-primary);
+        }
+
+        .form-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* TutoriAleks Branding */
+        .brand-link {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            color: var(--color-text-dark-primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 1000;
+            box-shadow: var(--shadow-glass);
+        }
+
+        .brand-link:hover {
+            background: var(--glass-bg-hover);
+            border-color: var(--glass-border-hover);
+            transform: translateX(-5px);
+            box-shadow: var(--shadow-glass-hover), var(--glow-purple);
+        }
+
+        .brand-icon {
+            font-size: 1.2rem;
+            color: var(--color-accent-purple);
+        }
+
+        .brand-text {
+            font-size: 1.1rem;
+            background: var(--gradient-text-purple-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Fallback for browsers without background-clip */
+        @supports not (background-clip: text) {
+            .brand-text {
+                color: var(--color-accent-purple);
+            }
+        }
+
+        /* Form Header */
+        .form-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            animation: fadeInDown 0.6s ease-out;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--shadow-glass);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .form-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            background: var(--gradient-text-purple-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @supports not (background-clip: text) {
+            .form-header h1 {
+                color: var(--color-text-dark-primary);
+            }
+        }
+
+        .form-header p {
+            font-size: 1.2rem;
+            color: var(--color-text-dark-secondary);
+        }
+
+        /* Loading State */
+        .loading-state {
+            text-align: center;
+            padding: 3rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            box-shadow: var(--shadow-glass);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .loading-spinner {
+            border: 4px solid var(--glass-border);
+            border-top: 4px solid var(--color-accent-purple);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        .loading-state p {
+            color: var(--color-text-dark-secondary);
+        }
+
+        /* Error State */
+        .error-state {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 2px solid rgba(220, 38, 38, 0.5);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            margin: 2rem auto;
+            box-shadow: var(--shadow-glass), 0 0 30px rgba(220, 38, 38, 0.3);
+        }
+
+        .error-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 10px rgba(220, 38, 38, 0.5));
+        }
+
+        .error-title {
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 1.8rem;
+        }
+
+        @supports not (background-clip: text) {
+            .error-title {
+                color: #dc2626;
+            }
+        }
+
+        .error-message {
+            color: var(--color-text-dark-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-actions a,
+        .error-actions button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .error-actions a {
+            background: var(--color-accent-purple);
+            color: white;
+            border: none;
+        }
+
+        .error-actions a:hover {
+            background: var(--color-accent-blue);
+            box-shadow: var(--glow-blue);
+        }
+
+        .error-actions button {
+            background: transparent;
+            color: var(--color-text-dark-secondary);
+            border: 1px solid var(--glass-border);
+        }
+
+        .error-actions button:hover {
+            background: var(--glass-bg-hover);
+            border-color: var(--glass-border-hover);
+        }
+
+        /* Iframe Wrapper */
+        .iframe-wrapper {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            box-shadow: var(--shadow-glass);
+            overflow: hidden;
+            width: 100%;
+            max-width: 800px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Fallback for browsers without backdrop-filter */
+        @supports not (backdrop-filter: blur(20px)) {
+            .brand-link,
+            .form-header,
+            .loading-state,
+            .error-state,
+            .iframe-wrapper {
+                background: rgba(26, 26, 46, 0.95);
+            }
+        }
+
+        .form-iframe {
+            width: 100%;
+            height: 75vh;
+            min-height: 800px;
+            border: none;
+            display: block;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .form-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .form-header p {
+                font-size: 1rem;
+            }
+
+            .form-header {
+                padding: 1.5rem;
+            }
+
+            /* Mobile: Full-width horizontal bar */
+            .brand-link {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                padding: 1rem;
+                border-radius: 0;
+                justify-content: center;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                border-left: none;
+                border-right: none;
+            }
+
+            .brand-link:hover {
+                transform: none;
+            }
+
+            .form-container {
+                padding-top: 5rem;
+            }
+
+            .form-iframe {
+                height: 70vh;
+                min-height: 600px;
+            }
+
+            .error-actions {
+                flex-direction: column;
+            }
+
+            .error-actions a,
+            .error-actions button {
+                width: 100%;
+                min-height: 44px;
+            }
+        }
+
+        /* Reduced Motion Support */
+        @media (prefers-reduced-motion: reduce) {
+            .brand-link,
+            .form-header,
+            .loading-state,
+            .error-state,
+            .iframe-wrapper {
+                animation: none;
+                transition: none;
+            }
+
+            .loading-spinner {
+                animation: none;
+            }
+
+            .brand-link:hover,
+            .error-actions a:hover,
+            .error-actions button:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- TutoriAleks Branding -->
+    <!--
+        <a href="/index.html" id="brand-link" class="brand-link">
+            <span class="brand-icon">◆</span>
+            <span class="brand-text">TutoriAleks</span>
+        </a>
+    -->
+
+    <div class="form-container">
+        <!-- Form Header -->
+        <header class="form-header">
+            <h1 id="form-title">Зареждане...</h1>
+            <p id="form-description">Моля, изчакайте...</p>
+        </header>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading-state">
+            <div class="loading-spinner"></div>
+            <p>Зареждане на формата...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="error-state" style="display: none;">
+            <div class="error-icon">⚠️</div>
+            <h2 class="error-title">Грешка</h2>
+            <p id="error-text" class="error-message"></p>
+            <div class="error-actions">
+                <a href="/index.html" id="error-home-link">Към началната страница</a>
+                <button onclick="location.reload()">Опитай отново</button>
+            </div>
+        </div>
+
+        <!-- Iframe Wrapper -->
+        <div class="iframe-wrapper" style="display: none;">
+            <iframe id="form-iframe" class="form-iframe" title="Contact Form"></iframe>
+        </div>
+    </div>
+
+    <!-- Google Forms Handler Script -->
+    <script src="../../../shared/js/googleforms-handler.js"></script>
+    <script>
+        // Load form when DOM is ready (using advanced loader for dark theme)
+        window.addEventListener('DOMContentLoaded', () => {
+            window.GoogleFormsHandler.loadFormAdvanced();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutoriAleks - Спести 33% с всяко домашно | Частни уроци по програмиране</title>
+    <meta name="description" content="Частни уроци по програмиране с отстъпка до 33%. Python, Java, JavaScript, C/C++/C#. Индивидуален подход, опитен преподавател с 15 години стаж.">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS in correct order -->
+    <link rel="stylesheet" href="../../../shared/css/variables.css">
+    <link rel="stylesheet" href="../../../shared/css/variables-dark.css">
+    <link rel="stylesheet" href="../../../shared/css/global.css">
+    <link rel="stylesheet" href="../../../shared/css/animations-dark.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0X13EBQ45W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0X13EBQ45W');
+
+      // Variant tracking
+      gtag('event', 'page_view', {
+        'page_variant': 'dark-formal-crisis',
+        'theme': 'dark',
+        'voice': 'formal',
+        'messaging': 'problem-focused'
+      });
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "uil2xct4bq");
+
+        // Tag variant for filtering (this creates the custom tags automatically)
+        clarity('set', 'page_variant', 'dark-formal');
+        clarity('set', 'test_name', 'voice_messaging_test_2025');
+    </script>
+</head>
+<body>
+    <!-- SECTION 1: HERO (100vh Full Viewport) -->
+    <section id="hero" class="hero-section dark-theme">
+        <!-- Geometric Background SVG -->
+        <div class="geometric-bg">
+            <svg class="geometric-shape geometric-shape-1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.48" />
+                        <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.16" />
+                    </linearGradient>
+                </defs>
+                <circle cx="100" cy="100" r="80" fill="url(#grad1)" />
+            </svg>
+
+            <svg class="geometric-shape geometric-shape-2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.32" />
+                        <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.16" />
+                    </linearGradient>
+                </defs>
+                <rect x="30" y="30" width="140" height="140" rx="20" fill="url(#grad2)" />
+            </svg>
+
+            <svg class="geometric-shape geometric-shape-3" viewBox="0 0 200 350" xmlns="http://www.w3.org/2000/svg">
+                
+                <!-- Background diamond -->
+                <polygon points="100,0 200,150 100,300 0,150"
+                        fill="#fbbf2480" />
+                <!-- Inner white diamond shape -->
+                <polygon points="100,60 160,150 100,240 40,150"
+                        fill="#00008080" />
+                <!-- Bottom light-blue V extension -->
+                <polygon points="80,90 100,120 120,90 140,120 100,180 60,120"
+                        fill="#fbbf2480" />
+            </svg>
+        </div>
+
+        <!-- Pulsing Discount Badge -->
+        <div class="discount-badge pulse-glow">
+            <div class="discount-number">33%</div>
+            <div class="discount-text">ОТСТЪПКА</div>
+        </div>
+
+        <!-- Main Hero Content -->
+        <div class="container hero-container">
+            <div class="hero-glass-card glass-card">
+                <h1 class="hero-title">
+                    Изпит?! <br>Зациклил проект? <br>Струва Ви се непосилно?
+                </h1>
+                <p class="hero-subtitle">
+                    Частни уроци за участници в SoftUni и масови курсове.
+                    Търпеливи обяснения, докато не разберете.
+                    <strong>Реши домашното → спести 33% от следващия час.</strong>
+                </p>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Python, Java, JavaScript, C/C++/C#</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Всеки урок според Вашето ниво</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>15 години превръщам сложното в ясно</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#" data-form-type="bg-learners-consultation" class="btn btn-large btn-glow-yellow" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hero_cta_dark', 'variant': 'dark-formal-crisis'});">
+                        Запази безплатна консултация
+                    </a>
+                    <p class="cta-note">Без ангажимент • Отговор до 24 часа</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+    <!-- SECTION 2: more trust PROPOSITION -->
+    <section id="value" class="section-dark-secondary">
+        <div class="container">
+            <h2 class="section-title text-center scroll-animate gradient-text">Как мога да Ви помогна</h2>
+            <p class="section-subtitle text-center scroll-animate">Целите Ви могат да са най-различни</p>
+
+            <div class="value-grid">
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <div class="value-icon glow-icon">🎯</div>
+                    <h3 class="value-title">Вземи изпит</h3>
+                    <p class="value-description">
+                        За студенти, които се подготвят за изпит по програмиране.
+                    </p>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <div class="value-icon glow-icon">💡</div>
+                    <h3 class="value-title">Проумей теорията</h3>
+                    <p class="value-description">
+                        За участници в масови онлайн курсове, които искат подробни обяснения.
+                    </p>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <div class="value-icon glow-icon">🏗️</div>
+                    <h3 class="value-title">Завърши проект</h3>
+                    <p class="value-description">
+                        За студенти, които трябва да завършат курсова работа по програмиране.
+                    </p>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <h3 class="value-title">
+                        Ще ви помогна да попълните знанията си.
+                    </h3>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <h3 class="value-title">
+                        Ще се движа с вашето темпо, спокойно и търпеливо.
+                    </h3>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <h3 class="value-title">
+                        Ще решаваме примери, които са ви интересни и разбираеми.
+                    </h3>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <div class="value-icon glow-icon">👨‍🏫</div>
+                    <h3 class="value-title">Урок по Ваша мярка</h3>
+                    <p class="value-description">
+                        Не следвате готов курс. Попълваме дупките на швейцарското сирене във Вашите знания - това, което не знаете, че не знаете.
+                    </p>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <div class="value-icon glow-icon">📱</div>
+                    <h3 class="value-title">Гъвкаво разписание</h3>
+                    <p class="value-description">
+                        Онлайн уроци, когато Ви е удобно. Вечер, уикенд - намираме време, което Ви пасва.
+                    </p>
+                </div>
+
+                <div class="value-card glass-card hover-lift scroll-animate">
+                    <div class="value-icon glow-icon">⚡</div>
+                    <h3 class="value-title">Практика с Вашите задачи</h3>
+                    <p class="value-description">
+                        Курсова работа по КСТ? Изпит? Проект? Работим по това, което Ви трябва наистина - не с измислени примери.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION 3: TRUST INDICATORS -->
+    <section id="trust" class="section-dark-secondary">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item glass-card hover-lift scroll-animate">
+                    <div class="trust-icon">🏆</div>
+                    <div class="trust-number gradient-text">143 IQ</div>
+                    <div class="trust-label">Топ 4% в света</div>
+                </div>
+                <div class="trust-item glass-card hover-lift scroll-animate">
+                    <div class="trust-icon">☕</div>
+                    <div class="trust-number gradient-text">Java</div>
+                    <div class="trust-label">Sun Certified Developer (2008, 92%)</div>
+                </div>
+                <div class="trust-item glass-card hover-lift scroll-animate">
+                    <div class="trust-icon">👨‍🏫</div>
+                    <div class="trust-number gradient-text">15 години</div>
+                    <div class="trust-label">Опит в преподаването</div>
+                </div>
+                <div class="trust-item glass-card hover-lift scroll-animate">
+                    <div class="trust-icon">🎓</div>
+                    <div class="trust-number gradient-text">100+</div>
+                    <div class="trust-label">Доволни клиенти</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: HOW IT WORKS -->
+    <section id="how-it-works" class="section-dark-primary">
+        <div class="container">
+            <h2 class="section-title text-center scroll-animate gradient-text">Как работя с Вас</h2>
+            <p class="section-subtitle text-center scroll-animate">От запознаване до постигане на целта</p>
+
+            <div class="steps-grid">
+                <div class="step-card glass-card hover-lift scroll-animate">
+                    <div class="step-number-badge glow-badge">1</div>
+                    <div class="step-icon">📞</div>
+                    <h3 class="step-title">Безплатна консултация</h3>
+                    <p class="step-description">
+                        Запознаваме се, обсъждаме целите Ви и виждам къде сте сега. Определям дали мога да Ви помогна. 45 минути, без ангажимент.
+                    </p>
+                </div>
+
+                <div class="step-card glass-card hover-lift scroll-animate">
+                    <div class="step-number-badge glow-badge">2</div>
+                    <div class="step-icon">📚</div>
+                    <h3 class="step-title">Първи урок</h3>
+                    <p class="step-description">
+                        Откривам слепите Ви петна - това, което не знаете, че не знаете - и ги попълваме стъпка по стъпка.
+                    </p>
+                </div>
+
+                <div class="step-card glass-card hover-lift scroll-animate">
+                    <div class="step-number-badge glow-badge">3</div>
+                    <div class="step-icon">✍️</div>
+                    <h3 class="step-title">Домашно и практика</h3>
+                    <p class="step-description">
+                        Получавате практически задачи, които затвърждават наученото. Изпълните ли ги - следващият час е с 33% отстъпка!
+                    </p>
+                </div>
+
+                <div class="step-card glass-card hover-lift scroll-animate">
+                    <div class="step-number-badge glow-badge">4</div>
+                    <div class="step-icon">🎯</div>
+                    <h3 class="step-title">Постигане на целта</h3>
+                    <p class="step-description">
+                        Продължаваме докато не постигнете целите си - работа, университет, или завършен проект.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: PRICING -->
+    <section id="pricing" class="section-dark-primary">
+        <div class="container">
+            <h2 class="section-title text-center scroll-animate gradient-text">Ценова система</h2>
+            <p class="section-subtitle text-center scroll-animate">Плащаме Ви, за да учите</p>
+
+
+            <!-- Discount Callout -->
+            <div class="discount-callout glass-card glow-card scroll-animate">
+                <div class="discount-callout-icon">💰</div>
+                <div class="discount-callout-content">
+                    <h3 class="discount-callout-title gradient-text">Спести 33% с всяко домашно!</h3>
+                    <p class="discount-callout-text">
+                        Редовно изпълнявате домашните си? Всеки следващ урок е с 33% отстъпка.
+                        <br>Пример: Python урок от 120лв става 80лв. Толкова просто!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Package Pricing (merged from component) -->
+            <div class="pricing-packages scroll-animate">
+                <div class="pricing-container">
+                    <!-- Hourly Pricing -->
+                    <div class="pricing-grid">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Основни умения</h3>
+                                <p class="pricing-subtitle">Променливи, Условия, IDE</p>
+                            </div>
+                            <div class="pricing-price">120лв</div>
+                            <div class="pricing-period">на час</div>
+                            <ul class="pricing-features">
+                                <li>Работа с променливи</li>
+                                <li>Условни конструкции</li>
+                                <li>Ефективна работа с IDE</li>
+                                <li>Основи на програмирането</li>
+                            </ul>
+                            <div class="pricing-cta">
+                                <a href="#" data-form-type="bg-learners-consultation" class="btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'dark-formal-crisis'});">Запиши се</a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Управление на програмата</h3>
+                                <p class="pricing-subtitle">Цикли, Масиви, Вложени цикли</p>
+                            </div>
+                            <div class="pricing-price">80лв</div>
+                            <div class="pricing-period">на час</div>
+                            <ul class="pricing-features">
+                                <li>For и While цикли</li>
+                                <li>Масиви и списъци</li>
+                                <li>Вложени цикли</li>
+                                <li>Алгоритмично мислене</li>
+                            </ul>
+                            <div class="pricing-cta">
+                                <a href="#" data-form-type="bg-learners-consultation" class="btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'dark-formal-crisis'});">Запиши се</a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-card featured">
+                            <span class="featured-badge">Популярно</span>
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Организация на програмите</h3>
+                                <p class="pricing-subtitle">Функции, Структури, ООП</p>
+                            </div>
+                            <div class="pricing-price">60лв</div>
+                            <div class="pricing-period">на час</div>
+                            <ul class="pricing-features">
+                                <li>Функции и методи</li>
+                                <li>Структури от данни</li>
+                                <li>Обектно ориентирано програмиране</li>
+                                <li>Добри практики</li>
+                            </ul>
+                            <div class="pricing-cta">
+                                <a href="#" data-form-type="bg-learners-consultation" class="btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'dark-formal-crisis'});">Запиши се</a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Теми за професионалисти</h3>
+                                <p class="pricing-subtitle">Наследяване, Web, TDD</p>
+                            </div>
+                            <div class="pricing-price">50лв</div>
+                            <div class="pricing-period">на час</div>
+                            <ul class="pricing-features">
+                                <li>Наследяване и полиморфизъм</li>
+                                <li>Уеб-програмиране</li>
+                                <li>Test Driven Development</li>
+                                <li>Професионални техники</li>
+                            </ul>
+                            <div class="pricing-cta">
+                                <a href="#" data-form-type="bg-learners-consultation" class="btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'dark-formal-crisis'});">Запиши се</a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">AI инструменти</h3>
+                                <p class="pricing-subtitle">Как да не пишем код</p>
+                            </div>
+                            <div class="pricing-price">100лв</div>
+                            <div class="pricing-period">на час</div>
+                            <ul class="pricing-features">
+                                <li>Работа с AI асистенти</li>
+                                <li>Prompt engineering</li>
+                                <li>Code generation</li>
+                                <li>Оптимизация на работния процес</li>
+                            </ul>
+                            <div class="pricing-cta">
+                                <a href="#" data-form-type="bg-learners-consultation" class="btn-primary" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'hourly-lesson', 'variant': 'dark-formal-crisis'});">Запиши се</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="section-divider-title">
+                        Курсови пакети<br>
+                        Закупете си системно и подредено обучение и спестете
+                    </h2>
+
+                    <!-- Package Courses -->
+                    <div class="package-section">
+                        <div class="package-grid">
+                            <div class="package-card">
+                                <div class="package-header">
+                                    <h3 class="package-name">6-месечен курс</h3>
+                                    <p class="package-duration">„От 0 до... Ти решаваш"</p>
+                                    <p class="package-duration">3 часа на седмица × 26 седмици = 80 часа</p>
+                                </div>
+
+                                <div class="package-price-wrapper">
+                                    <div class="package-original-price">Редовна цена: 5890 лв</div>
+                                    <div class="package-price">3200 лв</div>
+                                    <div class="package-savings">Спестяваш 2690 лв (46%)</div>
+                                </div>
+
+                                <ul class="package-features">
+                                    <li>80 часа индивидуално обучение</li>
+                                    <li>Безплатен запис на всички срещи</li>
+                                    <li>Достъп до записите за подготовка</li>
+                                    <li>Персонализиран учебен план</li>
+                                    <li>Цена: 40 лв/час</li>
+                                </ul>
+
+                                <div class="pricing-cta">
+                                    <a href="#" data-form-type="bg-learners-coursePackage" class="btn" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': '6-month-course', 'variant': 'dark-formal-crisis'});">Запиши се за 6-месечен курс</a>
+                                </div>
+                            </div>
+
+                            <div class="package-card">
+                                <div class="package-header">
+                                    <h3 class="package-name">3-месечен курс</h3>
+                                    <p class="package-duration">Интензивно обучение</p>
+                                    <p class="package-duration">3 часа на седмица × 12 седмици = 36 часа</p>
+                                </div>
+
+                                <div class="package-price-wrapper">
+                                    <div class="package-original-price">Обикновена цена: 2860 лв</div>
+                                    <div class="package-price">1920 лв</div>
+                                    <div class="package-savings">Спестяваш 940 лв (33%)</div>
+                                </div>
+
+                                <ul class="package-features">
+                                    <li>36 часа индивидуално обучение</li>
+                                    <li>Безплатен запис на всички срещи</li>
+                                    <li>Достъп до записите за подготовка</li>
+                                    <li>Персонализиран учебен план</li>
+                                    <li>Цена: 60 лв/час</li>
+                                </ul>
+
+                                <div class="pricing-cta">
+                                    <a href="#" data-form-type="bg-learners-coursePackage" class="btn" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': '3-month-course', 'variant': 'dark-formal-crisis'});">Запиши се за 3-месечен курс</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: CREDENTIALS -->
+    <section id="credentials" class="section-dark-secondary">
+        <div class="container">
+            <h2 class="section-title text-center scroll-animate gradient-text">Квалификации и опит</h2>
+            <div class="credentials-container">
+                <div class="credentials-intro">
+                    <p class="credentials-subtitle">
+                        Казвам се Александър Павлов, от Варна. Управител на Robopartans, училище по Роботика за деца.
+                    </p>
+                </div>
+
+                <div class="credentials-grid">
+
+                    <div class="credential-card">
+                        <div class="credential-icon">🧩 🔍</div>
+                        <div class="credential-label">Виждам как всичко е свързано в програмирането - и как да Ви го обясня ясно</div>
+                    </div>
+                    <div class="credential-card">
+                        <div class="credential-icon">👨‍🏫</div>
+                        <div class="credential-number">15</div>
+                        <div class="credential-label">години преподавателски опит</div>
+                    </div>
+
+                    <div class="credential-card">
+                        <div class="credential-icon">💻</div>
+                        <div class="credential-number">5</div>
+                        <div class="credential-label">години Java Developer</div>
+                    </div>
+
+                    <div class="credential-card">
+                        <div class="credential-icon">🧠</div>
+                        <div class="credential-number">143</div>
+                        <div class="credential-label">IQ точки личен резултат (топ 4% в света)</div>
+                    </div>
+
+                    <div class="credential-card">
+                        <div class="credential-icon">🎓</div>
+                        <div class="credential-number">92%</div>
+                        <div class="credential-label">Sun Certified Java Developer (2008)</div>
+                    </div>
+                    <div class="credential-card">
+                        <div class="credential-img"><img src="../../../static/images/profile-pic-dark-theme.jpg"/> </div>
+                        <div class="credential-label">Алекс (2025)</div>
+                    </div>
+                </div>
+
+                <div class="achievements-section">
+                    <h3 class="achievements-title">Постижения и опит</h3>
+                    <ul class="achievements-list">
+                        <li class="achievement-item">
+                            <span class="achievement-icon"><span class="material-icons">public</span></span>
+                            <span class="achievement-text">Обучавах преподаватели по роботика в САЩ още през 2017</span>
+                        </li>
+                        <li class="achievement-item">
+                            <span class="achievement-icon"><span class="material-icons">language</span></span>
+                            <span class="achievement-text">Говоря 4+ чужди езика <br>🇬🇧 🇪🇸 🇩🇪 🇷🇺<br>освен компютърните</span>
+                        </li>
+                        <li class="achievement-item">
+                            <span class="achievement-icon"><span class="material-icons">menu_book</span></span>
+                            <span class="achievement-text">Написах 4+ курса по програмиране за деца на EV3</span>
+                        </li>
+                        <li class="achievement-item">
+                            <span class="achievement-icon"><span class="material-icons">code</span></span>
+                            <span class="achievement-text">Автор на други 4 курса по Python програмиране</span>
+                        </li>
+                        <li class="achievement-item">
+                            <span class="achievement-icon"><span class="material-icons">gps_fixed</span></span>
+                            <span class="achievement-text">През март 2025 написах най-доброто приложение за Cricket (darts), с replays</span>
+                        </li>
+                        <li class="achievement-item">
+                            <span class="achievement-icon"><span class="material-icons">local_cafe</span></span>
+                            <span class="achievement-text">Sun Certified Java Developer от 2008 с 92% верни отговори</span>
+                        </li>
+                    </ul>
+                </div>
+
+        <div class="highlight-box">
+                    <p class="highlight-text">
+                        🎯 Обичам това което правя и вярвам, че ще разбереш защо.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: TESTIMONIALS -->
+    <section id="testimonials" class="section-dark-primary">
+        <div class="container">
+            <h2 class="section-title text-center scroll-animate gradient-text">Какво казват учениците ми</h2>
+            <p class="section-subtitle text-center scroll-animate">Отзиви</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card hover-lift scroll-animate">
+                    <div class="testimonial-rating glow-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Личният подход на Алекс работи, защото ме насочва сама да достигна до правилния отговор, съобразявайки се с моето темпо. Надгражда начина, по който мисля и разсъждавам."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-name gradient-text">Павлина Я.</div>
+                        <div class="testimonial-meta">26 години, учи JavaScript</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card hover-lift scroll-animate">
+                    <div class="testimonial-rating glow-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Задава ми правилните въпроси, за да ме накара сама да успея да открия правилния отговор. И в резултат на това съм удовлетворена, че съм успяла със свои сили. Помага ми да се науча да мисля"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-name gradient-text">Глория Б.</div>
+                        <div class="testimonial-meta">29 години, учи JavaScript</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card hover-lift scroll-animate">
+                    <div class="testimonial-rating glow-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Има провокация да се мисли, не е просто на готово да се дават отговори и решения. Тук мозъкът ми действа и наистина разбирам, а не просто на момента да го схвана и после да изчезне." 
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-name gradient-text">Кристияна П.</div>
+                        <div class="testimonial-meta">22 години, студент AI технологии</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: FINAL CTA -->
+    <section id="final-cta" class="section-cta-dark">
+        <div class="container">
+            <div class="cta-glass-container glass-card scroll-animate">
+                <h2 class="cta-title gradient-text">Нека да започнем днес</h2>
+                <p class="cta-text">
+                    Да поговарим за целите Ви и да правим план.
+                </p>
+
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <span class="cta-feature-icon glow-icon">✓</span>
+                        <span>45 минути безплатна консултация</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-feature-icon glow-icon">✓</span>
+                        <span>План как да постигнем целите Ви</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-feature-icon glow-icon">✓</span>
+                        <span>33% отстъпка при домашни</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-feature-icon glow-icon">✓</span>
+                        <span>Работим час по час - без принуда</span>
+                    </div>
+                </div>
+
+                <a href="#" data-form-type="bg-learners-consultation" class="btn btn-large btn-glow-yellow" onclick="gtag('event', 'consultation_click', {'event_category': 'cta', 'event_label': 'final_cta_dark', 'variant': 'dark-formal-crisis'});">
+                    Запази безплатна консултация
+                </a>
+
+                <p class="cta-guarantee">🔒 Вашите данни са защитени и няма да бъдат споделяни с трети страни.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 9: FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="logo-section">
+                        <div class="logo-text">TutoriAleks</div>
+                        <p>Индивидуални частни уроци по програмиране</p>
+                    </div>
+                    <p>
+                        Научи се да програмираш с личен ментор.
+                        15 години опит в преподаването.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Контакти</h3>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">email</span>
+                        <a href="mailto:info@tutorialeks.com">info@tutorialeks.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">menu_book</span>
+                        <a href="mailto:learn@tutorialeks.com">learn@tutorialeks.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">forum</span>
+                        <a href="https://discord.gg/aFN9XDagYg">Discord</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">chat</span>
+                        <a href="viber:00359886060295">+359 88 606 0295</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">business_center</span>
+                        <a href="https://www.linkedin.com/in/aleksandarpavlov/">Linkedin</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Специализирани услуги</h3>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">group</span>
+                        <a href="mailto:tutors@tutorialeks.com">tutors@tutorialeks.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">shopping_cart</span>
+                        <a href="mailto:orders@tutorialeks.com">orders@tutorialeks.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-icons contact-icon">handyman</span>
+                        <a href="mailto:plugins@tutorialeks.com">plugins@tutorialeks.com</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Езици на обучение</h3>
+                    <ul class="footer-links">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>C / C++ / C#</li>
+                        <li><a href="../../../blog/ai-tools/bg">AI инструменти</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 TutoriAleks чрез Cline и Claude Code. Всички права запазени.</p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="../../../legal/tos/tutorialeks-tos.html" style="color: #adb5bd; text-decoration: none; margin: 0 1rem;">Условия за ползване</a> |
+                    <a href="../../../legal/privacy/tutorialeks-privacy-policy.html" style="color: #adb5bd; text-decoration: none; margin: 0 1rem;">Политика за поверителност</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript in correct order -->
+    <script src="../../../shared/js/forms.js"></script>
+    <script src="../../../shared/js/landing-page.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

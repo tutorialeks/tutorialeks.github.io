@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>From Claude 4.5 to GPT‑5.1 Codex with Cursor, Cline and PayperQ</title>
+</head>
+<body>
+<article>
+    <!-- ENGLISH VERSION -->
+    <header>
+        <h1>From Claude 4.5 to GPT‑5.1 Codex: How I Bind Cursor, Cline and PayperQ to Build My Website</h1>
+        <p>A practical follow‑up on choosing the right AI stack for real-world development.</p>
+    </header>
+
+    <section>
+        <h2>Why I Switched from Claude 4.5 to GPT‑5.1 Codex</h2>
+        <p>
+            After experimenting with Claude 4.5 and spending about 5 USD, I decided to move my coding workflows to GPT‑5.1 Codex because its pricing per million tokens is generally lower than Claude Sonnet 4.5 while still offering strong performance for code-heavy tasks. [web:6][web:12]
+        </p>
+        <p>
+            GPT‑5.1 Codex is a version of GPT‑5 optimized specifically for agentic coding: it understands large codebases, plans multi‑step edits, runs tests, and reasons over logs and stack traces, which makes it a better fit for building and iterating on a full website. [web:2][web:5]
+        </p>
+        <img src="images/gpt51-vs-claude.png" alt="GPT‑5.1 Codex vs Claude 4.5 cost and focus" />
+    </section>
+
+    <section>
+        <h2>How GPT‑5.1 Codex Fits with Cursor, Cline and PayperQ</h2>
+        <p>
+            Cursor works as an AI‑first IDE that turns GPT‑5.1 Codex into a powerful in‑editor pair programmer, giving intelligent completions, refactors, and explanations directly in the code view. [web:13][web:7]
+        </p>
+        <p>
+            Cline acts as an autonomous coding agent that can plan multi‑step workflows such as running tests, editing multiple files, and restarting dev servers, all while using the same GPT‑5.1 Codex backend for consistent behavior across tools. [web:7][web:16]
+        </p>
+        <img src="images/cursor-cline-stack.png" alt="Developer stack with Cursor and Cline on top of GPT‑5.1 Codex" />
+    </section>
+
+    <section>
+        <h2>Why Developers Need This Stack</h2>
+        <ul>
+            <li>
+                <strong>Cost‑aware automation:</strong> Using GPT‑5.1 Codex keeps token costs under control compared to higher‑priced models like Claude Sonnet 4.5, which matters when running long coding or refactor sessions. [web:6][web:12]
+            </li>
+            <li>
+                <strong>End‑to‑end coding support:</strong> Codex models can read entire repositories, plan refactors, apply precise diffs, and loop through test–fix–retest cycles, which aligns perfectly with real project needs. [web:3][web:5]
+            </li>
+            <li>
+                <strong>Workflow specialization:</strong> Cursor shines for interactive coding and refactoring inside the editor, while Cline is better for scripted, multi‑step automation like migrations and batch edits. [web:7][web:18]
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Where PayperQ Enters the Picture</h2>
+        <p>
+            While Cursor and Cline handle the developer experience, PayperQ focuses on monetization and payment flows, letting you wire transaction logic directly into the website that this AI stack helps you build. [web:1]
+        </p>
+        <p>
+            With a payment layer like PayperQ, your AI‑assisted project can quickly move from prototype to real product by connecting your codebase to secure, event‑driven billing and checkout flows. [web:1]
+        </p>
+        <img src="images/payperq-flow.png" alt="High-level payment flow using PayperQ in a web app" />
+    </section>
+
+    <section>
+        <h2>Step‑by‑Step: How I Bind Everything Together</h2>
+        <ol>
+            <li>
+                <strong>Configure GPT‑5.1 Codex as the main model:</strong> Set it as the default in Cursor and Cline so both tools share the same coding brain and understand the repo the same way. [web:2][web:11]
+            </li>
+            <li>
+                <strong>Use Cursor for daily coding:</strong> Write features, refactor modules, and generate tests inside Cursor, leveraging Codex for precise diffs and explanations. [web:13][web:5]
+            </li>
+            <li>
+                <strong>Use Cline for heavy automation:</strong> Let Cline plan and execute multi‑step tasks such as framework migrations, batch changes, or CI‑style checks driven by Codex. [web:7][web:16]
+            </li>
+            <li>
+                <strong>Integrate PayperQ into the app:</strong> Implement checkout endpoints, webhooks, and UI flows so the website can process real payments as soon as features are stable. [web:1]
+            </li>
+        </ol>
+        <img src="images/full-stack-diagram.png" alt="End-to-end diagram: GPT‑5.1 Codex, Cursor, Cline and PayperQ" />
+    </section>
+
+    <footer>
+        <h2>Takeaway for Developers</h2>
+        <p>
+            By moving from a more expensive general model like Claude 4.5 to a coding‑specialized and cheaper option like GPT‑5.1 Codex, then combining it with Cursor, Cline and PayperQ, it becomes possible to ship production‑ready websites faster while keeping infrastructure and AI costs manageable. [web:5][web:6][web:12][web:13]
+        </p>
+    </footer>
+</article>
+</body>
+</html>

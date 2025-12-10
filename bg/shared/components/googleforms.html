@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свържете се с мен - TutoriAleks</title>
+    <link rel="stylesheet" href="../../../shared/css/variables.css">
+    <link rel="stylesheet" href="../../../shared/css/global.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-primary);
+            background: linear-gradient(135deg, #ffffff 0%, #fef3c7 20%, #fed766 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .form-header {
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        .form-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .form-header p {
+            font-size: 1.2rem;
+            color: rgba(14, 43, 99, 1);
+            opacity: 0.9;
+        }
+
+        .brand-link {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .brand-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateX(-5px);
+            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .brand-icon {
+            font-size: 1.2rem;
+            color: var(--color-accent);
+        }
+
+        .brand-text {
+            font-size: 1.1rem;
+            background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Fallback for browsers without background-clip */
+        @supports not (background-clip: text) {
+            .brand-text {
+                color: var(--color-secondary);
+            }
+        }
+
+        .iframe-wrapper {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 100%;
+            max-width: 800px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Fallback for browsers without backdrop-filter */
+        @supports not (backdrop-filter: blur(20px)) {
+            .iframe-wrapper {
+                background: rgba(255, 255, 255, 0.95);
+            }
+        }
+
+        .form-iframe {
+            width: 100%;
+            height: 80vh;
+            min-height: 600px;
+            border: none;
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: white;
+        }
+
+        .loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        .error-message {
+            background: rgba(255, 59, 48, 0.9);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        .error-message h2 {
+            margin-bottom: 1rem;
+        }
+
+        .error-message a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .form-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .form-header p {
+                font-size: 1rem;
+            }
+
+            /* Mobile: Full-width horizontal bar */
+            .brand-link {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                padding: 1rem;
+                border-radius: 0;
+                justify-content: center;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .brand-link:hover {
+                transform: none;
+            }
+
+            .form-container {
+                padding-top: 5rem;
+            }
+
+            .form-iframe {
+                height: 70vh;
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- TutoriAleks Branding -->
+    <!--
+        <a href="/index.html" id="brand-link" class="brand-link">
+            <span class="brand-icon">◆</span>
+            <span class="brand-text">TutoriAleks</span>
+        </a>
+    --> 
+
+    <div class="form-container">
+        <div class="form-header">
+            <h1 id="form-title">Зареждане...</h1>
+            <p id="form-description">Моля, изчакайте...</p>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="loading-spinner"></div>
+            <p>Зареждане на формата...</p>
+        </div>
+
+        <div id="error" class="error-message" style="display: none;">
+            <h2>⚠️ Грешка</h2>
+            <p id="error-text"></p>
+            <p><a href="/index.html" id="error-home-link">Върнете се към началната страница</a></p>
+        </div>
+
+        <div class="iframe-wrapper" style="display: none;">
+            <iframe id="form-iframe" class="form-iframe" title="Contact Form"></iframe>
+        </div>
+    </div>
+
+    <!-- Google Forms Handler Script -->
+    <script src="../../../shared/js/googleforms-handler.js"></script>
+    <script>
+        // Load form when DOM is ready (using basic loader for light theme)
+        window.addEventListener('DOMContentLoaded', () => {
+            window.GoogleFormsHandler.loadFormBasic();
+        });
+    </script>
+</body>
+</html>
