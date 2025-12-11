@@ -11,8 +11,9 @@
     [v] текстове за AB landing pages
     [v] tracking of performance of AB pages
     [v] TOS and privacy
-    [ ] Deploy на GitHub Pages
+    [v] Deploy на GitHub Pages
     [v] Custom domain setup
+    [v] Блог секция (първи 3-5 статии)
     [ ] SEO основи
 
 Фаза 2: Напреднали (След 1 месец)
@@ -21,8 +22,7 @@
     [ ] SEO блог статии
     [ ] SEO Slug статии
     [ ] Допълнителни услуги страници
-    [ ] добави TOS за тях
-    [ ] Блог секция (първи 3-5 статии)
+    [ ]  - Добави TOS за тях
     [ ] Календар интеграция
 
 Фаза 3: Английска версия (След 2 месеца)
