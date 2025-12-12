@@ -21,7 +21,7 @@
 ### Saturday, December 7, 2024
 **Time: 3 hours**
 
-- [ ] **Create Facebook Business Page** (30 min)
+- [v] **Create Facebook Business Page** (30 min)
   - Name: "TutoriAleks - Частни уроци по програмиране"
   - Add profile photo (your photo)
   - Add cover photo (create in Canva - simple design with tagline)
@@ -29,7 +29,7 @@
   - Add website link
   - Add contact info (phone, email)
 
-- [ ] **Set up Meta Business Suite** (45 min)
+- [v] **Set up Meta Business Suite** (45 min)
   - Link Facebook Business Page
   - Connect Instagram account (switch to Professional if not already)
   - Set up Meta Pixel on website for conversion tracking
