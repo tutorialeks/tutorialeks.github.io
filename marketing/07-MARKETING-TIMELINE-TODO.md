@@ -28,7 +28,7 @@
 ### ⬜ Saturday, December 7 (3 hours)
 
 #### Setup Tasks
-- [ ] **Create Facebook Business Page** (30 min)
+- [v] **Create Facebook Business Page** (30 min)
   - Name: "TutoriAleks - Частни уроци по програмиране"
   - Add profile photo (your photo)
   - Add cover photo (create simple design in Canva)
@@ -36,7 +36,7 @@
   - Add website link: tutorialeks.com
   - Add contact info: 088 606 0295, info@tutorialeks.com
 
-- [ ] **Set up Meta Business Suite** (45 min)
+- [v] **Set up Meta Business Suite** (45 min)
   - Go to business.facebook.com
   - Link Facebook Business Page
   - Connect Instagram Professional account
