@@ -6,8 +6,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 
 **Project Type**: Multi-language educational website (TutoriAleks)
 **Architecture**: Language-first directory structure with global resource sharing
-**Current Languages**: Bulgarian (bg) - English (en) and German (de) planned
-**Key Pattern**: Iframe-based component architecture with theme variants
+**Current Languages**: Bulgarian (bg) - English (en) is planned
 
 ### Quick Directory Reference
 

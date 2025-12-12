@@ -19,6 +19,7 @@
 Фаза 2: Напреднали (След 1 месец)
     [ ] Landing page bg/professionals
     [ ] SEO сериозно
+    [ ] sitemap и robot.txt (see deplyment.md 5.3)
     [ ] SEO блог статии
     [ ] SEO Slug статии
     [ ] Допълнителни услуги страници
