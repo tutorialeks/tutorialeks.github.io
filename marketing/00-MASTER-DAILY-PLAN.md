@@ -49,10 +49,6 @@
 - Instant confirmation email to leads
 - Professional first impression
 
-**Priority 4 (15 min):** Zapier Lead Alert
-- Get instant notification when form submitted
-- Never miss a lead
-
 **Total Setup Time:** 1 hour | **Time Saved:** 25+ min/day = 3 hours/week
 
 ### A/B Testing Rotation (White vs Dark Theme)
@@ -93,7 +89,7 @@ Instagram: https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&
 - Consultation booking rate
 - A/B test performance
 
-**Tracking Spreadsheet:** [Add your Google Sheet link]
+**Tracking Spreadsheet:** [https://docs.google.com/spreadsheets/d/1U1BEJSAYFbJEGKWSiWmHARoTIn97tz1CYQmBe2QffLQ/edit?gid=1296557144#gid=1296557144](https://docs.google.com/spreadsheets/d/1U1BEJSAYFbJEGKWSiWmHARoTIn97tz1CYQmBe2QffLQ/edit?gid=1296557144#gid=1296557144)
 
 ### Critical Success Factors
 
@@ -156,7 +152,7 @@ Subject: Здравей [Name], готов съм да помогна с [про
 Коя дата ти подхожда?
 
 Поздрави,
-Александър
+Алекс
 +359 88 606 0295
 ```
 
@@ -173,7 +169,7 @@ Subject: Re: Консултация по програмиране
 Все още ли се интересуваш от консултацията?
 
 Поздрави,
-Александър
+Алекс
 ```
 
 **Template 3: Final Attempt (72h)**
@@ -185,7 +181,7 @@ Subject: Последен въпрос
 Ако все още искаш помощ, формата е винаги отворена.
 
 Успех!
-Александър
+Алекс
 ```
 
 ### Success Metrics Checklist
@@ -220,13 +216,13 @@ Subject: Последен въпрос
 
 **Goal:** Set up all systems, create graphics, write Week 1 content
 **Total Time:** 12 hours over 5 days
-**Status:** ⬜ NOT STARTED
+**Status:** ⏳ STARTED
 
 ### Saturday, December 7, 2025 (3 hours)
 
 #### Setup Tasks (30 min)
 
-- [ ] **Create Facebook Business Page**
+- [да] **Create Facebook Business Page**
   - Name: "TutoriAleks - Частни уроци по програмиране"
   - Add profile photo (your photo)
   - Add cover photo (create simple design in Canva)
@@ -237,7 +233,7 @@ Subject: Последен въпрос
 
 #### Meta Business Suite Setup (45 min)
 
-- [ ] **Set up Meta Business Suite** (CRITICAL AUTOMATION)
+- [да] **Set up Meta Business Suite** (CRITICAL AUTOMATION)
   - Go to business.facebook.com
   - Link Facebook Business Page (created above)
   - Connect Instagram Professional account
@@ -279,20 +275,20 @@ Subject: Последен въпрос
     Columns: Week | Date | Platform | Post Topic | Status
     Pre-populate with Week 1-4 content plan
     ```
-  - **Share link:** [Add your Google Sheet URL here]
+  - **Share link:** [https://docs.google.com/spreadsheets/d/1U1BEJSAYFbJEGKWSiWmHARoTIn97tz1CYQmBe2QffLQ/edit?gid=1296557144#gid=1296557144](https://docs.google.com/spreadsheets/d/1U1BEJSAYFbJEGKWSiWmHARoTIn97tz1CYQmBe2QffLQ/edit?gid=1296557144#gid=1296557144)
 
 #### Analytics Verification (15 min)
 
-- [ ] **Check Google Analytics working**
+- [x] **Check Google Analytics working**
   - Visit: tutorialeks.com
   - See real-time data showing your visit
 
-- [ ] **Check Microsoft Clarity working**
+- [x] **Check Microsoft Clarity working**
   - Visit clarity.microsoft.com
   - See session recordings appear
   - Verify variant tags working (white-informal, dark-formal)
 
-- [ ] **Test form submission**
+- [x] **Test form submission**
   - Fill consultation form with test data
   - Verify email arrives at info@tutorialeks.com
   - Delete test entry
@@ -307,40 +303,44 @@ Subject: Последен въпрос
 
 **Canva Brand Kit Setup (15 min)**
 
-- [ ] Sign up for Canva (free account)
-- [ ] Create brand kit:
+- [x] Sign up for Canva (free account)
+- [x] Create brand kit:
   - Colors: #FFD700 (yellow), #1a1a2e (dark blue), #FFFFFF (white)
   - Fonts: Inter (headlines), Open Sans (body)
-- [ ] Save as "TutoriAleks Brand"
+- [x] Save as "TutoriAleks Brand"
 
 **Graphic 1: Testimonial - Павлина (10 min)**
 
-- [ ] Template: Search "Instagram Quote Post" in Canva
-- [ ] Size: 1080x1080
-- [ ] Background: Clean white or dark blue
-- [ ] Text: "Алекс използва въпроси, за да ме накара да открия отговорите сама. Не само ми показва решението - той ме води към него."
-- [ ] Attribution: "Павлина, 18 год., Студент по информатика"
-- [ ] Add your photo in corner
-- [ ] Add 5 stars at top
-- [ ] Download as PNG
-- [ ] Save to: `/marketing/graphics/testimonial-pavlina.png`
-- [ ] **Midjourney Alternative:** Use Prompt 3A (soft gradient background)
+- [x] Template: Search "Instagram Quote Post" in Canva
+- [x] Size: 1080x1080
+- [x] Background: Clean white or dark blue
+- [x] Text: "Алекс използва въпроси, за да ме накара да открия отговорите сама. Не само ми показва решението - той ме води към него."
+- [x] Attribution: "Павлина, 25 год., ученик по JavaScript"
+- [x] Add your photo in corner
+- [x] Add 5 stars at top
+- [x] Download as PNG
+- [x] Save to: `/marketing/graphics/testimonial-pavlina.png`
+- [x] **Midjourney Alternative:** Use Prompt 3A (soft gradient background)
 
 **Graphic 2: Testimonial - Глория (10 min)**
 
-- [ ] Same template as Павлина
-- [ ] Text: "С търпение ми обяснява всяко понятие докато не стане кристално ясно. Най-добрият учител по програмиране който съм имала."
-- [ ] Attribution: "Глория, 29 год., Онлайн курс завършител"
-- [ ] Save to: `/marketing/graphics/testimonial-gloria.png`
-- [ ] **Midjourney Alternative:** Use Prompt 3B (warm gradient)
+- [x] Same template as Павлина
+- [х] Text: "С търпение ми обяснява всяко понятие, докато достигна до логиката на задачата. Най-добрият учител по програмиране, който съм имала."
+- [x] Text: "След урок с Алекс съм удовлетворена, че съм успяла със свои сили. Помага ми да се науча да мисля." 
+- [ж] Text: "Алекс задава ми правилните въпроси, за да ме накара сама да успея да открия правилния отговор. Помага ми да се науча да мисля." 
+- [x] Attribution: "Глория, 29 год., Онлайн обучение по JavaScript"
+- [x] Save to: `/marketing/graphics/testimonial-gloria.png`
+- [x] **Midjourney Alternative:** Use Prompt 3B (warm gradient)
 
 **Graphic 3: Testimonial - Кристияна (10 min)**
 
 - [ ] Same template
-- [ ] Text: "Не просто ме учи да пиша код - ме учи как да мисля като програмист."
-- [ ] Attribution: "Кристияна, 25 год., Junior Developer"
-- [ ] Save to: `/marketing/graphics/testimonial-kristiana.png`
-- [ ] **Midjourney Alternative:** Use Prompt 3C (professional gray gradient)
+- [x] Text: "Не просто ме учи да пиша код - учи ме как да мисля като програмист."
+- [x] Text: Тук мозъкът ми действа и наистина разбирам, а не е просто на момента да го схвана, и после да изчезне.
+- [x] Text: "Има провокация да се мисли, не е просто на готово да се дават отговори и решения. Ангажира цялото ми внимание и получавам дълготрайни знания."
+- [x] Attribution: "Кристияна, 22 год., студент AI технологии"
+- [x] Save to: `/marketing/graphics/testimonial-kristiana.png`
+- [ж] **Midjourney Alternative:** Use Prompt 3C (professional gray gradient)
 
 **Graphic 4: Homework Discount Explainer (20 min)**
 
@@ -537,40 +537,28 @@ Description: Търпеливо обяснение докато не стане 
 
 #### Email Response Templates Setup (40 min) - AUTOMATION
 
-- [ ] **Enable Gmail Canned Responses:**
+- [x] **Enable Gmail Canned Responses:**
   - Gmail Settings → Advanced → Enable "Templates"
   - Save settings
 
-- [ ] **Create Template 1: Initial Response (24h)**
+- [x] **Create Template 1: Initial Response (24h)**
   - Compose new email
   - Copy template from Quick Reference section above
   - Save as template: "Lead Response - Initial"
   - Test: Insert template, verify works
 
-- [ ] **Create Template 2: Follow-up (48h)**
+- [x] **Create Template 2: Follow-up (48h)**
   - Copy template from Quick Reference
   - Save as template: "Lead Response - Follow-up"
 
-- [ ] **Create Template 3: Final Attempt (72h)**
+- [x] **Create Template 3: Final Attempt (72h)**
   - Copy template from Quick Reference
   - Save as template: "Lead Response - Final"
 
-- [ ] **Test Templates:**
+- [x] **Test Templates:**
   - Draft new email
   - Insert each template
   - Verify personalization fields work: [Name], [проблем]
-
-#### Zapier Lead Alert Setup (Optional - AUTOMATION)
-
-- [ ] Go to zapier.com (free plan)
-- [ ] Create Zap:
-  - Trigger: New Google Form submission (consultation form)
-  - Action: Send email to info@tutorialeks.com
-  - Subject: "🎯 NEW LEAD: [Name from form]"
-  - Body: Include all form details
-- [ ] Test Zap with test form submission
-- [ ] Verify instant email alert arrives
-
 **✅ ALL PREP COMPLETE - READY FOR DEC 11 LAUNCH!**
 
 **Total Prep Time:** 12 hours
@@ -624,20 +612,20 @@ Description: Търпеливо обяснение докато не стане 
 Проблемът е, че не знаят КОЕ не знаят.
 
 Примери за слепи петна:
-❌ Разбират for-loop, но не разбират КОГА да го използват
-❌ Пишат код който работи, но не могат да обяснят защо
-❌ Учат синтаксис, но не разбират логиката
+❌ Разбират for-loop, но не разбират КОГА да го използват;
+❌ Пишат код, който работи, но не могат да обяснят защо;
+❌ Учат синтаксис, но не разбират логиката.
 
-Затова създадох TutoriAleks - индивидуални уроци с фокус върху:
-✅ Да намерим точно КОЕ ти липсва
-✅ Да го обясня търпеливо докато не стане кристално ясно
-✅ Да те научи да мислиш, не само да копираш код
+Затова създадох TutoriAleks - индивидуални уроци насочени към това:
+✅ Да намерим точно КОЕ ти липсва;
+✅ Да го обясня търпеливо, докато не стане кристално ясно;
+✅ Да те научи да мислиш, не само да копираш код.
 
 Ако си студент и изпитът наближава, или просто искаш да разбереш програмирането наистина - пиши ми.
 
 Коментирай: Кое е най-трудното за теб в програмирането?
 
-#Програмиране #Python #Java #УченеНаКод #БългарскиСтуденти
+#Програмиране #Python #JavaScript #УченеНаКод #БългарскиСтуденти
 ```
 
 **URL to share:**
@@ -665,13 +653,13 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=linkedin&utm_medium=
 Учиш, учиш, учиш... но никой не ти казва дали наистина разбираш.
 
 Затова най-ценното нещо в индивидуалните уроци не са лекциите.
-Ценното е моментът когато кажа: "Добре, сега ТИ ми обясни защо това работи."
+Ценното е моментът, когато кажа: "Добре, сега ТИ ми обясни, защо това работи."
 
-И там се разкрива истината. Или разбираш, или си запомнил без да разбираш.
+И там се разкрива истината. Или си разбрал, или си запомнил без да разбираш.
 
 Ако те интересува такъв подход към ученето - пиши ми лично или виж повече на TutoriAleks.com
 
-Коментирай: "Заинтересован/а" и ще ти пиша.
+Коментирай: "Заинтересован" и ще ти пиша.
 ```
 
 **URL (if adding to post):**
@@ -693,15 +681,15 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=
 
 **Caption:**
 ```
-5 знака че имаш нужда от частен ментор 👨‍💻
+5 знака, че имаш нужда от частен ментор 👨‍💻
 
-Свайпни ➡️ и виж дали се познаваш в поне 3 от тях.
+Swipe-ни ➡️ и виж дали се познаваш в поне 3 от тях.
 
 Ако да - време е за индивидуален подход.
 
 Безплатна консултация: линк в био 👆
 
-#програмиране #python #java #учене #студент #българия #coding #learntocode #softuni
+#програмиране #python #javaScript #учене #студент #българия #coding #learntocode #softuni
 ```
 
 **Bio Link (Use WHITE theme):**
@@ -3209,13 +3197,13 @@ Result: Conversion rate for White theme variant specifically
 Before you start execution, verify:
 
 - [ ] **Week 0 Preparation completed** (automation setup, graphics batched)
-- [ ] **Microsoft Clarity installed** on both white and dark theme pages
+- [x] **Microsoft Clarity installed** on both white and dark theme pages
 - [ ] **Gmail canned responses created** (all 3 templates ready)
-- [ ] **Meta Business Suite connected** (Facebook + Instagram linked)
+- [x] **Meta Business Suite connected** (Facebook + Instagram linked)
 - [ ] **LinkedIn scheduler tested** (practice scheduling one post)
 - [ ] **Google Sheets tracker created** (all 4 tabs with formulas)
-- [ ] **Midjourney prompts reviewed** (understand which category for which post type)
-- [ ] **URLs bookmarked** (white theme and dark theme for quick access)
+- [x] **Midjourney prompts reviewed** (understand which category for which post type)
+- [x] **URLs bookmarked** (white theme and dark theme for quick access)
 - [ ] **UTM parameters understood** (know how to track each platform)
 - [ ] **Budget allocation memorized** (100 FB, 120 LI, 100 Google = 320 paid)
 
