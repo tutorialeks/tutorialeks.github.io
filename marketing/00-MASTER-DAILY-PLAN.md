@@ -124,11 +124,10 @@ Instagram: https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&
 | Week | Budget | Platform | Purpose | Expected Results |
 |------|--------|----------|---------|------------------|
 | Week 1 (Dec 11-17) | 0 BGN | Organic | Foundation | 2-4 leads, 50+ engagements |
-| Week 2 (Dec 18-24) | 50 BGN | Facebook Boost #1 | Testimonial | 5-8 leads, 3,000-5,000 reach |
-| Week 3 (Dec 25-31) | 160 BGN | Google Ads (100) + LinkedIn (60) | Urgency | 8-12 leads, 10-15 clicks |
-| Week 4 (Jan 1-11) | 110 BGN | Facebook (50) + LinkedIn (60) | Conversion | **2-4 PAYING STUDENTS** |
-| **TOTAL** | **320 BGN** | | | **3-5 paying students** |
-| Reserve | 50 BGN | Google Ads extension (if needed) | Backup | |
+| Week 2 (Dec 18-24) | 110 BGN | Facebook (75) + Instagram (35) | Testimonial | 8-12 leads, 5,000-7,000 reach |
+| Week 3 (Dec 25-31) | 110 BGN | Facebook (75) + Instagram (35) | Urgency | 10-15 leads, 5,000-7,000 reach |
+| Week 4 (Jan 1-11) | 110 BGN | Facebook (75) + Instagram (35) | Conversion | **2-4 PAYING STUDENTS** |
+| **TOTAL** | **330 BGN** | | | **3-5 paying students** |
 
 ### Email Response Templates
 
@@ -193,36 +192,38 @@ Subject: Последен въпрос
 - [ ] 0 BGN spent
 
 **Week 2 (Engagement):**
-- [ ] Facebook boost reaches 3,000-5,000 people
-- [ ] 5-8 form submissions
-- [ ] 10-15 link clicks from boost
-- [ ] 50 BGN spent
+- [ ] Facebook boost reaches 4,000-5,000 people
+- [ ] Instagram boost reaches 2,000-3,000 people
+- [ ] 8-12 form submissions
+- [ ] 15-20 link clicks from boosts
+- [ ] 110 BGN spent
 
 **Week 3 (Urgency):**
-- [ ] Google Ads: 10-15 clicks
-- [ ] 8-12 form submissions
-- [ ] LinkedIn boost engagement
-- [ ] 210 BGN total spent
+- [ ] Facebook boost reaches 4,000-5,000 people
+- [ ] Instagram boost reaches 2,000-3,000 people
+- [ ] 10-15 form submissions
+- [ ] 220 BGN total spent
 
 **Week 4 (Conversion):**
+- [ ] Facebook + Instagram boosts running
 - [ ] 10-15 form submissions
 - [ ] 5-8 consultations scheduled
 - [ ] **2-4 PAYING STUDENTS** ← SUCCESS METRIC
-- [ ] 320 BGN total spent
+- [ ] 330 BGN total spent
 
 ---
 
 ## ⚙️ WEEK 0: PREPARATION (December 6-10, 2025)
 
 **Goal:** Set up all systems, create graphics, write Week 1 content
-**Total Time:** 12 hours over 5 days
+**Total Time:** 10.5 hours over 5 days
 **Status:** ⏳ STARTED
 
 ### Saturday, December 7, 2025 (3 hours)
 
 #### Setup Tasks (30 min)
 
-- [да] **Create Facebook Business Page**
+- [x] **Create Facebook Business Page**
   - Name: "TutoriAleks - Частни уроци по програмиране"
   - Add profile photo (your photo)
   - Add cover photo (create simple design in Canva)
@@ -233,7 +234,7 @@ Subject: Последен въпрос
 
 #### Meta Business Suite Setup (45 min)
 
-- [да] **Set up Meta Business Suite** (CRITICAL AUTOMATION)
+- [x] **Set up Meta Business Suite** (CRITICAL AUTOMATION)
   - Go to business.facebook.com
   - Link Facebook Business Page (created above)
   - Connect Instagram Professional account
@@ -244,17 +245,9 @@ Subject: Последен въпрос
   - **AUTOMATION:** Learn scheduling feature (will use Sunday for batch scheduling)
   - **Status:** ✅ DONE
 
-#### Google Ads Account (30 min)
-
-- [ ] **Create Google Ads Account**
-  - Sign up at ads.google.com
-  - Add payment method
-  - Verify payment
-  - **DO NOT create campaign yet** (will do Dec 9)
-
 #### Tracking Spreadsheet Setup (45 min) - AUTOMATION
 
-- [ ] **Create Google Sheet:** "TutoriAleks Marketing Tracker"
+- [x] **Create Google Sheet:** "TutoriAleks Marketing Tracker"
   - **Tab 1: Daily Metrics**
     ```
     Columns: Date | Platform | Post Type | Reach | Engagement | Clicks | Leads | Cost
@@ -344,42 +337,42 @@ Subject: Последен въпрос
 
 **Graphic 4: Homework Discount Explainer (20 min)**
 
-- [ ] Template: Search "Infographic" in Canva
-- [ ] Size: 1080x1350 (portrait for Instagram/Facebook)
-- [ ] Title: "Спести 33% с всяко домашно"
-- [ ] Visual flow:
+- [x] Template: Search "Infographic" in Canva
+- [x] Size: 1080x1350 (portrait for Instagram/Facebook)
+- [x] Title: "Спести 33% с всяко домашно"
+- [x] Visual flow:
   1. "Урок по Python - 120 лв"
   2. "✓ Решено домашно"
   3. "Следващ урок - 80 лв (33% отстъпка!)"
-- [ ] Bottom text: "Колкото повече учиш, толкова повече спестяваш"
-- [ ] Save to: `/marketing/graphics/homework-discount.png`
+- [x] Bottom text: "Колкото повече учиш, толкова повече спестяваш."
+- [x] Save to: `/marketing/graphics/homework-discount.png`
 - [ ] **Midjourney Alternative:** Use Prompt 5A (flat lay homework + calculator)
 
 **Graphic 5: Carousel "5 Знаци че имаш нужда от ментор" (40 min)**
 
-- [ ] Template: Search "Carousel Post" in Canva
-- [ ] Size: 1080x1080 per slide (7 slides total)
-- [ ] **Slide 1:** "5 знаци че имаш нужда от частен ментор"
-- [ ] **Slide 2:** "1️⃣ Гледаш видео урока 3 пъти и пак не разбираш"
-- [ ] **Slide 3:** "2️⃣ Кодът ти работи, но не знаеш ЗАЩО"
-- [ ] **Slide 4:** "3️⃣ Изпитът е след 2 седмици и си в паника"
-- [ ] **Slide 5:** "4️⃣ Имаш въпроси, но няма кого да питаш"
-- [ ] **Slide 6:** "5️⃣ Копираш код без да разбираш"
-- [ ] **Slide 7:** "Запази безплатна консултация → tutorialeks.com"
-- [ ] Save each slide: `/marketing/graphics/carousel-signs-01.png` through `07.png`
-- [ ] **Midjourney Alternative:** Use Prompts 1E, 1F (cluttered workspace chaos)
+- [x] Template: Search "Carousel Post" in Canva
+- [x] Size: 1080x1080 per slide (7 slides total)
+- [x] **Slide 1:** "5 знака, че имаш нужда от частен учител"
+- [x] **Slide 2:** "1️⃣ Гледаш видео урока 3 пъти и пак не разбираш"
+- [x] **Slide 3:** "2️⃣ Кодът ти работи, но не знаеш ЗАЩО"
+- [x] **Slide 4:** "3️⃣ Изпитът е след 2 седмици и си в паника"
+- [x] **Slide 5:** "4️⃣ Имаш въпроси, но няма кого да питаш"
+- [x] **Slide 6:** "5️⃣ Копираш код без да разбираш"
+- [x] **Slide 7:** "Запази безплатна консултация → tutorialeks.com"
+- [x] Save each slide: `/marketing/graphics/carousel-signs-01.png` through `07.png`
+- [x] **Midjourney Alternative:** Use Prompts 1E, 1F (cluttered workspace chaos)
 
 **Graphic 6: Pricing Tiers Visual (25 min)**
 
-- [ ] Template: Search "Pricing Table" in Canva
-- [ ] Size: 1080x1350
-- [ ] 4 columns:
+- [x] Template: Search "Pricing Table" in Canva
+- [x] Size: 1080x1350
+- [x] 4 columns:
   - 120 лв: Основни умения (променливи, условия)
   - 80 лв: Управление (цикли, масиви)
   - 60 лв: Организация (функции, ООП) ⭐ Най-популярно
-  - 50 лв: Професионални теми (TDD, уеб)
-- [ ] Bottom text: "Домашно → -33% от следващия час!"
-- [ ] Save to: `/marketing/graphics/pricing-tiers.png`
+  - 50 лв: Професионални теми (TDD, web)
+- [x] Bottom text: "Домашно → -33% от следващия час!"
+- [x] Save to: `/marketing/graphics/pricing-tiers.png`
 - [ ] **Midjourney Alternative:** Use Prompt 2K (minimalist value concept)
 
 **Graphic 7: Exam Countdown Template (15 min)**
@@ -394,7 +387,24 @@ Subject: Последен въпрос
 - [ ] Also save current version: `/marketing/graphics/countdown-32days.png`
 - [ ] **Midjourney Alternative:** Use Prompt 4D (hourglass + laptop urgency)
 
-**✅ MID-DAY CHECK:** 7 graphics created (2.5 hours total)
+**Graphic 8: Carousel "Как TutoriAleks е различен" (USP Showcase) (50 min)**
+
+- [ ] Template: Search "Carousel Post" in Canva
+- [ ] Size: 1080x1080 per slide (10 slides total)
+- [ ] **Slide 1 (Cover):** "Как TutoriAleks е различен от масовите курсове? 🎯"
+- [ ] **Slide 2:** "1️⃣ Разбирам как мислиш и обяснявам на ТВОЯ език 🗣️"
+- [ ] **Slide 3:** "2️⃣ Отговарям на въпросите ти още докато възникват 💡"
+- [ ] **Slide 4:** "3️⃣ Откривам слепите петна - това което не знаеш, че не знаеш 🔍"
+- [ ] **Slide 5:** "4️⃣ Учиш да мислиш независимо - не да запомняш решения 🧠"
+- [ ] **Slide 6:** "5️⃣ Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
+- [ ] **Slide 7:** "6️⃣ Дълготрайни знания - не временно разбиране 📚"
+- [ ] **Slide 8:** "7️⃣ Твоята увереност расте с всеки урок 💪"
+- [ ] **Slide 9:** "8️⃣ Спести 33% с всяко домашно + гъвкаво разписание 💰⏰"
+- [ ] **Slide 10 (CTA):** "Запази безплатна консултация → tutorialeks.com 🚀"
+- [ ] Save each slide: `/marketing/graphics/carousel-usp-01.png` through `10.png`
+- [ ] **Midjourney Alternative:** Use Prompts 2K (value concept), 6B (educational whiteboard), 7B (clean workspace minimal)
+
+**✅ MID-DAY CHECK:** 8 graphics created (3.0 hours total)
 
 ---
 
@@ -446,71 +456,21 @@ Subject: Последен въпрос
 
 ---
 
-### Monday, December 9, 2025 (1 hour)
+### Monday, December 9, 2025 (30 min)
 
-#### Google Ads Campaign Setup (60 min)
+#### Content Refinement & Instagram Planning (30 min)
 
-- [ ] **Campaign Setup:**
-  - Campaign name: "TutoriAleks Exam Season"
-  - Campaign type: Search
-  - Goal: Website traffic
-  - Budget: 100 BGN total
-  - Daily budget: 6.50 BGN/day
-  - Start date: **December 27, 2025** (NOT NOW!)
-  - End date: January 11, 2026
-  - Target location: Bulgaria
-  - Language: Bulgarian
+- [ ] **Review Week 1 content** (created Sunday)
+  - Check all posts for typos
+  - Ensure A/B testing URLs are correct
+  - Verify Midjourney prompts match post themes
 
-- [ ] **Keywords (Exact Match):**
-  - "частни уроци програмиране"
-  - "помощ изпит програмиране"
-  - "спешни уроци java"
-  - "python частен учител българия"
-  - "програмиране онлайн уроци българия"
+- [ ] **Plan Instagram strategy**
+  - Identify best times to post Reels vs. Carousels
+  - Prepare story templates for daily use
+  - Test Instagram scheduling in Meta Business Suite
 
-- [ ] **Negative Keywords:**
-  - "безплатен"
-  - "курс за деца"
-  - "игри"
-
-- [ ] **Ad Copy - Create 3 Variations:**
-
-**Ad 1:**
-```
-Headline 1: Частни Уроци по Програмиране
-Headline 2: Изпит след 2 седмици?
-Headline 3: Търпелив Преподавател | 15 год. опит
-Description: Индивидуални уроци съобразени с теб. Реши домашно → 33% отстъпка. Безплатна консултация!
-```
-
-**Ad 2:**
-```
-Headline 1: Спешна Помощ - Изпит Програмиране
-Headline 2: 15 Години Преподавателски Опит
-Headline 3: Python | Java | JavaScript | C++
-Description: Намираме слепите ти петна и ги поправяме. Гъвкави цени 50-120 лв/час. Започни сега!
-```
-
-**Ad 3:**
-```
-Headline 1: Не разбираш цикли и масиви?
-Headline 2: Индивидуален Подход | Без Стрес
-Headline 3: Изпита ти е спасим!
-Description: Търпеливо обяснение докато не стане ясно. Sun Certified Java Dev. Запази консултация!
-```
-
-- [ ] **Landing Page URL:**
-  ```
-  https://tutorialeks.com?utm_source=google&utm_medium=cpc&utm_campaign=exam2025
-  ```
-
-- [ ] **Conversion Tracking:**
-  - Set up conversion action: Form submission
-  - Test tracking pixel on thank-you page
-
-- [ ] **PAUSE CAMPAIGN** (will activate Dec 27)
-
-**✅ GOOGLE ADS READY TO LAUNCH**
+**✅ WEEK 0 PREP STREAMLINED** (No Google Ads needed!)
 
 ---
 
@@ -561,11 +521,11 @@ Description: Търпеливо обяснение докато не стане 
   - Verify personalization fields work: [Name], [проблем]
 **✅ ALL PREP COMPLETE - READY FOR DEC 11 LAUNCH!**
 
-**Total Prep Time:** 12 hours
+**Total Prep Time:** 10.5 hours
 **Systems Ready:**
 - ✅ Facebook Business Page
 - ✅ Meta Business Suite + Pixel tracking
-- ✅ Google Ads account + campaign configured
+- ✅ Instagram Professional account connected
 - ✅ Tracking spreadsheet with formulas
 - ✅ 7 branded graphics
 - ✅ Week 1 content pre-written
@@ -1045,16 +1005,53 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=linkedin&utm_medium=o
 Кой е твоят совет за учене? Споделете в коментарите! 
 
 #програмиране #учене #мотивация
+
+---
+
+
+**📸 Instagram Carousel (11:00 AM)**
+**Topic:** "Как TutoriAleks е различен" (USP Showcase - Graphic 8)
+
+**10 slides** (use carousel created in Week 0):
+1. "Как TutoriAleks е различен от масовите курсове? 🎯"
+2. "1️⃣ Разбирам как мислиш и обяснявам на ТВОЯ език 🗣️"
+3. "2️⃣ Отговарям на въпросите ти още докато възникват 💡"
+4. "3️⃣ Откривам слепите петна - това което не знаеш, че не знаеш 🔍"
+5. "4️⃣ Учиш да мислиш независимо - не да запомняш решения 🧠"
+6. "5️⃣ Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
+7. "6️⃣ Дълготрайни знания - не временно разбиране 📚"
+8. "7️⃣ Твоята увереност расте с всеки урок 💪"
+9. "8️⃣ Спести 33% с всяко домашно + гъвкаво разписание 💰⏰"
+10. "Запази безплатна консултация → tutorialeks.com 🚀"
+
+**Upload:** `/marketing/graphics/carousel-usp-01.png` through `carousel-usp-10.png`
+
+**Caption:**
+```
+Защо студентите ми казват "най-добрият учител по програмиране"? 💭
+
+Защото не се учи само код - учиш КАК ДА МИСЛИШ.
+
+Не слушаш само лекции - получаваш отговори НА ТВОИТЕ ВЪПРОСИ.
+
+Не запомняш решения - откриваш ги със собствените си сили.
+
+15 години превръщам "невъзможно" в "разбрах го!" ✨
+
+Запази безплатна 45-минутна консултация (без ангажимент):
+👉 Линк в био
+
+#програмиране #python #javascript #частниуроци #обучение #ментор #българия #sofia
 ```
 
 **Bio Link (DARK theme):**
 ```
-https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=organic&utm_campaign=dec2025&variant=dark
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=organic&utm_campaign=dec2025&variant=dark&content=usp-carousel
 ```
 
-**Midjourney Background:** Use **Prompt 7B** (Clean workspace, minimal)
-- Category: Direct CTA
-- File: `08-midjourney-prompts-backgrounds.md`, Line 340
+**Midjourney Background:** Carousel backgrounds already created in Week 0
+- Uses Prompts 2K (value concept), 6B (educational whiteboard), 7B (clean workspace minimal)
+- Files: `carousel-usp-01.png` through `carousel-usp-10.png`
 
 ---
 
@@ -1573,7 +1570,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - [ ] **Click "Boost Post"**
 
 **Boost Settings:**
-- **Budget:** 50 BGN
+- **Budget:** 75 BGN
 - **Duration:** 7 days (Dec 19-26)
 - **Objective:** Traffic (to website)
 - **Button:** "Learn More"
@@ -1643,8 +1640,170 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **✅ FIRST PAID BOOST LIVE! 🚀**
 
-**Total Spent to Date: 50 BGN**
-**Remaining Budget: 320 BGN**
+---
+
+#### 💰 PAID ACTION #2: INSTAGRAM LEAD GENERATION AD (30 min - 3:00 PM)
+
+**CRITICAL: First Instagram Lead Ad - Collects contacts directly in Instagram**
+
+- [ ] **Open Meta Ads Manager** (ads.facebook.com or Meta Business Suite → "Ads")
+- [ ] **Click "Create" → Choose Campaign Objective**
+
+**Campaign Setup:**
+- **Objective:** "Leads" ← This enables instant forms
+- **Campaign Name:** "Instagram Lead Gen Dec19-26"
+- **Special Ad Categories:** None (unless required)
+- [ ] Click "Continue"
+
+**Ad Set Setup:**
+- **Ad Set Name:** "Bulgaria 18-30 Programming"
+- **Conversion Location:** "Instant forms" ← CRITICAL SETTING
+- **Budget:** 35 BGN
+- **Schedule:** Start immediately, End date: Dec 26, 2025 (7 days)
+
+**Audience Targeting:**
+- **Location:** Bulgaria
+- **Age:** 18-30
+- **Gender:** All
+- **Detailed Targeting:**
+  - Interests: Programming, Computer Science, Python, Java, Technology, Online Learning, Coding
+  - Education: Current college students + recent graduates
+  - Behavior: Early adopters, tech enthusiasts
+
+**Placements:**
+- **Select Manual Placements:**
+  - ✅ Instagram Feed
+  - ✅ Instagram Stories
+  - ✅ Instagram Explore
+  - ❌ Uncheck Facebook placements (Instagram only for this ad)
+
+**Optimization & Delivery:**
+- **Performance Goal:** Maximize number of leads
+- **Cost Control:** None (let Meta optimize)
+- [ ] Click "Continue to Ad Creation"
+
+**Ad Creation:**
+- **Ad Name:** "Testimonial Glória Lead Gen"
+- **Identity:** Your Instagram account
+- **Format:** Single image or video
+
+**Creative:**
+- [ ] **Upload Image:** Use the Глория testimonial graphic
+  - OR create simple text-on-color: "Търсиш индивидуален преподавател по програмиране?"
+
+**Primary Text (Caption):**
+```
+🎓 Индивидуални уроци по програмиране
+
+Готвиш се за изпити или искаш да научиш Python, Java или C++?
+
+✅ Опитен преподавател (15 години)
+✅ Търпеливо обяснение
+✅ Фокус върху ТВОИТЕ нужди
+✅ Първа консултация: БЕЗПЛАТНА
+
+Попълни формата за 30 секунди 👇
+```
+
+**Call to Action Button:** "Sign Up" or "Apply Now"
+
+- [ ] **Click "Create Lead Form" or "New Form"**
+
+**Lead Form Creation:**
+
+**1. Intro Screen:**
+- **Form Name (internal):** "Consultation Request Dec 2025"
+- **Form Type:** "More volume" (easier to fill, more submissions)
+- **Greeting:**
+```
+Безплатна консултация по програмиране 🎓
+
+Попълни формата и ще се свържа с теб в рамките на 24 часа.
+```
+- **Image:** Upload your profile photo or logo
+- [ ] Click "Next"
+
+**2. Questions:**
+- [ ] **Enable "Pre-fill from Facebook"** (name, email, phone auto-filled)
+- **Contact Fields to Include:**
+  - ✅ Full Name (required)
+  - ✅ Email (required)
+  - ✅ Phone (required)
+
+- [ ] **Add Custom Question:**
+  - **Type:** Multiple choice
+  - **Question:** "Коя тема те интересува най-много?"
+  - **Options:**
+    - Python
+    - Java
+    - JavaScript
+    - C++
+    - Data Structures & Algorithms
+    - Друго
+  - **Required:** Yes
+
+- [ ] **Add Custom Question 2 (optional):**
+  - **Type:** Short answer
+  - **Question:** "Какво най-често те затруднява при програмирането?"
+  - **Required:** No
+
+- [ ] Click "Next"
+
+**3. Privacy Policy:**
+- [ ] **Add Privacy Policy URL:** https://tutorialeks.com/privacy (or your privacy policy page)
+- **Disclaimer:** "Използваме данните ти само за да се свържем с теб относно консултацията."
+- [ ] Click "Next"
+
+**4. Thank You Screen:**
+- **Headline:** "Благодаря! 🎉"
+- **Description:**
+```
+Получих информацията ти!
+
+Ще се свържа с теб в рамките на 24 часа.
+
+Междувременно, можеш да разгледаш услугите ми тук:
+```
+- **Call to Action Button:** "Visit Website"
+- **Website URL:**
+```
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=leadgen_dec19&utm_content=testimonial&variant=dark
+```
+
+- [ ] **Click "Finish"**
+- [ ] **Review form preview** - test on mobile view
+- [ ] **Click "Publish Form"**
+
+**Back to Ad Creation:**
+- [ ] **Select the form you just created** from dropdown
+- [ ] **Review ad preview** on Instagram Feed, Stories, Explore
+- [ ] **Click "Publish"**
+
+**After Publishing:**
+- [ ] **Set up Instant Forms notifications:**
+  - Meta Business Suite → Settings → Notifications
+  - Enable "New Lead" notifications via email + SMS
+- [ ] **Download Meta Leads Center app** on phone for instant notifications
+- [ ] **Update Budget Tracker:**
+  - Platform: Instagram Lead Gen
+  - Amount: 35 BGN
+  - Campaign: Lead Gen Dec 19-26
+  - Status: Active
+
+**Expected Results (7 days):**
+- 8-12 lead form submissions
+- Cost per lead: 3-4 BGN
+- 2,000-3,000 impressions
+- 100-150 clicks to form
+
+**⚠️ CRITICAL NEXT STEP:**
+- [ ] **Check Meta Leads Center DAILY** at 9 AM and 6 PM
+- [ ] **Respond to leads within 2 hours** (faster = higher conversion)
+- [ ] **Download leads to Google Sheets** every 2-3 days
+
+**TOTAL SPENT DEC 19: 110 BGN (Facebook 75 + Instagram 35)**
+**TOTAL SPENT TO DATE: 110 BGN**
+**REMAINING BUDGET: 220 BGN**
 
 ---
 
@@ -1663,7 +1822,41 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 #### Thursday Dec 21 (DARK THEME)
 
 **LinkedIn (7:30 AM):** AI tools vs fundamentals - thought leadership post
-**Facebook (1 PM):** Pricing post (33% discount explainer)
+
+**🟦 Facebook (1 PM):** USP Carousel Reshare (Graphic 8)
+
+**Post as Facebook Carousel** (use same slides from Instagram Week 1):
+
+**Upload:** `/marketing/graphics/carousel-usp-01.png` through `carousel-usp-10.png`
+
+**Caption:**
+```
+Защо моите студенти ми казват "най-добрият учител по програмиране"? 💡
+
+✅ Разбирам КАК мислиш и обяснявам на ТВОЯ език
+✅ Отговарям на въпросите ти още докато възникват
+✅ Откривам слепите петна - това което не знаеш, че не знаеш
+✅ Учиш да мислиш независимо - не да запомняш решения
+✅ Примери от това което ТЕБ те вълнува
+✅ Дълготрайни знания, не временно разбиране
+✅ Твоята увереност расте с всеки урок
+✅ Спести 33% с всяко домашно + гъвкаво разписание
+
+15 години превръщам "невъзможно" в "разбрах го!" 🚀
+
+Запази безплатна 45-минутна консултация (без ангажимент):
+👉 tutorialeks.com/bg/learners/dark-theme
+
+#програмиране #обучение #python #javascript #ментор #българия
+```
+
+**URL to share:**
+```
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=organic&utm_campaign=dec2025&variant=dark&content=usp-carousel-reshare
+```
+
+---
+
 **Instagram (6 PM):** Post pricing tiers graphic
 **Action:** Check boost Day 3, respond to any leads FAST
 
@@ -1689,31 +1882,32 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - **BATCH WORK (2 hours):**
   - [ ] Write ALL Week 3 content (Dec 25-31)
   - [ ] Update countdown graphic: "20 ДЕНА до изпитите"
-  - [ ] **Review Facebook boost performance:**
-    - Total spent: 50 BGN
-    - Total reach achieved: ___?
-    - Clicks: ___?
-    - Leads generated: ___?
+  - [ ] **Review paid campaigns performance:**
+    - Facebook boost: Total spent 75 BGN → Reach: ___? Clicks: ___?
+    - Instagram Lead Gen: Total spent 35 BGN → Leads: ___? Cost per lead: ___?
+    - Combined total spent: 110 BGN
+    - Total leads generated: ___?
     - Lessons learned: What worked? What didn't?
-  - [ ] **Plan Google Ads launch** (Dec 27 - 6 days away!)
-  - [ ] **Prep LinkedIn boost post** for Week 3
+  - [ ] **Plan Week 3 Instagram Instant Experience** (Dec 27 - 6 days away!)
+  - [ ] **Prep Instagram countdown graphics** for Week 3 urgency theme
   - [ ] Schedule Week 3 content in automation tools
 
 **✅ WEEK 2 COMPLETE + CHRISTMAS PREP**
 
 **Week 2 Summary:**
-- First paid boost executed ✅
-- 50 BGN spent ✅
-- Expected: 5-8 leads, 3,000-5,000 reach ✅
-- Foundation for Week 3 major spend ✅
+- Facebook boost executed (75 BGN) ✅
+- Instagram Lead Gen Ad launched (35 BGN) ✅
+- 110 BGN spent ✅
+- Expected: 8-12 leads, 5,000-7,000 combined reach ✅
+- Foundation for Week 3 urgency campaigns ✅
 
 ---
 
 ## WEEK 3: URGENCY BUILDING (December 25-31, 2025)
 
-**Goal:** Launch Google Ads + LinkedIn boost, build exam countdown urgency
-**Budget This Week:** 160 BGN (Google Ads 100 BGN + LinkedIn 60 BGN)
-**Target:** 8-12 form submissions, 10-15 Google Ads clicks
+**Goal:** Launch Facebook + Instagram urgency campaigns, build exam countdown pressure
+**Budget This Week:** 110 BGN (Facebook 75 BGN + Instagram 35 BGN)
+**Target:** 10-15 form submissions, 5,000-7,000 combined reach
 **Daily Time:** 30-45 minutes
 **Status:** ⬜ NOT STARTED
 
@@ -1816,141 +2010,220 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 ---
 
-### Friday, December 27, 2025 ⭐⭐ MAJOR SPEND DAY (160 BGN)
+### Friday, December 27, 2025 ⭐⭐ MAJOR SPEND DAY (110 BGN)
 **Daily Time: 60 minutes - CRITICAL DAY**
 
-**THIS IS THE BIGGEST SPEND DAY OF THE ENTIRE CAMPAIGN**
+**THIS IS WEEK 3 - URGENCY THEME LAUNCHES**
 
-#### ☀️ Morning (15 min - 8:00 AM)
+#### ☀️ Morning (10 min - 8:00 AM)
 
-- [ ] Final check on Google Ads campaign setup (created Dec 9)
-- [ ] Verify conversion tracking is working
-- [ ] Deep breath - this is a big day! 🚀
+- [ ] Review Week 2 campaign results (Facebook + Instagram)
+- [ ] Check lead responses and follow-ups
+- [ ] Prepare urgency-themed content for today
 
-#### 💰 PAID ACTION #1: GOOGLE ADS LAUNCH (15 min - 9:00 AM)
+#### 💰 PAID ACTION #1: FACEBOOK BOOST #2 (20 min - 9:00 AM)
 
-**CRITICAL: Activate Google Ads Campaign**
+**CRITICAL: Urgency Theme Facebook Boost**
 
-- [ ] **Log in to ads.google.com**
-- [ ] **Find campaign:** "TutoriAleks Exam Season"
-- [ ] **Verify settings:**
-  - Budget: 100 BGN total
-  - Daily budget: 6.50 BGN/day
-  - Duration: Dec 27 - Jan 11 (16 days)
-  - Keywords: частни уроци програмиране, помощ изпит, etc.
-  - 3 ad variations ready
-  - Landing page: tutorialeks.com with UTM tracking
-  
-- [ ] **ACTIVATE CAMPAIGN** (change from Paused to Active)
+- [ ] **Create urgency post on Facebook Business Page** (8:30 AM)
 
-- [ ] **Monitor first hour:**
-  - 10:00 AM check: Any impressions showing?
-  - 12:00 PM check: Any clicks yet?
-  - Note: First day is learning period for Google's algorithm
-
-- [ ] **Update Budget Tracker:**
-  - Date: Dec 27
-  - Platform: Google Ads
-  - Amount: 100 BGN
-  - Duration: 16 days
-  - Status: Active
-  - **Total Spent to Date: 150 BGN**
-  - **Remaining: 220 BGN**
-
----
-
-#### 📱 Content Posting (20 min - 10:00 AM)
-
-**🔵 LINKEDIN POST (10:00 AM) - POST TO BE BOOSTED ⭐**
-**A/B Test: WHITE THEME** (Friday)
-
+**Post Copy:**
 ```
-"Last-minute exam prep - what actually works" 📚
+⏰ ОСТАВАТ 20 ДНИ ДО ИЗПИТИТЕ
 
-Изпит след 3 седмици?
-Ето какво РАБОТИ в последния момент:
+Все още се бориш с:
+❌ Цикли и масиви?
+❌ Функции и ООП?
+❌ Алгоритми и структури от данни?
 
-❌ Не работи:
-- Гледане на 10-часови курсове
-- Опит да научиш нови теми
-- Паника и безсъние
+Време е за действие, не за паника.
 
-✅ Работи:
-- Focus върху past exam papers (старите изпитни варианти)
-- Реши 20 задачи от типа които се падат на изпита
-- Маркирай темите които НЕ можеш → Търси помощ за ТЯХ
+Индивидуални уроци с фокус върху ТВОИТЕ слаби места:
+✅ Търпелив преподавател (15 год. опит)
+✅ Обяснение докато не стане ясно
+✅ Практика с реални exam задачи
+✅ Решиш домашно → -33% отстъпка
 
-Стратегия за следващите 3 седмици:
+Първа консултация: БЕЗПЛАТНА (45 минути)
 
-Седмица 1 (сега): Идентификация
-→ Реши по 1 задача от всяка тема
-→ Кое не излиза? Това учи.
+Запази място сега: [LINK]
 
-Седмица 2: Intensive practice
-→ 5 задачи на ден по трудните теми
-→ Ако задача не излиза след 30 мин → Питай преподавател/forum
+Януарската сесия наближава. Готов ли си?
 
-Седмица 3: Mock exams
-→ Реши цели изпитни варианти на време
-→ Виж къде губиш време
-→ Фокус на скорост
-
-Ако има теми които самостоятелна подготовка не помага?
-Индивидуален урок. 1-2 часа focused обяснение е по-ефективно от 10 часа гугъл.
-
-Безплатна консултация за оценка на готовност: [Link]
-
-Остава малко време. Използвай го умно.
-
-#ExamPrep #LastMinute #Програмиране #Изпити
+#изпити #програмиране #спешнапомощ #българия #python #java
 ```
+
+**Visual:** Countdown graphic "20 ДЕНА до изпитите" with urgent color scheme (red/orange)
+
+- [ ] **Boost the post immediately**
+
+**Boost Settings:**
+- **Budget:** 75 BGN
+- **Duration:** 7 days (Dec 27 - Jan 3)
+- **Objective:** Traffic (to website)
+- **Button:** "Learn More"
+- **Audience:** Bulgaria, 18-30, programming interests, students
+- **Placements:** Facebook Feed + Instagram Feed
 
 **URL:**
 ```
-https://tutorialeks.com/bg/learners/white-theme/?utm_source=linkedin&utm_medium=paid&utm_campaign=boost1_dec27&utm_content=exam_prep&variant=white
+https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_dec27&utm_content=urgency_exam&variant=white
 ```
-
-**Midjourney:** Prompt 4B (Countdown timer urgency)
-
----
-
-#### 💰 PAID ACTION #2: LINKEDIN BOOST (15 min - 11:00 AM)
-
-**CRITICAL: Boost LinkedIn Post**
-
-- [ ] **Go to LinkedIn**
-- [ ] **Find the 10 AM post** ("Last-minute exam prep")
-- [ ] **Click "Boost Post"**
-
-**Boost Settings:**
-- **Budget:** 60 BGN
-- **Duration:** 7 days (Dec 27 - Jan 3)
-- **Objective:** Engagement (or Website Visits if available)
-
-**Target Audience:**
-- **Location:** Bulgaria
-- **Age:** 18-35
-- **Job Titles:** Student, Junior Developer, Graduate
-- **Skills:** Programming, Software Development
-- **Education:** Currently attending university
-- **Interests:** Programming, Java, Python, JavaScript
-
-**Destination URL:**
-```
-https://tutorialeks.com/bg/learners/white-theme/?utm_source=linkedin&utm_medium=paid&utm_campaign=boost1_dec27&utm_content=exam_prep&variant=white
-```
-
-- [ ] **Review and Boost**
 
 - [ ] **Update Budget Tracker:**
   - Date: Dec 27
-  - Platform: LinkedIn
-  - Amount: 60 BGN
-  - Campaign: Exam Prep Boost
+  - Platform: Facebook Boost #2
+  - Amount: 75 BGN
+  - Campaign: Urgency - Exam Countdown
   - Status: Active
-  - **Total Spent Today: 160 BGN**
-  - **Total Spent to Date: 210 BGN**
-  - **Remaining Budget: 160 BGN**
+  - **Total Spent to Date: 185 BGN**
+  - **Remaining: 145 BGN**
+
+---
+
+#### 💰 PAID ACTION #2: INSTAGRAM INSTANT EXPERIENCE AD (35 min - 10:00 AM)
+
+**CRITICAL: Create Instagram Instant Experience (Full-Screen Interactive Ad)**
+
+**What is Instant Experience?** A full-screen, fast-loading ad format that opens when someone taps your ad. Previously called "Canvas." It's like a mini-website inside Instagram.
+
+- [ ] **Open Meta Ads Manager** (ads.facebook.com)
+- [ ] **Click "Create" → Choose Campaign Objective**
+
+**Campaign Setup:**
+- **Objective:** "Traffic" or "Engagement" ← Both work for Instant Experience
+- **Campaign Name:** "Instagram Instant Exp Dec27-Jan3"
+- [ ] Click "Continue"
+
+**Ad Set Setup:**
+- **Ad Set Name:** "Bulgaria Students Urgency"
+- **Traffic Destination:** "Instant Experience"
+- **Budget:** 35 BGN
+- **Schedule:** Start immediately, End: Jan 3, 2026 (7 days)
+
+**Audience:**
+- **Location:** Bulgaria
+- **Age:** 18-30
+- **Interests:** Programming, Technology, Education, Online Learning, Python, Java
+- **Behavior:** Engaged Shoppers, Mobile Device Users
+
+**Placements:**
+- **Manual Placements:**
+  - ✅ Instagram Feed only (Instant Experience works best in Feed)
+  - ❌ Uncheck all other placements
+
+- [ ] Click "Continue to Ad"
+
+**Ad Creative:**
+- **Format:** Single image or video
+- **Use Instant Experience:** Toggle ON ← CRITICAL
+- [ ] **Click "Create Instant Experience"**
+
+**Instant Experience Builder:**
+
+**1. Template Selection:**
+- Choose "Customer Acquisition" template
+- Or "Blank Canvas" if you want full control
+
+**2. Add Components (Top to Bottom):**
+
+**Component 1: Header**
+- **Type:** Image or Video
+- **Upload:** Countdown graphic "20 ДЕНА до изпитите" (urgent colors)
+- **Duration:** 3 seconds (if video)
+
+**Component 2: Text Block**
+```
+⏰ Остават 20 дни до януарските изпити
+
+Още се бориш с основите?
+
+→ Цикли и масиви?
+→ Функции и ООП?
+→ Рекурсия и алгоритми?
+
+Не си сам.
+```
+
+**Component 3: Button**
+- **Text:** "Виж как мога да помогна"
+- **Action:** Go to website
+- **URL:**
+```
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=instant_exp_dec27&utm_content=urgency&variant=dark
+```
+
+**Component 4: Carousel** (optional but recommended)
+- **Title:** "Какво включва индивидуалният урок?"
+- **Slide 1:**
+  - Image: Teacher icon or photo
+  - Text: "✅ Търпелив преподавател (15 години опит)"
+- **Slide 2:**
+  - Image: Lightbulb icon
+  - Text: "✅ Обяснение докато не стане ясно"
+- **Slide 3:**
+  - Image: Code icon
+  - Text: "✅ Практика с реални exam задачи"
+- **Slide 4:**
+  - Image: Discount badge
+  - Text: "✅ -33% ако решиш домашното си"
+
+**Component 5: Text Block**
+```
+Първата консултация е БЕЗПЛАТНА (45 минути).
+
+Оценявам готовността ти, идентифицираме gaps, правим план за оставащите дни.
+
+Без задължения. Без скрити такси.
+```
+
+**Component 6: Button (CTA)**
+- **Text:** "Запази безплатна консултация"
+- **Action:** Go to website
+- **URL:**
+```
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=instant_exp_dec27&utm_content=urgency_cta&variant=dark
+```
+
+**Component 7: Footer Image** (optional)
+- Small testimonial snippet: "С Алекс наистина разбирам - Глория"
+
+- [ ] **Preview on mobile** (use phone preview in builder)
+- [ ] **Click "Finish"**
+
+**Back to Ad Creation:**
+- **Primary Text (Caption for feed):**
+```
+⏰ 20 дни до изпитите
+
+Кликни за да видиш как мога да ти помогна да минеш успешно 👆
+
+#изпити #програмиране #помощ #българия
+```
+
+- **Headline:** "Индивидуални уроци - Безплатна консултация"
+- **Call to Action:** "Learn More"
+
+- [ ] **Review ad preview** - ensure Instant Experience loads correctly
+- [ ] **Click "Publish"**
+
+**After Publishing:**
+- [ ] **Update Budget Tracker:**
+  - Date: Dec 27
+  - Platform: Instagram Instant Experience
+  - Amount: 35 BGN
+  - Campaign: Urgency Instant Exp
+  - Status: Active
+  - **Total Spent Today: 110 BGN (Facebook 75 + Instagram 35)**
+  - **Total Spent to Date: 220 BGN**
+  - **Remaining Budget: 110 BGN**
+
+**Expected Results (7 days):**
+- 2,000-3,000 impressions
+- 150-250 clicks to Instant Experience
+- 50-80 clicks through to website
+- 5-8 form submissions
+- Cost per click: ~0.20-0.25 BGN
 
 ---
 
@@ -1976,24 +2249,24 @@ TutoriAleks.com - Запази място
 ```
 
 **📸 Instagram Story (6 PM):**
-- "Току що стартирах Google Ads 🚀"
-- "И LinkedIn реклама"
+- "Току що стартирах Facebook + Instagram реклами 🚀"
+- "Urgency theme: 20 дни до изпитите! ⏰"
 - "Let's see what happens! 📊"
 
 #### 💬 Monitoring (10 min - throughout day)
 
-- [ ] Check Google Ads every 2-3 hours
-- [ ] Check LinkedIn boost reach
+- [ ] Check Facebook Boost #2 performance every 2-3 hours
+- [ ] Check Instagram Instant Experience metrics (impressions, clicks)
 - [ ] Note initial metrics in spreadsheet
 
-**✅ MAJOR SPEND DAY - 160 BGN ACTIVATED! 💸**
+**✅ MAJOR SPEND DAY - 110 BGN ACTIVATED! 💸**
 
 **CRITICAL MILESTONES:**
-- ✅ Google Ads LIVE (100 BGN running through Jan 11)
-- ✅ LinkedIn Boost LIVE (60 BGN through Jan 3)
-- ✅ Total active campaigns: 2 (Google + LinkedIn)
-- ✅ Total spent: 210 BGN
-- ✅ Remaining: 160 BGN (2 more boosts planned)
+- ✅ Facebook Boost #2 LIVE (75 BGN urgency theme, through Jan 3)
+- ✅ Instagram Instant Experience LIVE (35 BGN interactive ad, through Jan 3)
+- ✅ Total active campaigns: 4 (2 Facebook + 2 Instagram)
+- ✅ Total spent: 220 BGN
+- ✅ Remaining: 110 BGN (Week 4 boosts planned)
 
 ---
 
@@ -2001,52 +2274,71 @@ TutoriAleks.com - Запази място
 **Daily Time: 30-40 minutes each**
 
 #### Saturday Dec 28 (DARK THEME)
-- LinkedIn (10 AM): Weekend study plan for last-minute prep
+- Facebook (10 AM): Weekend study plan for last-minute prep
 - Instagram: Carousel (7-day cram plan)
-- **Action:** Check Google Ads Day 2 + LinkedIn boost Day 2
-- **Time:** 30 min
+- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 1
+  - **Morning (9 AM):** Slide 2 "Разбирам как мислиш и обяснявам на ТВОЯ език 🗣️"
+  - **Afternoon (3 PM):** Slide 3 "Отговарям на въпросите ти още докато възникват 💡"
+  - Upload: `/marketing/graphics/carousel-usp-02.png` and `carousel-usp-03.png`
+  - Add swipe-up link (if available) or "Link in bio" sticker
+- **Action:** Check Facebook Boost #2 Day 2 + Instagram Instant Exp Day 2
+- **Time:** 35 min
 
 #### Sunday Dec 29 - BATCH DAY 📦
 - Light content: Facebook poll, Instagram story
+- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 2
+  - **Morning (10 AM):** Slide 4 "Откривам слепите петна - това което не знаеш, че не знаеш 🔍"
+  - **Afternoon (4 PM):** Slide 5 "Учиш да мислиш независимо - не да запомняш решения 🧠"
+  - Upload: `/marketing/graphics/carousel-usp-04.png` and `carousel-usp-05.png`
 - **BATCH WORK (1.5 hours):**
   - [ ] Write ALL Week 4 content (Jan 1-11 - 11 days!)
   - [ ] Review Week 2-3 performance:
-    - Total spent: 210 BGN
+    - Total spent: 220 BGN
     - Total leads: ___?
-    - Google Ads performance: ___?
-    - LinkedIn boost metrics: ___?
-  - [ ] Plan final 2 boosts (Facebook 50 BGN + LinkedIn 60 BGN)
+    - Facebook Boost #1 & #2 metrics: Reach ___? Clicks ___?
+    - Instagram Lead Gen: Leads ___? Cost per lead ___?
+    - Instagram Instant Exp: Clicks ___? Engagement ___?
+  - [ ] Plan final Week 4 boosts (Facebook 75 BGN + Instagram 35 BGN)
   - [ ] Update countdown graphics: 15, 10, 5, 1 day versions
   - [ ] Schedule Week 4 content
 
 #### Monday Dec 30 (WHITE THEME)
-- LinkedIn (7:30 AM): New Year resolution - learn to code properly in 2025
-- Facebook (1 PM): 2024 achievements post
+- Facebook (12 PM): New Year resolution - learn to code properly in 2025
 - Instagram (6 PM): Before/after code graphic
-- **Action:** Check Google Ads Day 4
-- **Time:** 35 min
+- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 3
+  - **Morning (9 AM):** Slide 6 "Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
+  - **Evening (7 PM):** Slide 7 "Дълготрайни знания - не временно разбиране 📚"
+  - Upload: `/marketing/graphics/carousel-usp-06.png` and `carousel-usp-07.png`
+- **Action:** Check Facebook + Instagram campaign performance mid-week
+- **Time:** 40 min
 
 #### Tuesday Dec 31 (NEW YEAR'S EVE)
 - All platforms (10 AM): New Year inspirational post (non-promotional)
 - "Честита Нова Година! 🎉"
+- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 4 (Final)
+  - **Morning (11 AM):** Slide 8 "Твоята увереност расте с всеки урок 💪"
+  - **Afternoon (3 PM):** Slide 9 "Спести 33% с всяко домашно + гъвкаво разписание 💰⏰"
+  - **Evening (6 PM):** Slide 10 "Запази безплатна консултация → tutorialeks.com 🚀" (CTA)
+  - Upload: `/marketing/graphics/carousel-usp-08.png`, `09.png`, and `10.png`
 - Light engagement only
-- **Action:** Check Google Ads week 1 summary
-- **Time:** 20 min
+- **Action:** Check final Week 3 campaign metrics before New Year
+- **Time:** 25 min
 
-**✅ WEEK 3 COMPLETE - 210 BGN SPENT, 160 BGN REMAINING**
+**✅ WEEK 3 COMPLETE - 220 BGN SPENT, 110 BGN REMAINING**
 
 **Week 3 Summary:**
-- Google Ads launched (100 BGN running) ✅
-- LinkedIn boost executed (60 BGN) ✅
+- Facebook Boost #2 launched (75 BGN urgency theme) ✅
+- Instagram Instant Experience executed (35 BGN interactive ad) ✅
 - Urgency messaging established ✅
 - Exam countdown active ✅
+- 4 total campaigns running (2 FB + 2 IG) ✅
 
 ---
 
 ## WEEK 4: CONVERSION (January 1-11, 2026)
 
 **Goal:** Maximum urgency, convert leads to PAYING STUDENTS
-**Budget This Week:** 110 BGN (Facebook 50 BGN + LinkedIn 60 BGN)
+**Budget This Week:** 110 BGN (Facebook 75 BGN + Instagram 35 BGN)
 **Target:** **2-4 PAYING STUDENTS** ← SUCCESS METRIC
 **Daily Time:** 40+ minutes (aggressive lead follow-up)
 **Status:** ⬜ NOT STARTED
@@ -2118,77 +2410,20 @@ TutoriAleks.com - Запази място
 
 ---
 
-### Thursday, January 2, 2026 ⭐ FACEBOOK BOOST #2
-**Daily Time: 45 minutes**
+### Thursday, January 2, 2026 ⭐ FACEBOOK BOOST #3 + INSTAGRAM BOOST #3
+**Daily Time: 60 minutes**
 
 #### ☀️ Morning (10 min)
 
-- [ ] Check Google Ads (Week 2 of campaign)
-- [ ] LinkedIn boost ended yesterday (Dec 27-Jan 3) - **Review final results:**
-  - Total reach: ___?
-  - Engagement: ___?
-  - Website visits: ___?
-  - Leads: ___?
-  - Cost per result: ___?
+- [ ] Check Week 3 campaigns ending (Dec 27-Jan 3) - **Review final results:**
+  - Facebook Boost #2: Total reach ___? Clicks ___?
+  - Instagram Instant Experience: Impressions ___? Engagement ___?
+  - Combined leads from Week 3: ___?
+  - Cost per lead: ___?
 
-#### 📱 Content (15 min)
+#### 📱 Content + 💰 PAID ACTIONS (45 min)
 
-**🔵 LinkedIn (7:30 AM - Maximum Urgency) - DARK THEME**
-
-```
-Изпит след 10 дни. Real talk. ⏰
-
-Днес е 2-ри януари.
-Изпитите започват ~15-ти януари.
-
-Остават 10-12 дни.
-
-Честна оценка на готовност:
-
-✅ "Готов съм" ако:
-- Решаваш medium-level задачи в темата уверено
-- Можеш да обясниш кода си на глас
-- Си решил поне 10 past exam задачи
-
-⚠️ "Рисковано" ако:
-- Решаваш само basic задачи
-- Понякога се объркваш в синтаксис
-- Не си решавал past exams
-
-🚨 "Нужна е помощ БЪРЗО" ако:
-- Не можеш да решиш basic задачи сам
-- Гледаш tutorials но не разбираш
-- Паника е започнала
-
-Ако си в ⚠️ или 🚨 категория:
-
-10 дни са достатъчно за crash course.
-НО трябва focused intensive работа.
-
-Индивидуална подготовка:
-→ Идентифициране на blind spots (1 час)
-→ Intensive practice върху тях (8-10 часа)
-→ Mock exam practice (2 часа)
-
-Общо: 10-12 часа през 10 дни = постижимо
-
-Имам 3 свободни слота тази седмица за emergency exam prep.
-
-First come, first served.
-
-Линк в коментарите. Или DM директно.
-
-Времето тече. ⏰
-
-#EmergencyPrep #Exam #Programming #LastChance
-```
-
-**URL:** DARK THEME
-**Midjourney:** Prompt 4A (Clock urgency)
-
----
-
-**🟦 FACEBOOK BUSINESS PAGE (12:00 PM) - POST TO BE BOOSTED ⭐**
+**🟦 FACEBOOK BUSINESS PAGE (9:00 AM) - POST TO BE BOOSTED ⭐**
 
 ```
 🚨 ИЗПИТ СЛЕД 10 ДНИ? 🚨
@@ -2220,76 +2455,129 @@ First come, first served.
 
 **URL:**
 ```
-https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_jan02&utm_content=emergency_prep&variant=dark
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost3_jan02&utm_content=emergency_prep&variant=dark
 ```
 
 ---
 
-#### 💰 PAID ACTION (15 min - 1:00 PM)
+#### 💰 PAID ACTION #1: FACEBOOK BOOST #3 (15 min - 9:30 AM)
 
 **Boost Facebook Business Page Post**
 
 **Settings:**
-- **Budget:** 50 BGN
+- **Budget:** 75 BGN
 - **Duration:** 7 days (Jan 2-9)
 - **Objective:** Traffic
-- **Target:** Same as Boost #1 (Bulgaria, 18-30, Programming interests)
-- **Placement:** Facebook + Instagram Feed
+- **Target:** Bulgaria, 18-30, Programming interests, Students
+- **Placement:** Facebook Feed + Instagram Feed
 - **CTA:** "Learn More"
 - **URL:** (above, with utm tracking)
 
+- [ ] **Boost the post**
 - [ ] **Update Budget Tracker:**
   - Date: Jan 2
-  - Platform: Facebook
-  - Amount: 50 BGN
-  - **Total Spent: 260 BGN**
-  - **Remaining: 110 BGN (1 boost left!)**
+  - Platform: Facebook Boost #3
+  - Amount: 75 BGN
+  - **Total Spent to Date: 295 BGN**
+  - **Remaining: 35 BGN**
 
 ---
 
-**📸 Instagram (6 PM):**
-- Post: Countdown "10 ДЕНА" graphic (urgent red colors)
-- Caption: "Времето тече ⏰ Готов ли си? #изпит #спешно"
+#### 💰 PAID ACTION #2: INSTAGRAM BOOST #3 (15 min - 10:00 AM)
+
+**FINAL Instagram Campaign - Maximum Urgency**
+
+- [ ] **Create Instagram post** (9:45 AM)
+
+**Post Content:**
+- **Image:** Countdown graphic "10 ДЕНА до изпитите" with urgent red/orange colors
+- **Caption:**
+```
+⏰ 10 дни до изпитите
+
+Още не си сигурен в основите?
+
+Време за интензивна подготовка:
+✅ Фокус върху ТВОИТЕ слаби места
+✅ Exam-style задачи
+✅ Бърз напредък
+
+Безплатна консултация (45 мин) ➜ Линк в био
+
+#изпити #програмиране #спешно #българия
+```
+
+- [ ] **Boost the Instagram post**
+
+**Boost Settings:**
+- **Budget:** 35 BGN
+- **Duration:** 7 days (Jan 2-9)
+- **Objective:** Profile visits or Website traffic
+- **Button:** "Learn More"
+- **Audience:** Bulgaria, 18-30, programming, students
+- **Placements:** Instagram Feed + Stories + Explore
+
+**URL:**
+```
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=boost3_jan02&utm_content=countdown_10days&variant=dark
+```
+
+- [ ] **Update Budget Tracker:**
+  - Date: Jan 2
+  - Platform: Instagram Boost #3
+  - Amount: 35 BGN
+  - **TOTAL SPENT TODAY: 110 BGN**
+  - **TOTAL CAMPAIGN SPENT: 330 BGN**
+  - **ALL BUDGET USED! ✅**
+
+---
+
+**📸 Instagram Story (6 PM):**
+- "Всички 6 кампании вече са активни! 🚀"
+- "Facebook + Instagram максимална urgency 🔥"
+- "330 BGN пълен бюджет използван ✅"
 
 #### 💬 Engagement (5 min)
 
-- [ ] Monitor new boost
+- [ ] Monitor both new boosts (Facebook + Instagram)
+- [ ] Respond to any comments or DMs immediately
 
-**✅ BOOST #3 LIVE - URGENCY MAXIMIZED**
+**✅ ALL BOOSTS LIVE - FULL BUDGET DEPLOYED! 💸**
 
 ---
 
 ### Friday-Sunday, January 3-5, 2026
 
 #### Friday Jan 3 (WHITE THEME)
-- LinkedIn: Strategy post (80/20 rule - focus on what matters)
-- Facebook + Instagram: Cross-post urgency
-- **Action:** Check all campaigns, review LinkedIn boost #1 final results
+- Facebook + Instagram: Cross-post urgency content
+- Instagram Stories: Behind-the-scenes exam prep tips
+- **Action:** Check all active campaigns (4 Facebook + 2 Instagram)
 - **Time:** 40 min
 
-#### Saturday Jan 4 ⭐ LINKEDIN BOOST #2 (FINAL PAID SPEND)
+#### Saturday Jan 4 - MID-CAMPAIGN REVIEW
 - **Morning:** Full campaign review - calculate total leads to date
-- **LinkedIn (9 AM):** "Last call for pre-exam prep" - **POST TO BE BOOSTED**
-- **💰 PAID ACTION (10 AM):** Boost LinkedIn post
-  - Budget: 60 BGN (final spend!)
-  - Duration: 7 days (Jan 4-11)
-  - Target: Students, programming interests
-  - **Total Spent: 320 BGN | Reserve: 50 BGN**
+- **Facebook (10 AM):** "Last call for pre-exam prep" urgency post
+- **Instagram (6 PM):** Testimonial story highlight
+- **CAMPAIGN ANALYSIS (30 min):**
+  - Total spent: 330 BGN (all budget deployed)
+  - Total leads from all sources: ___?
+  - Cost per lead: ___?
+  - Active campaigns: 6 total (3 FB + 3 IG)
 - **Time:** 45 min
-- **✅ ALL PAID CAMPAIGNS NOW ACTIVE - FINAL WEEK**
 
-#### Sunday Jan 5 - FINAL REVIEW
+#### Sunday Jan 5 - AGGRESSIVE LEAD FOLLOW-UP
 - **FULL CAMPAIGN ANALYSIS (20 min):**
-  - Total spent: 320 BGN
+  - Total spent: 330 BGN ✅
   - Total leads: ___?
-  - Consultations: ___?
+  - Consultations booked: ___?
   - Paying students: ___?
   - On track for 3-5 students goal?
-- **Aggressive Lead Follow-Up (25 min):**
-  - Review all Week 4 leads
-  - WHO didn't respond? → CALL them
-  - WHO booked but no-show? → Text on Viber
-  - WHO had consultation but didn't book? → Final push call
+- **Aggressive Lead Follow-Up (40 min):**
+  - Review all leads from Weeks 2-4
+  - WHO didn't respond? → CALL them (not just email)
+  - WHO booked but no-show? → Text on Viber + WhatsApp
+  - WHO had consultation but didn't book? → Final push call with special offer
+  - Prioritize hot leads (requested consultation, asked pricing)
 - **Time:** 1 hour
 
 ---
@@ -2304,18 +2592,20 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - **Evening:** Update tracking, aggressive follow-up
 
 #### Monday Jan 6 (WHITE THEME)
-- LinkedIn: "1 седмица до изпитите" - last chance for new concepts
-- Facebook: Emergency консултации available
-- Instagram: "7 ДENA" countdown
+- Facebook: "1 седмица до изпитите" - last chance for new concepts
+- Instagram: "7 ДЕНА" countdown story + feed post
 - **Action:** Call hot leads, don't just email
+- **Time:** 40 min
 
 #### Tuesday Jan 7 (DARK THEME)
 - All platforms: "6 дни" - scarcity messaging
-- Facebook Business Page: Final urgency ("1 място утре, 1 място в сряда")
+- Facebook Business Page: Final urgency ("2 места останали тази седмица")
+- **Time:** 35 min
 
 #### Wednesday Jan 8 (WHITE THEME)
 - All platforms: "5 дни" - last day for new concepts
-- Facebook Boost #2 ends (review results)
+- Instagram Lead Gen Ad ends (review final results)
+- **Time:** 40 min
 
 #### Thursday Jan 9 (DARK THEME)
 - All platforms: "4 дни" - practice mode only
@@ -2802,13 +3092,17 @@ Automatically calculate cost-per-lead, ROI, remaining budget. Make data-driven d
 ```
 | Item              | Budgeted | Spent | Remaining | % Used |
 |-------------------|----------|-------|-----------|--------|
-| Facebook Ads      | 100      | 0     | =B2-C2    | =C2/B2 |
-| LinkedIn Ads      | 120      | 0     | =B3-C3    | =C3/B3 |
-| Google Ads        | 100      | 0     | =B4-C4    | =C4/B4 |
-| Midjourney (est.) | 50       | 0     | =B5-C5    | =C5/B5 |
+| Facebook Boosts   | 225      | 0     | =B2-C2    | =C2/B2 |
+| Instagram Ads     | 105      | 0     | =B3-C3    | =C3/B3 |
+| Midjourney (est.) | 50       | 0     | =B4-C4    | =C4/B4 |
 |-------------------|----------|-------|-----------|--------|
-| TOTAL             | =SUM(B2:B5) | =SUM(C2:C5) | =B6-C6 | =C6/B6 |
+| TOTAL             | =SUM(B2:B4) | =SUM(C2:C4) | =B5-C5 | =C5/B5 |
 ```
+
+**Budget Breakdown:**
+- Facebook Boosts: 75 + 75 + 75 = 225 BGN (3 boosts)
+- Instagram Ads: 35 + 35 + 35 = 105 BGN (1 Lead Gen + 1 Instant Exp + 1 Boost)
+- Total Campaign: 330 BGN
 
 **Conditional Formatting (Optional):**
 - Highlight "% Used" column
@@ -2844,12 +3138,19 @@ Automatically calculate cost-per-lead, ROI, remaining budget. Make data-driven d
 | Week | Date Range      | Total Spend | Form Submissions | Cost Per Lead | Consultations | Conversions | Revenue | ROI    |
 |------|-----------------|-------------|------------------|---------------|---------------|-------------|---------|--------|
 | 1    | Dec 11-17       | 0           | 0                | =#DIV/0!      | 0             | 0           | 0       | =#DIV/0! |
-| 2    | Dec 18-24       | 50          | 0                | =C3/D3        | 0             | 0           | 0       | =(H3-C3)/C3 |
-| 3    | Dec 25-31       | 160         | 0                | =C4/D4        | 0             | 0           | 0       | =(H4-C4)/C4 |
-| 4    | Jan 1-11        | 50          | 0                | =C5/D5        | 0             | 0           | 0       | =(H5-C5)/C5 |
+| 2    | Dec 18-24       | 110         | 0                | =C3/D3        | 0             | 0           | 0       | =(H3-C3)/C3 |
+| 3    | Dec 25-31       | 110         | 0                | =C4/D4        | 0             | 0           | 0       | =(H4-C4)/C4 |
+| 4    | Jan 1-11        | 110         | 0                | =C5/D5        | 0             | 0           | 0       | =(H5-C5)/C5 |
 |------|-----------------|-------------|------------------|---------------|---------------|-------------|---------|--------|
 | TOTAL| Campaign Total  | =SUM(C2:C5) | =SUM(D2:D5)      | =C6/D6        | =SUM(F2:F5)   | =SUM(G2:G5) | =SUM(H2:H5) | =(H6-C6)/C6 |
 ```
+
+**Budget per Week:**
+- Week 1: 0 BGN (organic only)
+- Week 2: 110 BGN (Facebook 75 + Instagram 35)
+- Week 3: 110 BGN (Facebook 75 + Instagram 35)
+- Week 4: 110 BGN (Facebook 75 + Instagram 35)
+- **Total: 330 BGN**
 
 **Manual Updates Required:**
 - Update "Form Submissions" when form comes in
@@ -2859,9 +3160,9 @@ Automatically calculate cost-per-lead, ROI, remaining budget. Make data-driven d
 - Formulas auto-calculate cost per lead and ROI
 
 **Weekly Review Workflow (Sundays):**
-1. Sum up week's ad spend from Meta/LinkedIn/Google dashboards
+1. Sum up week's ad spend from Meta Ads Manager (Facebook + Instagram)
 2. Update "Total Spend" for that week
-3. Check "Form Submissions" count from Google Forms
+3. Check "Form Submissions" count from Google Forms + Instagram Lead Forms
 4. Review ROI column - is it improving week over week?
 
 ---
