@@ -149,9 +149,9 @@ Total: 5 Instagram Stories
 **Bio Link**: Keep current (or use white theme as default)
 
 **Actions**:
-- [ ] Upload image 26.png
-- [ ] Copy/paste caption
-- [ ] Post at 6:00 PM
+- [x] Upload image 26.png
+- [x] Copy/paste caption
+- [x] Post at 6:00 PM
 - [ ] Respond to ALL "ПОМОЩ" comments via DM within 1 hour
 - [ ] Track engagement - this is your midpoint check-in
 
@@ -189,10 +189,10 @@ Total: 5 Instagram Stories
 **Bio Link**: `https://tutorialeks.com/bg/learners/white-theme/?utm_source=instagram&utm_medium=organic&utm_campaign=countdown42&variant=white`
 
 **Actions**:
-- [ ] Upload image 18.png
-- [ ] Copy/paste caption
-- [ ] Update bio link to white theme URL
-- [ ] Post at 6:00 PM
+- [x] Upload image 18.png
+- [x] Copy/paste caption
+- [x] Update bio link to white theme URL
+- [x] Post at 6:00 PM
 - [ ] URGENT: Respond to "ГОТОВ" comments immediately
 - [ ] High urgency messaging - expect increased engagement
 
@@ -252,17 +252,17 @@ Total: 5 Instagram Stories
 Коледата = перфектен момент
 да започнеш
 
-Свайпни нагоре 👆
+плъзни нагоре 👆
 ```
 
 **Link Sticker URL**: `https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=story&utm_campaign=countdown42&variant=dark`
 
 **Actions**:
 - [x] Upload 38.png to Instagram Stories
-- [ ] Add text overlay (use Story text tool)
-- [ ] Add Link sticker (if <10k followers) or Swipe-up (if >10k)
+- [x] Add text overlay (use Story text tool)
+- [x] Add Link sticker (if <10k followers) or Swipe-up (if >10k)
 - [x] Post at 6:00 PM
-- [ ] Check story views after 4 hours
+- [x] Check story views after 4 hours
 
 ---
 
@@ -292,11 +292,11 @@ Total: 5 Instagram Stories
 
 **Actions**:
 - [x] Upload 30.png to Instagram Stories
-- [ ] Add text overlay with New Year theme
-- [ ] Add Link sticker
-- [ ] Add "Ask me anything" sticker
+- [x] Add text overlay with New Year theme
+- [x] Add Link sticker
+- [x] Add "Ask me anything" sticker
 - [x] Post at 9:00 AM
-- [ ] Respond to ALL questions within 2 hours
+- [x] Respond to ALL questions within 2 hours
 
 ---
 
@@ -316,7 +316,7 @@ Total: 5 Instagram Stories
 Паниката идва
 
 Искаш план?
-Свайпни нагоре 👆
+Плъзни нагоре 👆
 ```
 
 **Link Sticker URL**: `https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=story&utm_campaign=countdown42&variant=dark`
@@ -324,11 +324,11 @@ Total: 5 Instagram Stories
 **Interactive Element**: Poll sticker "Готов ли си за изпитите? 😰 НЕ / 💪 ДА"
 
 **Actions**:
-- [ ] Upload 22.png to Instagram Stories
+- [x] Upload 22.png to Instagram Stories
 - [ ] Add text overlay
-- [ ] Add Link sticker
+- [x] Add Link sticker
 - [ ] Add Poll sticker
-- [ ] Post at 6:00 PM
+- [x] Post at 6:00 PM
 - [ ] Check poll results after 12 hours
 - [ ] DM everyone who voted "НЕ" with consultation offer
 
@@ -359,12 +359,12 @@ Total: 5 Instagram Stories
 **Interactive Element**: Countdown sticker to exam date (Jan 30, 2026)
 
 **Actions**:
-- [ ] Upload 14.png to Instagram Stories
-- [ ] Add text overlay with urgency
-- [ ] Add Link sticker
-- [ ] Add Countdown sticker (set to Jan 30, 2026)
-- [ ] Post at 6:00 PM
-- [ ] High urgency - respond to ALL swipe-ups within 30 min
+- [x] Upload 14.png to Instagram Stories
+- [x] Add text overlay with urgency
+- [x] Add Link sticker
+- [x] Add Countdown sticker (set to Jan 30, 2026)
+- [x] Post at 6:00 PM
+- [x] High urgency - respond to ALL swipe-ups within 30 min
 
 ---
 
@@ -383,7 +383,7 @@ Total: 5 Instagram Stories
 Или време е да действаш?
 
 За спешна помощ:
-👆 Свайпни сега
+👆 плъзни сега
 
 (Едва ли има места)
 ```
