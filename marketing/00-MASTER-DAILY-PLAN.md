@@ -377,16 +377,16 @@ Subject: Последен въпрос
 
 **Graphic 7: Exam Countdown Template (15 min)**
 
-- [ ] Template: Search "Event Countdown" in Canva
-- [ ] Size: 1080x1080
-- [ ] Large number: "32 ДНИ"
-- [ ] Text: "До януарската изпитна сесия"
-- [ ] Bottom: "Остават 3 свободни места за подготовка"
-- [ ] Urgent colors (red/orange)
-- [ ] **SAVE AS EDITABLE TEMPLATE** in Canva (you'll update number daily)
-- [ ] Also save current version: `/marketing/graphics/countdown-32days.png`
-- [ ] **Midjourney Alternative:** Use Prompt 4D (hourglass + laptop urgency)
-
+- [x] Template: Search "Event Countdown" in Canva
+- [x] Size: 1080x1080
+- [x] Large number: "32 ДНИ"
+- [x] Text: "До януарската изпитна сесия"
+- [x] Bottom: "Остават 3 свободни места за подготовка"
+- [x] Urgent colors (red/orange)
+- [x] **SAVE AS EDITABLE TEMPLATE** in Canva (you'll update number daily)
+- [x] Also save current version: `/marketing/graphics/countdown-32days.png`
+- [x] **Midjourney Alternative:** Use Prompt 4D (hourglass + laptop urgency)
+  
 **Graphic 8: Carousel "Как TutoriAleks е различен" (USP Showcase) (50 min)**
 
 - [ ] Template: Search "Carousel Post" in Canva

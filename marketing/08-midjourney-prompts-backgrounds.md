@@ -219,20 +219,20 @@ Overhead shot showing multiple notebooks, laptops, and hands from different anon
 **For Ads: 56-65 (Time Pressure + FOMO)**
 
 ```
-Prompt 4A:
-Dramatic photograph of analog clock showing 11:55 (almost midnight), laptop keyboard and screen showing code in background out of focus, dark moody lighting with single desk lamp, sense of time running out, photorealistic, space at top and bottom for text --ar 4:5 --style raw 
+    Prompt 4A:
+    Dramatic photograph of analog clock showing 11:55 (almost midnight), laptop keyboard and screen showing code in background out of focus, dark moody lighting with single desk lamp, sense of time running out, photorealistic, space at top and bottom for text --ar 4:5 --style raw 
 
-Prompt 4B:
-Close-up of digital countdown timer on phone screen showing days and hours, laptop with exam preparation materials in blurred background, urgent red and orange color grading, dramatic side lighting, photorealistic, negative space for text overlay --ar 4:5 --style raw 
+    Prompt 4B:
+    Close-up of digital countdown timer on phone screen showing days and hours, laptop with exam preparation materials in blurred background, urgent red and orange color grading, dramatic side lighting, photorealistic, negative space for text overlay --ar 4:5 --style raw 
 
 Prompt 4C:
-Calendar on wall with dates crossed off and exam date circled in red marker, anonymous person's hand holding marker, laptop visible on desk below, natural light creating urgency, photorealistic, copy space at top third --ar 4:5 --style raw 
+Calendar on wall with dates crossed off and exam date circled in red marker, calendar is in януари 2026, 1st on monday, start of week is monday, days are noted in bulgarian as П В С Ч П С Н. anonymous person's hand holding marker, laptop with exam preparation materials visible on desk below, natural light creating urgency, photorealistic, copy space at top half --ar 4:5 --style raw 
 
-Prompt 4D:
-Hourglass in sharp focus in foreground, laptop with code in soft focus background, sand running out, dramatic lighting creating long shadows, time pressure visualization, photorealistic, space for urgent text overlay --ar 4:5 --style raw 
+    Prompt 4D:
+    Hourglass in sharp focus in foreground, laptop with code in soft focus background, sand running out, dramatic lighting creating long shadows, time pressure visualization, photorealistic, space for urgent text overlay --ar 4:5 --style raw 
 
-Prompt 4E:
-Smartphone showing multiple notification badges and reminder alerts about upcoming exam, laptop in background, urgent red color palette, dramatic lighting, photorealistic, negative space centered for text --ar 4:5 --style raw 
+    Prompt 4E:
+    Smartphone showing multiple notification badges and reminder alerts about upcoming exam, laptop in background, urgent red color palette, dramatic lighting, photorealistic, negative space centered for text --ar 4:5 --style raw 
 ```
 
 ### Background 4.2: Limited Spots Visual
