@@ -1,5 +1,5 @@
 # 🚀 TUTORIALEKS MARKETING MASTER PLAN
-## Complete Daily Execution Guide | December 11, 2025 - January 11, 2026
+## Complete Daily Execution Guide | December 21, 2025 - January 23, 2026
 
 **Campaign Overview:**
 - **Budget:** 370 BGN ($200 USD)
@@ -123,10 +123,10 @@ Instagram: https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&
 
 | Week | Budget | Platform | Purpose | Expected Results |
 |------|--------|----------|---------|------------------|
-| Week 1 (Dec 11-17) | 0 BGN | Organic | Foundation | 2-4 leads, 50+ engagements |
-| Week 2 (Dec 18-24) | 110 BGN | Facebook (75) + Instagram (35) | Testimonial | 8-12 leads, 5,000-7,000 reach |
-| Week 3 (Dec 25-31) | 110 BGN | Facebook (75) + Instagram (35) | Urgency | 10-15 leads, 5,000-7,000 reach |
-| Week 4 (Jan 1-11) | 110 BGN | Facebook (75) + Instagram (35) | Conversion | **2-4 PAYING STUDENTS** |
+| Week 1 (Dec 21-27) | 0 BGN | Organic | Foundation | 2-4 leads, 50+ engagements |
+| Week 2 (Dec 29-Jan 4) | 110 BGN | Facebook (75) + Instagram (35) | Testimonial | 8-12 leads, 5,000-7,000 reach |
+| Week 3 (Jan 6-12) | 110 BGN | Facebook (75) + Instagram (35) | Urgency | 10-15 leads, 5,000-7,000 reach |
+| Week 4 (Jan 13-23) | 110 BGN | Facebook (75) + Instagram (35) | Conversion | **2-4 PAYING STUDENTS** |
 | **TOTAL** | **330 BGN** | | | **3-5 paying students** |
 
 ### Email Response Templates
@@ -213,13 +213,13 @@ Subject: Последен въпрос
 
 ---
 
-## ⚙️ WEEK 0: PREPARATION (December 6-10, 2025)
+## ⚙️ WEEK 0: PREPARATION (December 16-20, 2025)
 
 **Goal:** Set up all systems, create graphics, write Week 1 content
 **Total Time:** 10.5 hours over 5 days
 **Status:** ⏳ STARTED
 
-### Saturday, December 7, 2025 (3 hours)
+### Saturday, December 17, 2025 (3 hours)
 
 #### Setup Tasks (30 min)
 
@@ -290,7 +290,7 @@ Subject: Последен въпрос
 
 ---
 
-### Sunday, December 8, 2025 (6 hours) - BATCH CONTENT DAY
+### Sunday, December 18, 2025 (6 hours) - BATCH CONTENT DAY
 
 #### Morning Session: Create Graphics (3 hours)
 
@@ -379,12 +379,12 @@ Subject: Последен въпрос
 
 - [x] Template: Search "Event Countdown" in Canva
 - [x] Size: 1080x1080
-- [x] Large number: "32 ДНИ"
+- [ ] Large number: "42 ДНИ"
 - [x] Text: "До януарската изпитна сесия"
 - [x] Bottom: "Остават 3 свободни места за подготовка"
 - [x] Urgent colors (red/orange)
 - [x] **SAVE AS EDITABLE TEMPLATE** in Canva (you'll update number daily)
-- [x] Also save current version: `/marketing/graphics/countdown-32days.png`
+- [ ] Also save current version: `/marketing/graphics/countdown-42days.png`
 - [x] **Midjourney Alternative:** Use Prompt 4D (hourglass + laptop urgency)
   
 **Graphic 8: Carousel "Как TutoriAleks е различен" (USP Showcase) (50 min)**
@@ -456,7 +456,7 @@ Subject: Последен въпрос
 
 ---
 
-### Monday, December 9, 2025 (30 min)
+### Monday, December 19, 2025 (30 min)
 
 #### Content Refinement & Instagram Planning (30 min)
 
@@ -474,24 +474,24 @@ Subject: Последен въпрос
 
 ---
 
-### Tuesday, December 10, 2025 (1 hour)
+### Tuesday, December 20, 2025 (1 hour)
 
 #### Final Website Check (20 min)
 
-- [ ] Visit: https://tutorialeks.com
-- [ ] Test consultation form:
+- [x] Visit: https://tutorialeks.com
+- [x] Test consultation form:
   - Submit test entry with fake data
   - Verify form email arrives at info@tutorialeks.com
   - Delete test entry
-- [ ] Check mobile view on phone:
+- [x] Check mobile view on phone:
   - White theme loads correctly
   - Dark theme loads correctly
   - Form works on mobile
-- [ ] Verify all links work:
+- [x] Verify all links work:
   - Navigation links
   - CTA buttons
   - Social media links
-- [ ] Check Meta Pixel fires:
+- [x] Check Meta Pixel fires:
   - Visit site
   - Check Meta Events Manager shows PageView event
 
@@ -538,29 +538,29 @@ Subject: Последен въпрос
 
 ---
 
-## WEEK 1: FOUNDATION (December 11-17, 2025)
+## WEEK 1: FOUNDATION (December 21-27, 2025)
 
 **Goal:** Build credibility, start organic engagement, establish baseline
 **Budget This Week:** 0 BGN (all organic)
 **Target:** 50+ engagements, 2-4 form submissions
 **Daily Time:** 25-40 minutes
-**Status:** ⬜ NOT STARTED
+**Status:** ☑️ STARTED
 
 ---
 
-### Wednesday, December 11, 2025 (LAUNCH DAY) ⭐
+### Wednesday, December 21, 2025 (LAUNCH DAY) ⭐
 **Daily Time: 40 minutes**
 
 #### ☀️ Morning Routine (10 min - 7:00 AM)
 
-- [ ] Check email for overnight inquiries
-- [ ] Check Facebook/LinkedIn/Instagram messages
-- [ ] Respond to any form submissions within 1 hour using Template 1
-- [ ] Review today's content (already scheduled from Sunday)
+- [x] Check email for overnight inquiries
+- [x] Check Facebook/LinkedIn/Instagram messages
+- [x] Respond to any form submissions within 1 hour using Template 1
+- [x] Review today's content (already scheduled from Sunday)
 
 #### 📱 Content Posting (20 min)
 
-**🔵 LinkedIn Post (7:30 AM)**
+[x] **🔵 LinkedIn Post (7:30 AM)**
 **A/B Test: Use WHITE THEME URL** (Wednesday = White day)
 
 ```
@@ -600,12 +600,12 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=linkedin&utm_medium=
 
 ---
 
-**🟦 Facebook Post (8:00 AM) - Personal Profile**
+[x] **🟦 Facebook Post (8:00 AM) - Personal Profile**
 
 ```
 Преподавам програмиране от 2010-та.
 
-Знаете ли кой е най-големият проблем на начинаещите?
+Знаете ли, кой е най-големият проблем на начинаещите?
 
 Не е липсата на информация - има МОРЕ от безплатни ресурси.
 Проблемът е липсата на обратна връзка.
@@ -637,7 +637,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=
 **📸 Instagram Post (6:00 PM)**
 **Upload Carousel: "5 Signs You Need a Tutor"**
 
-- [ ] Upload all 7 slides from `/marketing/graphics/carousel-signs-01.png` through `07.png`
+- [x] Upload all 7 slides from `/marketing/graphics/carousel-signs-01.png` through `07.png`
 
 **Caption:**
 ```
@@ -673,12 +673,12 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=instagram&utm_medium
 
 #### 💬 Engagement (10 min - 1:00 PM lunch break)
 
-- [ ] Check comments on LinkedIn post
-- [ ] Respond to EVERY SINGLE comment personally
-- [ ] Find 5 posts in Bulgarian programming groups (Facebook)
-- [ ] Leave helpful comments (NOT promotional, just helpful)
-- [ ] Find 3 LinkedIn posts about programming/education
-- [ ] Comment thoughtfully on those posts
+- [x] Check comments on LinkedIn post
+- [x] Respond to EVERY SINGLE comment personally
+- [x] Find 5 posts in Bulgarian programming groups (Facebook)
+- [x] Leave helpful comments (NOT promotional, just helpful)
+- [x] Find 3 LinkedIn posts about programming/education
+- [x] Comment thoughtfully on those posts
 
 #### 🌙 Evening Review (5 min - 9:00 PM)
 
@@ -698,7 +698,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=instagram&utm_medium
 
 ---
 
-### Thursday, December 12, 2025
+### Thursday, December 22, 2025
 **Daily Time: 35 minutes**
 
 #### ☀️ Morning Routine (10 min - 7:30 AM)
@@ -708,7 +708,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=instagram&utm_medium
 
 #### 📱 Content Posting (15 min)
 
-**🔵 LinkedIn Post (8:00 AM)**
+[x] **🔵 LinkedIn Post (8:00 AM)**
 **A/B Test: Use DARK THEME URL** (Thursday = Dark day)
 
 ```
@@ -748,18 +748,18 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=linkedin&utm_medium=o
 
 ---
 
-**🟦 Facebook Post (1:00 PM)**
+[x] **🟦 Facebook Post (1:00 PM)**
 **Upload:** Testimonial graphic #1 (Павлина)
 
 **Caption:**
 ```
 "Алекс използва въпроси, за да ме накара да открия отговорите сама."
 
-Това е Павлина - една от моите студентки.
+Това е Глория - една от моите студентки.
 
 Тя откри най-важното за индивидуалните уроци:
 Не те ТОВАРЯ с информация.
-Те ВОДЯ към разбиране с въпроси.
+ВОДЯ те към разбиране с въпроси.
 
 Това се нарича Сократов метод - учиш като МИСЛИШ, не като ЗАПОМНЯШ.
 
@@ -806,7 +806,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-### Friday, December 13, 2025
+### Friday, December 23, 2025
 **Daily Time: 40 minutes**
 
 #### ☀️ Morning Routine (10 min - 7:00 AM)
@@ -817,12 +817,12 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 #### 📱 Content Posting (20 min)
 
 **🔵 LinkedIn Post (7:30 AM)**
-**A/B Test: Use WHITE THEME URL** (Friday = White day)
+[x] **A/B Test: Use WHITE THEME URL** (Friday = White day)
 
 ```
 Защо масовите курсове работят само за 10% от учениците?
 
-Преподавах в SoftUni-style формат. Виждал съм статистиката отвътре.
+Работил съм с участници от SoftUni-style формат. Виждал съм статистиката отвътре.
 
 Проблемът НЕ е в курса.
 Проблемът е в модела.
@@ -866,7 +866,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=linkedin&utm_medium=
 ---
 
 **🟦 Facebook Business Page - FIRST POST (12:00 PM)**
-**Upload:** Testimonial graphic #2 (Глория)
+[x] **Upload:** Testimonial graphic #2 (Глория)
 
 **Caption:**
 ```
@@ -945,7 +945,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=instagram&utm_medium
 
 ---
 
-### Saturday, December 14, 2025
+### Saturday, December 24, 2025
 **Daily Time: 30 minutes**
 
 #### ☀️ Morning Routine (10 min - 9:00 AM)
@@ -1001,8 +1001,8 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=linkedin&utm_medium=o
 6. "5. Потърси mentor - индивидуалният feedback е game changer"
 
 **Caption:**
-```
-Кой е твоят совет за учене? Споделете в коментарите! 
+
+Кой е твоят съвет за учене? Споделете в коментарите! 
 
 #програмиране #учене #мотивация
 
@@ -1068,32 +1068,31 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 
 ---
 
-### Sunday, December 15, 2025 (BATCH DAY) 📦
+### Sunday, December 25, 2025 (BATCH DAY - CHRISTMAS) 📦🎄
 **Daily Time: 2.5 hours**
 
 #### ☀️ Morning (30 min - 9:00 AM)
 
-**Light posting only today:**
+**🎄 CHRISTMAS DAY - Light posting + Holiday greeting:**
 
-**🟦 Facebook Personal (10:00 AM)**
+**📸 Instagram Story (10:00 AM)**
+
+- "Честита Коледа! 🎄✨"
+- "Relaxing Christmas day - no coding today!"
+- Optional: "Back to programming tomorrow 💻"
+
+**🟦 Facebook Personal (11:00 AM)** - Optional
 
 ```
-Въпрос към програмистите:
+Честита Коледа! 🎄
 
-Предпочитате ли да учите от:
-A) Видео уроци
-B) Четене на документация
-C) Реални проекти с trial & error
-D) Mentor/преподавател
+Днес почивка от програмиране.
+Утре обратно към coding challenges! 💻
 
-Гласувайте в коментарите! Интересува ме.
+Приятен празник!
 ```
 
-**📸 Instagram Story (11:00 AM)**
-
-- "Sunday coding vibes ☕💻"
-- Poll: "Работиш ли по проект през уикенда?"
-- Options: "Да, кодирам" / "Не, почивам"
+**Note:** Keep it very light, no business/promotional content today
 
 ---
 
@@ -1134,15 +1133,15 @@ D) Mentor/преподавател
 
 ##### Prepare Week 2 Graphics (10 min)
 
-- [ ] Update exam countdown graphic: "27 ДЕНА до изпитите"
+- [ ] Update exam countdown graphic: "33 ДЕНА до изпитите"
 - [ ] Any new graphics needed for Week 2 posts?
-- [ ] Prepare testimonial graphic for Dec 19 boost (Глория)
+- [ ] Prepare testimonial graphic for Dec 30 boost (Глория)
 
 **✅ DAY 5 COMPLETE + WEEK 2 PREPPED**
 
 ---
 
-### Monday, December 16, 2025
+### Monday, December 26, 2025
 **Daily Time: 35 minutes**
 
 #### ☀️ Morning Routine (10 min - 7:00 AM)
@@ -1270,7 +1269,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=instagram&utm_medium
 
 ---
 
-### Tuesday, December 17, 2025 (WEEK 1 END)
+### Tuesday, December 27, 2025 (WEEK 1 END)
 **Daily Time: 35 minutes**
 
 #### ☀️ Morning Routine (10 min - 7:00 AM)
@@ -1380,7 +1379,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-## WEEK 2: ENGAGEMENT (December 18-24, 2025)
+## WEEK 2: ENGAGEMENT (December 29, 2025 - January 4, 2026)
 
 **Goal:** Launch first paid boost, continue organic growth, build exam urgency
 **Budget This Week:** 50 BGN (Facebook boost #1)
@@ -1390,7 +1389,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-### Monday, December 18, 2025
+### Monday, December 29, 2025
 **Daily Time: 35 minutes**
 
 #### ☀️ Morning (10 min)
@@ -1475,7 +1474,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-### Tuesday, December 19, 2025 ⭐ FIRST PAID BOOST
+### Tuesday, December 30, 2025 ⭐ FIRST PAID BOOST
 **Daily Time: 45 minutes - CRITICAL DAY**
 
 #### ☀️ Morning (10 min - 7:00 AM)
@@ -1571,7 +1570,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **Boost Settings:**
 - **Budget:** 75 BGN
-- **Duration:** 7 days (Dec 19-26)
+- **Duration:** 7 days (Dec 30 - Jan 6)
 - **Objective:** Traffic (to website)
 - **Button:** "Learn More"
 
@@ -1608,12 +1607,12 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 ---
 
 - [ ] **Update Budget Tracker Spreadsheet:**
-  - Date: Dec 19, 2025
+  - Date: Dec 30, 2025
   - Platform: Facebook
   - Campaign: Boost #1 - Testimonial
-  - Amount: 50 BGN
+  - Amount: 75 BGN
   - Status: Active
-  - Remaining budget: 320 BGN
+  - Remaining budget: 255 BGN
 
 - [ ] **Monitor boost performance** (check every 2-3 hours first day):
   - 3 PM check: Has it started showing? Impressions count?
@@ -1659,7 +1658,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - **Ad Set Name:** "Bulgaria 18-30 Programming"
 - **Conversion Location:** "Instant forms" ← CRITICAL SETTING
 - **Budget:** 35 BGN
-- **Schedule:** Start immediately, End date: Dec 26, 2025 (7 days)
+- **Schedule:** Start immediately, End date: Jan 6, 2026 (7 days)
 
 **Audience Targeting:**
 - **Location:** Bulgaria
@@ -1787,7 +1786,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 - [ ] **Update Budget Tracker:**
   - Platform: Instagram Lead Gen
   - Amount: 35 BGN
-  - Campaign: Lead Gen Dec 19-26
+  - Campaign: Lead Gen Dec 30 - Jan 6
   - Status: Active
 
 **Expected Results (7 days):**
@@ -1801,27 +1800,27 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 - [ ] **Respond to leads within 2 hours** (faster = higher conversion)
 - [ ] **Download leads to Google Sheets** every 2-3 days
 
-**TOTAL SPENT DEC 19: 110 BGN (Facebook 75 + Instagram 35)**
+**TOTAL SPENT DEC 30: 110 BGN (Facebook 75 + Instagram 35)**
 **TOTAL SPENT TO DATE: 110 BGN**
 **REMAINING BUDGET: 220 BGN**
 
 ---
 
-### Wednesday-Friday, December 20-22, 2025
+### Wednesday-Friday, December 31, 2025 - January 2, 2026
 **Daily Time: 30-40 minutes each**
 
 **Quick Daily Structure (same pattern all 3 days):**
 
-#### Wednesday Dec 20 (WHITE THEME)
+#### Wednesday Dec 31 (NEW YEAR'S EVE)
 
-**LinkedIn (7:30 AM):** Exam prep checklist - countdown to January exams
-**Facebook (12 PM):** Engagement poll about study hours
-**Instagram (6 PM):** Story countdown "26 days"
+**LinkedIn (7:30 AM):** Light New Year's Eve post - optional
+**Facebook (12 PM):** "Честита Нова Година!" celebratory post (non-promotional)
+**Instagram (6 PM):** Story "2024 → 2025 coding journey"
 **Action:** Check boost Day 2 performance
 
-#### Thursday Dec 21 (DARK THEME)
+#### Thursday Jan 1 (NEW YEAR'S DAY - WHITE THEME)
 
-**LinkedIn (7:30 AM):** AI tools vs fundamentals - thought leadership post
+**LinkedIn (7:30 AM):** "2025 starts with code" - New Year motivation post (keep as planned)
 
 **🟦 Facebook (1 PM):** USP Carousel Reshare (Graphic 8)
 
@@ -1860,7 +1859,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 **Instagram (6 PM):** Post pricing tiers graphic
 **Action:** Check boost Day 3, respond to any leads FAST
 
-#### Friday Dec 22 (WHITE THEME)
+#### Friday Jan 2 (WHITE THEME)
 
 **LinkedIn (7:30 AM):** Weekend learning tip
 **Facebook + Instagram:** Light posting (holiday approaching)
@@ -1870,25 +1869,25 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-### Saturday-Sunday, December 21-22 (Pre-Christmas Weekend)
+### Saturday-Sunday, January 3-4, 2026
 
-**Saturday Dec 21:**
+**Saturday Jan 3:**
 - LinkedIn (10 AM): Weekend study resources - free tools list
 - Light posting elsewhere
 - **Time:** 20 min
 
-**Sunday Dec 22 - BATCH DAY** 📦
-- **Light Posting:** Holiday vibe, non-promotional
+**Sunday Jan 4 - BATCH DAY** 📦
+- **Light Posting:** Weekend vibe
 - **BATCH WORK (2 hours):**
-  - [ ] Write ALL Week 3 content (Dec 25-31)
-  - [ ] Update countdown graphic: "20 ДЕНА до изпитите"
+  - [ ] Write ALL Week 3 content (Jan 6-12)
+  - [ ] Update countdown graphic: "27 ДЕНА до изпитите"
   - [ ] **Review paid campaigns performance:**
     - Facebook boost: Total spent 75 BGN → Reach: ___? Clicks: ___?
     - Instagram Lead Gen: Total spent 35 BGN → Leads: ___? Cost per lead: ___?
     - Combined total spent: 110 BGN
     - Total leads generated: ___?
     - Lessons learned: What worked? What didn't?
-  - [ ] **Plan Week 3 Instagram Instant Experience** (Dec 27 - 6 days away!)
+  - [ ] **Plan Week 3 Instagram Instant Experience** (Jan 7 - 3 days away!)
   - [ ] **Prep Instagram countdown graphics** for Week 3 urgency theme
   - [ ] Schedule Week 3 content in automation tools
 
@@ -1903,7 +1902,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-## WEEK 3: URGENCY BUILDING (December 25-31, 2025)
+## WEEK 3: URGENCY BUILDING (January 6-12, 2026)
 
 **Goal:** Launch Facebook + Instagram urgency campaigns, build exam countdown pressure
 **Budget This Week:** 110 BGN (Facebook 75 BGN + Instagram 35 BGN)
@@ -1913,20 +1912,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-### Wednesday, December 25, 2025 (CHRISTMAS DAY)
-**Daily Time: 5 minutes**
-
-**Instagram Story only:**
-- Holiday greeting: "Честита Коледа! 🎄"
-- No promotional content today
-
-**Facebook:** Optional simple holiday post, non-promotional
-
-**NO BUSINESS ACTIVITY TODAY - HOLIDAY**
-
----
-
-### Thursday, December 26, 2025 (BACK TO WORK)
+### Monday, January 6, 2026 (URGENCY PHASE BEGINS)
 **Daily Time: 40 minutes**
 
 #### ☀️ Morning (10 min)
@@ -1942,23 +1928,23 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 Януарската изпитна сесия наближава ⚠️
 
 Преглед на календара:
-→ Днес: 26 Декември
-→ Изпитите: ~15-20 Януари
+→ Днес: 6 Януари
+→ Изпитите: 31 Януари
 
-Остават 20 дни.
+Остават 25 дни.
 
 Ако още се бориш с основите (цикли, масиви, функции) - СЕГА е момента.
 
-Не на 10-ти януари.
+Не на 20-ти януари.
 Не "следващата седмица".
 СЕГА.
 
-20 дни са достатъчно за:
+25 дни са достатъчно за:
 ✅ Да идентифициш blind spots
 ✅ Да ги поправиш с интензивна практика
 ✅ Да минеш изпита уверено
 
-20 дни НЕ СА достатъчно за:
+25 дни НЕ СА достатъчно за:
 ❌ Да научиш всичко от нулата
 ❌ Да гледаш курсове бавно и спокойно
 ❌ Да "видим какво ще стане"
@@ -1997,7 +1983,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 ```
 
 **📸 Instagram (6 PM):**
-- Post: Exam countdown graphic "20 ДЕНА до изпитите"
+- Post: Exam countdown graphic "25 ДЕНА до изпитите"
 - Caption: "Засичам времето ⏰ Готов ли си? #изпити"
 
 **Midjourney:** Prompt 4D (Hourglass + laptop)
@@ -2010,7 +1996,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 ---
 
-### Friday, December 27, 2025 ⭐⭐ MAJOR SPEND DAY (110 BGN)
+### Tuesday, January 7, 2026 ⭐⭐ MAJOR SPEND DAY (110 BGN)
 **Daily Time: 60 minutes - CRITICAL DAY**
 
 **THIS IS WEEK 3 - URGENCY THEME LAUNCHES**
@@ -2029,7 +2015,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 **Post Copy:**
 ```
-⏰ ОСТАВАТ 20 ДНИ ДО ИЗПИТИТЕ
+⏰ ОСТАВАТ 24 ДНИ ДО ИЗПИТИТЕ
 
 Все още се бориш с:
 ❌ Цикли и масиви?
@@ -2053,13 +2039,13 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 #изпити #програмиране #спешнапомощ #българия #python #java
 ```
 
-**Visual:** Countdown graphic "20 ДЕНА до изпитите" with urgent color scheme (red/orange)
+**Visual:** Countdown graphic "24 ДЕНА до изпитите" with urgent color scheme (red/orange)
 
 - [ ] **Boost the post immediately**
 
 **Boost Settings:**
 - **Budget:** 75 BGN
-- **Duration:** 7 days (Dec 27 - Jan 3)
+- **Duration:** 7 days (Jan 7-14)
 - **Objective:** Traffic (to website)
 - **Button:** "Learn More"
 - **Audience:** Bulgaria, 18-30, programming interests, students
@@ -2067,11 +2053,11 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 **URL:**
 ```
-https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_dec27&utm_content=urgency_exam&variant=white
+https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_jan7&utm_content=urgency_exam&variant=white
 ```
 
 - [ ] **Update Budget Tracker:**
-  - Date: Dec 27
+  - Date: Jan 7
   - Platform: Facebook Boost #2
   - Amount: 75 BGN
   - Campaign: Urgency - Exam Countdown
@@ -2129,12 +2115,12 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=
 
 **Component 1: Header**
 - **Type:** Image or Video
-- **Upload:** Countdown graphic "20 ДЕНА до изпитите" (urgent colors)
+- **Upload:** Countdown graphic "24 ДЕНА до изпитите" (urgent colors)
 - **Duration:** 3 seconds (if video)
 
 **Component 2: Text Block**
 ```
-⏰ Остават 20 дни до януарските изпити
+⏰ Остават 24 дни до януарските изпити
 
 Още се бориш с основите?
 
@@ -2194,7 +2180,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 **Back to Ad Creation:**
 - **Primary Text (Caption for feed):**
 ```
-⏰ 20 дни до изпитите
+⏰ 24 дни до изпитите
 
 Кликни за да видиш как мога да ти помогна да минеш успешно 👆
 
@@ -2230,7 +2216,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 **🟦 Facebook Post (1:00 PM):**
 
 ```
-Остават 20 дни до изпитите.
+Остават 24 дни до изпитите.
 
 Готов ли си?
 
@@ -2250,7 +2236,7 @@ TutoriAleks.com - Запази място
 
 **📸 Instagram Story (6 PM):**
 - "Току що стартирах Facebook + Instagram реклами 🚀"
-- "Urgency theme: 20 дни до изпитите! ⏰"
+- "Urgency theme: 24 дни до изпитите! ⏰"
 - "Let's see what happens! 📊"
 
 #### 💬 Monitoring (10 min - throughout day)
@@ -2270,12 +2256,12 @@ TutoriAleks.com - Запази място
 
 ---
 
-### Saturday-Tuesday, December 28-31, 2025
+### Wednesday-Sunday, January 8-12, 2026
 **Daily Time: 30-40 minutes each**
 
-#### Saturday Dec 28 (DARK THEME)
-- Facebook (10 AM): Weekend study plan for last-minute prep
-- Instagram: Carousel (7-day cram plan)
+#### Wednesday Jan 8 (WHITE THEME)
+- Facebook (10 AM): Mid-week motivation post
+- Instagram: Educational content
 - **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 1
   - **Morning (9 AM):** Slide 2 "Разбирам как мислиш и обяснявам на ТВОЯ език 🗣️"
   - **Afternoon (3 PM):** Slide 3 "Отговарям на въпросите ти още докато възникват 💡"
@@ -2284,14 +2270,36 @@ TutoriAleks.com - Запази място
 - **Action:** Check Facebook Boost #2 Day 2 + Instagram Instant Exp Day 2
 - **Time:** 35 min
 
-#### Sunday Dec 29 - BATCH DAY 📦
-- Light content: Facebook poll, Instagram story
+#### Thursday Jan 9 (DARK THEME)
+- Facebook (12 PM): Problem-solution post
+- Instagram: Story series
 - **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 2
   - **Morning (10 AM):** Slide 4 "Откривам слепите петна - това което не знаеш, че не знаеш 🔍"
   - **Afternoon (4 PM):** Slide 5 "Учиш да мислиш независимо - не да запомняш решения 🧠"
   - Upload: `/marketing/graphics/carousel-usp-04.png` and `carousel-usp-05.png`
+- **Action:** Monitor campaign performance
+- **Time:** 35 min
+
+#### Friday Jan 10 (WHITE THEME)
+- Facebook (12 PM): Weekend prep tips
+- Instagram: Pricing post
+- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 3
+  - **Morning (9 AM):** Slide 6 "Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
+  - **Evening (7 PM):** Slide 7 "Дълготрайни знания - не временно разбиране 📚"
+  - Upload: `/marketing/graphics/carousel-usp-06.png` and `carousel-usp-07.png`
+- **Action:** Weekend prep
+- **Time:** 35 min
+
+#### Saturday Jan 11 (DARK THEME)
+- Facebook (10 AM): Weekend study plan
+- Instagram: Carousel (study tips)
+- **Action:** Check campaign mid-week performance
+- **Time:** 30 min
+
+#### Sunday Jan 12 - BATCH DAY 📦
+- Light content: Facebook poll, Instagram story
 - **BATCH WORK (1.5 hours):**
-  - [ ] Write ALL Week 4 content (Jan 1-11 - 11 days!)
+  - [ ] Write ALL Week 4 content (Jan 13-23 - 11 days!)
   - [ ] Review Week 2-3 performance:
     - Total spent: 220 BGN
     - Total leads: ___?
@@ -2299,30 +2307,9 @@ TutoriAleks.com - Запази място
     - Instagram Lead Gen: Leads ___? Cost per lead ___?
     - Instagram Instant Exp: Clicks ___? Engagement ___?
   - [ ] Plan final Week 4 boosts (Facebook 75 BGN + Instagram 35 BGN)
-  - [ ] Update countdown graphics: 15, 10, 5, 1 day versions
+  - [ ] Update countdown graphics: 18, 13, 11, 8 day versions
   - [ ] Schedule Week 4 content
-
-#### Monday Dec 30 (WHITE THEME)
-- Facebook (12 PM): New Year resolution - learn to code properly in 2025
-- Instagram (6 PM): Before/after code graphic
-- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 3
-  - **Morning (9 AM):** Slide 6 "Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
-  - **Evening (7 PM):** Slide 7 "Дълготрайни знания - не временно разбиране 📚"
-  - Upload: `/marketing/graphics/carousel-usp-06.png` and `carousel-usp-07.png`
-- **Action:** Check Facebook + Instagram campaign performance mid-week
-- **Time:** 40 min
-
-#### Tuesday Dec 31 (NEW YEAR'S EVE)
-- All platforms (10 AM): New Year inspirational post (non-promotional)
-- "Честита Нова Година! 🎉"
-- **📸 Instagram Stories (Throughout Day):** USP Carousel Slides Rotation - Day 4 (Final)
-  - **Morning (11 AM):** Slide 8 "Твоята увереност расте с всеки урок 💪"
-  - **Afternoon (3 PM):** Slide 9 "Спести 33% с всяко домашно + гъвкаво разписание 💰⏰"
-  - **Evening (6 PM):** Slide 10 "Запази безплатна консултация → tutorialeks.com 🚀" (CTA)
-  - Upload: `/marketing/graphics/carousel-usp-08.png`, `09.png`, and `10.png`
-- Light engagement only
-- **Action:** Check final Week 3 campaign metrics before New Year
-- **Time:** 25 min
+- **Time:** 2 hours
 
 **✅ WEEK 3 COMPLETE - 220 BGN SPENT, 110 BGN REMAINING**
 
@@ -2335,7 +2322,7 @@ TutoriAleks.com - Запази място
 
 ---
 
-## WEEK 4: CONVERSION (January 1-11, 2026)
+## WEEK 4: CONVERSION (January 13-23, 2026)
 
 **Goal:** Maximum urgency, convert leads to PAYING STUDENTS
 **Budget This Week:** 110 BGN (Facebook 75 BGN + Instagram 35 BGN)
@@ -2345,15 +2332,15 @@ TutoriAleks.com - Запази място
 
 ---
 
-### Wednesday, January 1, 2026 (NEW YEAR'S DAY)
-**Daily Time: 30 minutes**
+### Monday, January 13, 2026 (WEEK 4 BEGINS - CONVERSION FOCUS)
+**Daily Time: 35 minutes**
 
-#### 📱 Content (15 min)
+#### 📱 Content (20 min)
 
-**🔵 LinkedIn (10 AM - New Year Momentum) - WHITE THEME**
+**🔵 LinkedIn (7:30 AM - Maximum Urgency) - WHITE THEME**
 
 ```
-2025 starts with code 💻
+18 дни до изпитите ⚠️
 
 Първи януари. Нова година. Fresh start.
 
@@ -2410,12 +2397,12 @@ TutoriAleks.com - Запази място
 
 ---
 
-### Thursday, January 2, 2026 ⭐ FACEBOOK BOOST #3 + INSTAGRAM BOOST #3
+### Tuesday, January 14, 2026 ⭐ FACEBOOK BOOST #3 + INSTAGRAM BOOST #3
 **Daily Time: 60 minutes**
 
 #### ☀️ Morning (10 min)
 
-- [ ] Check Week 3 campaigns ending (Dec 27-Jan 3) - **Review final results:**
+- [ ] Check Week 3 campaigns ending (Jan 7-14) - **Review final results:**
   - Facebook Boost #2: Total reach ___? Clicks ___?
   - Instagram Instant Experience: Impressions ___? Engagement ___?
   - Combined leads from Week 3: ___?
@@ -2426,7 +2413,7 @@ TutoriAleks.com - Запази място
 **🟦 FACEBOOK BUSINESS PAGE (9:00 AM) - POST TO BE BOOSTED ⭐**
 
 ```
-🚨 ИЗПИТ СЛЕД 10 ДНИ? 🚨
+🚨 ИЗПИТ СЛЕД 17 ДНИ? 🚨
 
 Все още се бориш с:
 ❌ Цикли и масиви?
@@ -2435,14 +2422,14 @@ TutoriAleks.com - Запази място
 
 Има решение: Интензивна индивидуална подготовка
 
-10 дни = достатъчно време за:
+17 дни = последен шанс за quality подготовка:
 ✅ Да намерим точно какво НЕ разбираш
 ✅ Да го обясним търпеливо докато стане ясно
 ✅ Да практикуваш с exam-style задачи
 
 Резултат: Уверен на изпит, не в паника.
 
-Остават само 2 места за emergency подготовка тази седмица.
+Остават само 3 места за интензивна подготовка.
 
 15 години опит | Sun Certified Java Dev | 100+ успешни студенти
 
@@ -2455,7 +2442,7 @@ TutoriAleks.com - Запази място
 
 **URL:**
 ```
-https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost3_jan02&utm_content=emergency_prep&variant=dark
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost3_jan14&utm_content=emergency_prep&variant=dark
 ```
 
 ---
@@ -2466,7 +2453,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **Settings:**
 - **Budget:** 75 BGN
-- **Duration:** 7 days (Jan 2-9)
+- **Duration:** 7 days (Jan 14-21)
 - **Objective:** Traffic
 - **Target:** Bulgaria, 18-30, Programming interests, Students
 - **Placement:** Facebook Feed + Instagram Feed
@@ -2475,7 +2462,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 - [ ] **Boost the post**
 - [ ] **Update Budget Tracker:**
-  - Date: Jan 2
+  - Date: Jan 14
   - Platform: Facebook Boost #3
   - Amount: 75 BGN
   - **Total Spent to Date: 295 BGN**
@@ -2490,10 +2477,10 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - [ ] **Create Instagram post** (9:45 AM)
 
 **Post Content:**
-- **Image:** Countdown graphic "10 ДЕНА до изпитите" with urgent red/orange colors
+- **Image:** Countdown graphic "17 ДЕНА до изпитите" with urgent red/orange colors
 - **Caption:**
 ```
-⏰ 10 дни до изпитите
+⏰ 17 дни до изпитите
 
 Още не си сигурен в основите?
 
@@ -2511,7 +2498,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **Boost Settings:**
 - **Budget:** 35 BGN
-- **Duration:** 7 days (Jan 2-9)
+- **Duration:** 7 days (Jan 14-21)
 - **Objective:** Profile visits or Website traffic
 - **Button:** "Learn More"
 - **Audience:** Bulgaria, 18-30, programming, students
@@ -2519,11 +2506,11 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **URL:**
 ```
-https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=boost3_jan02&utm_content=countdown_10days&variant=dark
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=boost3_jan14&utm_content=countdown_17days&variant=dark
 ```
 
 - [ ] **Update Budget Tracker:**
-  - Date: Jan 2
+  - Date: Jan 14
   - Platform: Instagram Boost #3
   - Amount: 35 BGN
   - **TOTAL SPENT TODAY: 110 BGN**
@@ -2546,15 +2533,15 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 
 ---
 
-### Friday-Sunday, January 3-5, 2026
+### Friday-Sunday, January 15-17, 2026
 
-#### Friday Jan 3 (WHITE THEME)
+#### Friday Jan 15 (WHITE THEME)
 - Facebook + Instagram: Cross-post urgency content
 - Instagram Stories: Behind-the-scenes exam prep tips
 - **Action:** Check all active campaigns (4 Facebook + 2 Instagram)
 - **Time:** 40 min
 
-#### Saturday Jan 4 - MID-CAMPAIGN REVIEW
+#### Saturday Jan 16 - MID-CAMPAIGN REVIEW
 - **Morning:** Full campaign review - calculate total leads to date
 - **Facebook (10 AM):** "Last call for pre-exam prep" urgency post
 - **Instagram (6 PM):** Testimonial story highlight
@@ -2565,7 +2552,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
   - Active campaigns: 6 total (3 FB + 3 IG)
 - **Time:** 45 min
 
-#### Sunday Jan 5 - AGGRESSIVE LEAD FOLLOW-UP
+#### Sunday Jan 17 - AGGRESSIVE LEAD FOLLOW-UP
 - **FULL CAMPAIGN ANALYSIS (20 min):**
   - Total spent: 330 BGN ✅
   - Total leads: ___?
@@ -2582,7 +2569,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 
 ---
 
-### Monday-Saturday, January 6-11, 2026 (FINAL WEEK)
+### Monday-Saturday, January 18-23, 2026 (FINAL WEEK)
 **Daily Time: 40 minutes - CONVERSION PUSH**
 
 **Every Day Pattern:**
@@ -2591,29 +2578,29 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 - **Engagement:** Respond IMMEDIATELY to ANY inquiry
 - **Evening:** Update tracking, aggressive follow-up
 
-#### Monday Jan 6 (WHITE THEME)
-- Facebook: "1 седмица до изпитите" - last chance for new concepts
-- Instagram: "7 ДЕНА" countdown story + feed post
+#### Monday Jan 18 (WHITE THEME)
+- Facebook: "13 дни до изпитите" - last chance for new concepts
+- Instagram: "13 ДЕНА" countdown story + feed post
 - **Action:** Call hot leads, don't just email
 - **Time:** 40 min
 
-#### Tuesday Jan 7 (DARK THEME)
-- All platforms: "6 дни" - scarcity messaging
+#### Tuesday Jan 19 (DARK THEME)
+- All platforms: "12 дни" - scarcity messaging
 - Facebook Business Page: Final urgency ("2 места останали тази седмица")
 - **Time:** 35 min
 
-#### Wednesday Jan 8 (WHITE THEME)
-- All platforms: "5 дни" - last day for new concepts
+#### Wednesday Jan 20 (WHITE THEME)
+- All platforms: "11 дни" - last day for new concepts
 - Instagram Lead Gen Ad ends (review final results)
 - **Time:** 40 min
 
-#### Thursday Jan 9 (DARK THEME)
-- All platforms: "4 дни" - practice mode only
+#### Thursday Jan 21 (DARK THEME)
+- All platforms: "10 дни" - practice mode only
 
-#### Friday Jan 10 (WHITE THEME)
-- All platforms: "3 дни" - final tips
+#### Friday Jan 22 (WHITE THEME)
+- All platforms: "9 дни" - final tips
 
-#### Saturday, January 11, 2026 (CAMPAIGN END)
+#### Saturday, January 23, 2026 (CAMPAIGN END)
 
 **Content (10 min):**
 ```
@@ -2648,7 +2635,7 @@ Good luck! 🚀🍀
 
 ---
 
-## 📊 POST-CAMPAIGN ANALYSIS (January 12-15, 2026)
+## 📊 POST-CAMPAIGN ANALYSIS (January 24-27, 2026)
 
 ### Immediate Actions
 
