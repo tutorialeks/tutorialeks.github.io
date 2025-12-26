@@ -1645,14 +1645,14 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **CRITICAL: First Instagram Lead Ad - Collects contacts directly in Instagram**
 
-- [ ] **Open Meta Ads Manager** (ads.facebook.com or Meta Business Suite → "Ads")
-- [ ] **Click "Create" → Choose Campaign Objective**
+- [x] **Open Meta Ads Manager** (ads.facebook.com or Meta Business Suite → "Ads")
+- [x] **Click "Create" → Choose Campaign Objective**
 
 **Campaign Setup:**
 - **Objective:** "Leads" ← This enables instant forms
 - **Campaign Name:** "Instagram Lead Gen Dec19-26"
 - **Special Ad Categories:** None (unless required)
-- [ ] Click "Continue"
+- [x] Click "Continue"
 
 **Ad Set Setup:**
 - **Ad Set Name:** "Bulgaria 18-30 Programming"
@@ -1682,7 +1682,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - [ ] Click "Continue to Ad Creation"
 
 **Ad Creation:**
-- **Ad Name:** "Testimonial Glória Lead Gen"
+- **Ad Name:** "Testimonial Gloria Lead Gen"
 - **Identity:** Your Instagram account
 - **Format:** Single image or video
 
@@ -1706,7 +1706,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 
 **Call to Action Button:** "Sign Up" or "Apply Now"
 
-- [ ] **Click "Create Lead Form" or "New Form"**
+- [x] **Click "Create Lead Form" or "New Form"**
 
 **Lead Form Creation:**
 
@@ -1749,9 +1749,9 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 - [ ] Click "Next"
 
 **3. Privacy Policy:**
-- [ ] **Add Privacy Policy URL:** https://tutorialeks.com/privacy (or your privacy policy page)
+- [x] **Add Privacy Policy URL:** https://tutorialeks.com/privacy (or your privacy policy page)
 - **Disclaimer:** "Използваме данните ти само за да се свържем с теб относно консултацията."
-- [ ] Click "Next"
+- [x] Click "Next"
 
 **4. Thank You Screen:**
 - **Headline:** "Благодаря! 🎉"
@@ -1769,21 +1769,21 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=p
 https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=leadgen_dec19&utm_content=testimonial&variant=dark
 ```
 
-- [ ] **Click "Finish"**
-- [ ] **Review form preview** - test on mobile view
-- [ ] **Click "Publish Form"**
+- [x] **Click "Finish"**
+- [x] **Review form preview** - test on mobile view
+- [x] **Click "Publish Form"**
 
 **Back to Ad Creation:**
-- [ ] **Select the form you just created** from dropdown
-- [ ] **Review ad preview** on Instagram Feed, Stories, Explore
-- [ ] **Click "Publish"**
+- [x] **Select the form you just created** from dropdown
+- [x] **Review ad preview** on Instagram Feed, Stories, Explore
+- [x] **Click "Publish"**
 
 **After Publishing:**
 - [ ] **Set up Instant Forms notifications:**
   - Meta Business Suite → Settings → Notifications
   - Enable "New Lead" notifications via email + SMS
 - [ ] **Download Meta Leads Center app** on phone for instant notifications
-- [ ] **Update Budget Tracker:**
+- [x] **Update Budget Tracker:**
   - Platform: Instagram Lead Gen
   - Amount: 35 BGN
   - Campaign: Lead Gen Dec 30 - Jan 6
