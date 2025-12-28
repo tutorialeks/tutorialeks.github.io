@@ -396,7 +396,7 @@ Subject: Последен въпрос
 - [ ] **Slide 3:** "2️⃣ Отговарям на въпросите ти още докато възникват 💡"
 - [ ] **Slide 4:** "3️⃣ Откривам слепите петна - това което не знаеш, че не знаеш 🔍"
 - [ ] **Slide 5:** "4️⃣ Учиш да мислиш независимо - не да запомняш решения 🧠"
-- [ ] **Slide 6:** "5️⃣ Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
+- [ ] **Slide 6:** "5️⃣ Примери от това, което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
 - [ ] **Slide 7:** "6️⃣ Дълготрайни знания - не временно разбиране 📚"
 - [ ] **Slide 8:** "7️⃣ Твоята увереност расте с всеки урок 💪"
 - [ ] **Slide 9:** "8️⃣ Спести 33% с всяко домашно + гъвкаво разписание 💰⏰"
@@ -1010,20 +1010,20 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=linkedin&utm_medium=o
 
 
 **📸 Instagram Carousel (11:00 AM)**
-**Topic:** "Как TutoriAleks е различен" (USP Showcase - Graphic 8)
+[x] **Topic:** "Как TutoriAleks е различен" (USP Showcase - Graphic 8)
 
 **10 slides** (use carousel created in Week 0):
-1. "Как TutoriAleks е различен от масовите курсове? 🎯"
-2. "1️⃣ Разбирам как мислиш и обяснявам на ТВОЯ език 🗣️"
-3. "2️⃣ Отговарям на въпросите ти още докато възникват 💡"
-4. "3️⃣ Откривам слепите петна - това което не знаеш, че не знаеш 🔍"
-5. "4️⃣ Учиш да мислиш независимо - не да запомняш решения 🧠"
-6. "5️⃣ Примери от това което ТЕ вълнува - спорт, игри, финанси ⚽🎮💰"
-7. "6️⃣ Дълготрайни знания - не временно разбиране 📚"
-8. "7️⃣ Твоята увереност расте с всеки урок 💪"
-9. "8️⃣ Спести 33% с всяко домашно + гъвкаво разписание 💰⏰"
-10. "Запази безплатна консултация → tutorialeks.com 🚀"
-
+❓ Как TutoriAleks е различен от масовите курсове? 🎯
+1️⃣ Разбирам как мислиш и обяснявам на ТВОЯ език 🗣️
+2️⃣ Отговарям на въпросите ти още докато възникват 💡
+3️⃣ Откривам слепите петна - това което не знаеш, че не знаеш 🔍
+4️⃣ Учиш да мислиш независимо - не да запомняш решения 🧠
+5️⃣ Примери от това, което Теб те вълнува - спорт, игри, финанси ⚽🎮💰
+6️⃣ Дълготрайни знания - не временно разбиране 📚
+7️⃣ Твоята увереност расте с всеки урок 💪
+8️⃣ Спести 33% с всяко домашно + гъвкаво разписание 💰⏰
+  Запази безплатна консултация → tutorialeks.com 🚀
+ 
 **Upload:** `/marketing/graphics/carousel-usp-01.png` through `carousel-usp-10.png`
 
 **Caption:**
@@ -1805,7 +1805,12 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 **REMAINING BUDGET: 220 BGN**
 
 ---
+**website traffic ad**
+**AB test white and dark**
 
+https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_dec29&utm_content=exam-is-coming&variant=white 
+
+---
 ### Wednesday-Friday, December 31, 2025 - January 2, 2026
 **Daily Time: 30-40 minutes each**
 
@@ -1820,15 +1825,15 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 
 #### Thursday Jan 1 (NEW YEAR'S DAY - WHITE THEME)
 
-**LinkedIn (7:30 AM):** "2025 starts with code" - New Year motivation post (keep as planned)
+[x] **LinkedIn (7:30 AM):** "2025 starts with code" - New Year motivation post (keep as planned)
 
-**🟦 Facebook (1 PM):** USP Carousel Reshare (Graphic 8)
+[x] **🟦 Facebook (1 PM):** USP Carousel Reshare (Graphic 8)
 
-**Post as Facebook Carousel** (use same slides from Instagram Week 1):
+[x] **Post as Facebook Carousel** (use same slides from Instagram Week 1):
 
-**Upload:** `/marketing/graphics/carousel-usp-01.png` through `carousel-usp-10.png`
+[x] **Upload:** `/marketing/graphics/carousel-usp-01.png` through `carousel-usp-10.png`
 
-**Caption:**
+[x] **Caption:**
 ```
 Защо моите студенти ми казват "най-добрият учител по програмиране"? 💡
 
@@ -1836,7 +1841,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 ✅ Отговарям на въпросите ти още докато възникват
 ✅ Откривам слепите петна - това което не знаеш, че не знаеш
 ✅ Учиш да мислиш независимо - не да запомняш решения
-✅ Примери от това което ТЕБ те вълнува
+✅ Примери от това, което ТЕБ те вълнува
 ✅ Дълготрайни знания, не временно разбиране
 ✅ Твоята увереност расте с всеки урок
 ✅ Спести 33% с всяко домашно + гъвкаво разписание
@@ -1844,7 +1849,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 15 години превръщам "невъзможно" в "разбрах го!" 🚀
 
 Запази безплатна 45-минутна консултация (без ангажимент):
-👉 tutorialeks.com/bg/learners/dark-theme
+👉 https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=organic&utm_campaign=dec2025&variant=dark&content=usp-carousel-reshare
 
 #програмиране #обучение #python #javascript #ментор #българия
 ```
@@ -1940,14 +1945,14 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 СЕГА.
 
 25 дни са достатъчно за:
-✅ Да идентифициш blind spots
+✅ Да идентифицираш blind spots
 ✅ Да ги поправиш с интензивна практика
 ✅ Да минеш изпита уверено
 
 25 дни НЕ СА достатъчно за:
 ❌ Да научиш всичко от нулата
 ❌ Да гледаш курсове бавно и спокойно
-❌ Да "видим какво ще стане"
+❌ "Да видим, какво ще стане"
 
 Честна оценка:
 Ако решаваш basic задачи по темата - окей, имаш шанс.
@@ -1976,10 +1981,10 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 И по-важното: Готови ли сте?
 
 Коментирайте:
-"Готов" - ако решавате задачи уверено
-"Паникьосвам" - ако все още има gaps
+"Готов" - ако решавате задачи уверено;
+"Паникьосан" - ако все още има пропуски.
 
-Честно! 😅
+Бъдете честни! 😅
 ```
 
 **📸 Instagram (6 PM):**
@@ -2027,12 +2032,12 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 Индивидуални уроци с фокус върху ТВОИТЕ слаби места:
 ✅ Търпелив преподавател (15 год. опит)
 ✅ Обяснение докато не стане ясно
-✅ Практика с реални exam задачи
-✅ Решиш домашно → -33% отстъпка
+✅ Практика с реални изпитни задачи
+✅ Реши домашно → -33% отстъпка
 
 Първа консултация: БЕЗПЛАТНА (45 минути)
 
-Запази място сега: [LINK]
+Запази място сега: https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_jan7&utm_content=urgency_exam&variant=white
 
 Януарската сесия наближава. Готов ли си?
 
