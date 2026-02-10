@@ -1927,6 +1927,8 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 #### 📱 Content (20 min)
 
+
+[x]
 **🔵 LinkedIn (8:00 AM - Urgency begins) - DARK THEME**
 
 ```
@@ -1970,7 +1972,7 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 **Midjourney:** Prompt 4A (Clock showing urgency)
 
 ---
-
+[x]
 **🟦 Facebook (12 PM):**
 
 ```
@@ -2016,28 +2018,28 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=o
 
 **CRITICAL: Urgency Theme Facebook Boost**
 
-- [ ] **Create urgency post on Facebook Business Page** (8:30 AM)
+- [x] **Create urgency post on Facebook Business Page** (8:30 AM)
 
 **Post Copy:**
 ```
-⏰ ОСТАВАТ 24 ДНИ ДО ИЗПИТИТЕ
+⏰ ОСТАВАТ 25 ДНИ ДО ИЗПИТИТЕ
 
 Все още се бориш с:
-❌ Цикли и масиви?
 ❌ Функции и ООП?
 ❌ Алгоритми и структури от данни?
+❌ Цикли и масиви?
 
 Време е за действие, не за паника.
 
 Индивидуални уроци с фокус върху ТВОИТЕ слаби места:
-✅ Търпелив преподавател (15 год. опит)
-✅ Обяснение докато не стане ясно
+✅ Търпелив преподавател c 15 год. опит
+✅ Обяснения докато не стане ясно
 ✅ Практика с реални изпитни задачи
 ✅ Реши домашно → -33% отстъпка
 
 Първа консултация: БЕЗПЛАТНА (45 минути)
 
-Запази място сега: https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_jan7&utm_content=urgency_exam&variant=white
+Запази място сега: https://tutorialeks.com/bg/learners/dark-theme/?utm_source=facebook&utm_medium=paid&utm_campaign=boost2_jan7&utm_content=urgency_exam&variant=dark
 
 Януарската сесия наближава. Готов ли си?
 
@@ -2072,19 +2074,22 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=
 
 ---
 
+
+
+[x] TODO https://www.youtube.com/watch?v=ze-gXQslbYo
 #### 💰 PAID ACTION #2: INSTAGRAM INSTANT EXPERIENCE AD (35 min - 10:00 AM)
 
 **CRITICAL: Create Instagram Instant Experience (Full-Screen Interactive Ad)**
 
 **What is Instant Experience?** A full-screen, fast-loading ad format that opens when someone taps your ad. Previously called "Canvas." It's like a mini-website inside Instagram.
 
-- [ ] **Open Meta Ads Manager** (ads.facebook.com)
-- [ ] **Click "Create" → Choose Campaign Objective**
+- [x] **Open Meta Ads Manager** (ads.facebook.com)
+- [x] **Click "Create" → Choose Campaign Objective**
 
 **Campaign Setup:**
 - **Objective:** "Traffic" or "Engagement" ← Both work for Instant Experience
 - **Campaign Name:** "Instagram Instant Exp Dec27-Jan3"
-- [ ] Click "Continue"
+- [x] Click "Continue"
 
 **Ad Set Setup:**
 - **Ad Set Name:** "Bulgaria Students Urgency"
@@ -2103,12 +2108,12 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=
   - ✅ Instagram Feed only (Instant Experience works best in Feed)
   - ❌ Uncheck all other placements
 
-- [ ] Click "Continue to Ad"
+- [x] Click "Continue to Ad"
 
 **Ad Creative:**
 - **Format:** Single image or video
 - **Use Instant Experience:** Toggle ON ← CRITICAL
-- [ ] **Click "Create Instant Experience"**
+- [xs] **Click "Create Instant Experience"**
 
 **Instant Experience Builder:**
 
@@ -2141,7 +2146,7 @@ https://tutorialeks.com/bg/learners/white-theme/?utm_source=facebook&utm_medium=
 - **Action:** Go to website
 - **URL:**
 ```
-https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=instant_exp_dec27&utm_content=urgency&variant=dark
+https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=paid&utm_campaign=instant_exp_jan6&utm_content=urgency&variant=dark
 ```
 
 **Component 4: Carousel** (optional but recommended)
@@ -2179,8 +2184,8 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 **Component 7: Footer Image** (optional)
 - Small testimonial snippet: "С Алекс наистина разбирам - Глория"
 
-- [ ] **Preview on mobile** (use phone preview in builder)
-- [ ] **Click "Finish"**
+- [x] **Preview on mobile** (use phone preview in builder)
+- [x] **Click "Finish"**
 
 **Back to Ad Creation:**
 - **Primary Text (Caption for feed):**
@@ -2218,21 +2223,23 @@ https://tutorialeks.com/bg/learners/dark-theme/?utm_source=instagram&utm_medium=
 
 ---
 
+
+[x] 06 jan
 **🟦 Facebook Post (1:00 PM):**
 
 ```
-Остават 24 дни до изпитите.
+Остават 25 дни до изпитите.
 
 Готов ли си?
 
 Ако отговорът е "не съвсем" - времето е СЕГА.
 
 Индивидуални уроци за:
-✓ Бързо запълване на gaps
+✓ Бързо запълване на пропуските
 ✓ Фокус върху ТВОИТЕ слаби места
-✓ Практика с real exam-style задачи
+✓ Практика с реални задачи от изпити
 
-Първа консултация безплатна.
+Първата консултация е безплатна.
 
 TutoriAleks.com - Запази място
 
